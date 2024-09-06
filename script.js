@@ -1,32 +1,3 @@
-// Import the functions you need from the SDKs you need
-import { initializeApp } from "https://www.gstatic.com/firebasejs/10.13.1/firebase-app.js";
-import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.13.1/firebase-analytics.js";
-// TODO: Add SDKs for Firebase products that you want to use
-// https://firebase.google.com/docs/web/setup#available-libraries
-
-// Your web app's Firebase configuration
-// For Firebase JS SDK v7.20.0 and later, measurementId is optional
-const firebaseConfig = {
-  apiKey: "AIzaSyB1xVgAVL2XbCUSCcaIEOZtpHRTIXM3zao",
-  authDomain: "motor-imagery.firebaseapp.com",
-  projectId: "motor-imagery",
-  storageBucket: "motor-imagery.appspot.com",
-  messagingSenderId: "535404883529",
-  appId: "1:535404883529:web:36c5876b7a347ae53fd998",
-  measurementId: "G-8KSYV7SHV4"
-};
-
-// Initialize Firebase
-const app = initializeApp(firebaseConfig);
-
-if(app !== undefined) {
-  console.log("we good")
-} else {
-  console.log("fuckl")
-}
-
-const analytics = getAnalytics(app);
-
 // Define study
 const study = lab.util.fromObject({
   "title": "root",
@@ -5498,12 +5469,10 @@ this.options.viewportScale = 1
 /* Get the documentElement (<html>) to display the page in fullscreen */
 var elem = document.documentElement;
 
-console.log(this.options.datastore.exportJson());
-
 /* Download data to firebase */
 this.options.events['click button#Continue'] = function sendToFirebase() {
     const rng = new lab.util.Random();
-
+  
   firebase.database().ref(rng.uuid4()).set({
     data: this.options.datastore.exportJson()
     });

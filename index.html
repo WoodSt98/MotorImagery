@@ -7,17 +7,62 @@
 <!--       Set up FireBase Stuff        -->
 <!-- ################################## -->
 
+<!-- Allow remote storage on Google Firebase -->
+<script src="https://www.gstatic.com/firebasejs/7.13.2/firebase-app.js"></script> <!-- #FIREBASE -->
+<script src="https://www.gstatic.com/firebasejs/7.13.2/firebase-auth.js"></script> <!-- #FIREBASE -->
+<script src="https://www.gstatic.com/firebasejs/7.13.2/firebase-database.js"></script> <!-- #FIREBASE -->
+
+<!-- enter some javascript code-->
+<script type="text/javascript">
+
+
+// Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyB1xVgAVL2XbCUSCcaIEOZtpHRTIXM3zao",
+  authDomain: "motor-imagery.firebaseapp.com",
+  projectId: "motor-imagery",
+  storageBucket: "motor-imagery.appspot.com",
+  messagingSenderId: "535404883529",
+  appId: "1:535404883529:web:36c5876b7a347ae53fd998",
+  measurementId: "G-8KSYV7SHV4"
+};
+  // Initialize Firebase
+firebase.initializeApp(firebaseConfig); // #FIREBASE
+ // Get a reference to the database service
+  var database = firebase.database(); // #FIREBASE
+  
+  // login anonymous user
+  firebase.auth().signInAnonymously().catch(function(error) { // #FIREBASE
+  // Handle Errors here.
+  var errorCode = error.code; // #FIREBASE
+  var errorMessage = error.message; // #FIREBASE
+  // ...
+}); // #FIREBASE
+  
+  // check if user can sign on to firebase 
+  firebase.auth().onAuthStateChanged(function(user) { // #FIREBASE
+  if (user) { // #FIREBASE
+    // User is signed in.
+    var isAnonymous = user.isAnonymous; // #FIREBASE
+    var uid = user.uid; // #FIREBASE
+    // ...
+  } else {
+    // User is signed out.
+    // ...
+  }
+  // ...
+});
+</script>
+
   <title>Experiment</title>
   <!-- lab.js library and experiment code -->
   <!-- lab.js library code -->
   <script src="lib/lab.js" data-labjs-script="library"></script>
   <script src="lib/lab.fallback.js" data-labjs-script="fallback"></script>
-  <script src="https://www.gstatic.com/firebasejs/7.13.2/firebase-app.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/7.13.2/firebase-analytics.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/7.13.2/firebase-auth.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/7.13.2/firebase-database.js"></script>
   <link rel="stylesheet" href="lib/lab.css">
   <!-- study code and styles -->
+  <script src="script.js" defer="true"></script>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -26,15 +71,10 @@
   <div class="container fullscreen" data-labjs-section="main">
     <main class="content-vertical-center content-horizontal-center">
       <div>
-        <h2>Loading Experiment 2</h2>
+        <h2>Loading Experiment</h2>
         <p>The experiment is loading and should start in a few seconds</p>
       </div>
     </main>
   </div>
-  <script type="module">
-    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.8.1/firebase-app.js";
-    import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.8.1/firebase-analytics.js";
-</script>
-  <script src="script.js" defer="true"></script>
 </body>
 </html>
