@@ -1,4 +1,6 @@
 // Define study
+console.log("hi world!");
+
 const study = lab.util.fromObject({
   "title": "root",
   "type": "lab.flow.Sequence",
@@ -5469,7 +5471,7 @@ this.options.viewportScale = 1
 /* Get the documentElement (<html>) to display the page in fullscreen */
 var elem = document.documentElement;
 
-console.log("fuck me i hope this works")
+console.log("fuck me i hope this works");
 
 /* Download data to firebase */
 this.options.events['click button#Continue'] = function sendToFirebase() {
