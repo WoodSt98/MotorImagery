@@ -5469,6 +5469,8 @@ this.options.viewportScale = 1
 /* Get the documentElement (<html>) to display the page in fullscreen */
 var elem = document.documentElement;
 
+console.log("fuck me i hope this works")
+
 /* Download data to firebase */
 this.options.events['click button#Continue'] = function sendToFirebase() {
     const rng = new lab.util.Random();
