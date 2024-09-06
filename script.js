@@ -5471,6 +5471,7 @@ var elem = document.documentElement;
 
 /* Download data to firebase */
 this.options.events['click button#Continue'] = function sendToFirebase() {
+    console.log("HEKJAKJSDBHAJKD");
     const rng = new lab.util.Random();
   
   firebase.database().ref(rng.uuid4()).set({
