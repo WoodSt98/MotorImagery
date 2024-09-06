@@ -5473,6 +5473,8 @@ var elem = document.documentElement;
 this.options.events['click button#Continue'] = function sendToFirebase() {
     const rng = new lab.util.Random();
   
+  console.log(this.options.datastore.exportJson())
+
   firebase.database().ref(rng.uuid4()).set({
     data: this.options.datastore.exportJson()
     });
