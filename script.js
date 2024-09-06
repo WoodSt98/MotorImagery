@@ -5471,13 +5471,11 @@ this.options.viewportScale = 1
 /* Get the documentElement (<html>) to display the page in fullscreen */
 var elem = document.documentElement;
 
-console.log("fuck me i hope this works");
+console.log(this.options.datastore.exportJson());
 
 /* Download data to firebase */
 this.options.events['click button#Continue'] = function sendToFirebase() {
     const rng = new lab.util.Random();
-  
-    console.log(this.options.datastore.exportJson());
 
   firebase.database().ref(rng.uuid4()).set({
     data: this.options.datastore.exportJson()
