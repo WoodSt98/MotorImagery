@@ -1197,7 +1197,7 @@ this.end()
         {
           "required": true,
           "type": "image",
-          "src": "${ this.files[\"Screenshot 2024-07-16 at 12.27.04 PM.png\"] }",
+          "src": "${ this.files[\"Screenshot 2024-09-10 at 5.27.07 PM.png\"] }",
           "name": ""
         }
       ],
@@ -1206,7 +1206,8 @@ this.end()
       "submitButtonPosition": "right",
       "files": {
         "clean-macbook-keyboard-610x241 (2).jpg": "embedded\u002Fd4bef0ac43e1ecf12634724c2744320e1c6ae07e0ca32bf249cbb800b0211bb9.jpg",
-        "Screenshot 2024-07-16 at 12.27.04 PM.png": "embedded\u002F263266c225f4dd1fed7698e80b9d78617cb12dac15220879a7276b15f37aae19.png"
+        "Screenshot 2024-07-16 at 12.27.04 PM.png": "embedded\u002F263266c225f4dd1fed7698e80b9d78617cb12dac15220879a7276b15f37aae19.png",
+        "Screenshot 2024-09-10 at 5.27.07 PM.png": "embedded\u002Fd1b7ae58909cccc5c3bdc6199e1c06e35be7c515bccf0a8325342e2dd4812970.png"
       },
       "responses": {
         "": ""
@@ -1331,7 +1332,7 @@ this.end()
         {
           "required": true,
           "type": "image",
-          "src": "${ this.files[\"Screenshot 2024-07-16 at 12.28.35 PM.png\"] }",
+          "src": "${ this.files[\"Screenshot 2024-09-10 at 5.27.07 PM.png\"] }",
           "name": ""
         }
       ],
@@ -1340,7 +1341,8 @@ this.end()
       "submitButtonPosition": "right",
       "files": {
         "clean-macbook-keyboard-610x241 (2).jpg": "embedded\u002Fd4bef0ac43e1ecf12634724c2744320e1c6ae07e0ca32bf249cbb800b0211bb9.jpg",
-        "Screenshot 2024-07-16 at 12.28.35 PM.png": "embedded\u002F46f3a1d8d9d61d90611c16ad583980c52c600ae72f3f8dc73a7a425cf67d96e2.png"
+        "Screenshot 2024-07-16 at 12.28.35 PM.png": "embedded\u002F46f3a1d8d9d61d90611c16ad583980c52c600ae72f3f8dc73a7a425cf67d96e2.png",
+        "Screenshot 2024-09-10 at 5.27.07 PM.png": "embedded\u002Fd1b7ae58909cccc5c3bdc6199e1c06e35be7c515bccf0a8325342e2dd4812970.png"
       },
       "responses": {
         "": ""
@@ -2139,6 +2141,11 @@ document.body.style.backgroundColor = "white";
       "type": "lab.html.Page",
       "items": [
         {
+          "required": true,
+          "type": "text",
+          "title": "Phase 1-A"
+        },
+        {
           "type": "text",
           "title": "Instructions:",
           "content": ""
@@ -2189,443 +2196,11 @@ document.body.style.backgroundColor = "white";
 
 }
       },
-      "title": "Experimental phase 1"
+      "title": "Experimental phase 1A"
     },
     {
       "type": "lab.flow.Loop",
       "templateParameters": [
-        {
-          "Photo": "LeftBack0_13_11zon.jpeg",
-          "H": "720",
-          "V": "960",
-          "D": "-100",
-          "R": "-100",
-          "A": "",
-          "ImageName": "LeftBack0"
-        },
-        {
-          "Photo": "LeftBack180_9_11zon.jpeg",
-          "H": "720",
-          "V": "960",
-          "D": "150",
-          "R": "50",
-          "A": "",
-          "ImageName": "LeftBack180"
-        },
-        {
-          "Photo": "Leftpalm0_14_11zon.jpeg",
-          "H": "720",
-          "V": "960",
-          "D": "-100",
-          "R": "0",
-          "A": "",
-          "ImageName": "Leftpalm0"
-        },
-        {
-          "Photo": "Leftpalm180_4_11zon.jpeg",
-          "H": "720",
-          "V": "960",
-          "D": "150",
-          "R": "0",
-          "A": "",
-          "ImageName": "Leftpalm180"
-        },
-        {
-          "Photo": "Rightback0_15_11zon.jpeg",
-          "H": "720",
-          "V": "960",
-          "D": "-100",
-          "R": "100",
-          "A": "",
-          "ImageName": "Rightback0"
-        },
-        {
-          "Photo": "Rightback180_12_11zon.jpeg",
-          "H": "720",
-          "V": "960",
-          "D": "150",
-          "R": "-100",
-          "A": "",
-          "ImageName": "Rightback180"
-        },
-        {
-          "Photo": "RightPalm0_16_11zon.jpeg",
-          "H": "720",
-          "V": "960",
-          "D": "-100",
-          "R": "0",
-          "A": "",
-          "ImageName": "RightPalm0"
-        },
-        {
-          "Photo": "RightPalm180_1_11zon.jpeg",
-          "H": "720",
-          "V": "960",
-          "D": "100",
-          "R": "0",
-          "A": "",
-          "ImageName": "RightPalm180"
-        },
-        {
-          "Photo": "LeftBack90L_8_11zon.jpeg",
-          "H": "960",
-          "V": "720",
-          "D": "50",
-          "R": "-100",
-          "A": "",
-          "ImageName": "LeftBack90L"
-        },
-        {
-          "Photo": "LeftBack90M_7_11zon.jpeg",
-          "H": "960",
-          "V": "720",
-          "D": "-50",
-          "R": "100",
-          "A": "",
-          "ImageName": "LeftBack90M"
-        },
-        {
-          "Photo": "Leftpalm90L_5_11zon.jpeg",
-          "H": "960",
-          "V": "720",
-          "D": "0",
-          "R": "-100",
-          "A": "",
-          "ImageName": "Leftpalm90L"
-        },
-        {
-          "Photo": "Leftpalm90M_6_11zon.jpeg",
-          "H": "960",
-          "V": "720",
-          "D": "0",
-          "R": "100",
-          "A": "",
-          "ImageName": "Leftpalm90M"
-        },
-        {
-          "Photo": "Rightback90L_11_11zon.jpeg",
-          "H": "960",
-          "V": "720",
-          "D": "100",
-          "R": "100",
-          "A": "",
-          "ImageName": "Rightback90L"
-        },
-        {
-          "Photo": "Rightback90M_10_11zon.jpeg",
-          "H": "960",
-          "V": "720",
-          "D": "-100",
-          "R": "-100",
-          "A": "",
-          "ImageName": "Rightback90M"
-        },
-        {
-          "Photo": "RightPalm90M_3_11zon.jpeg",
-          "H": "960",
-          "V": "720",
-          "D": "0",
-          "R": "-100",
-          "A": "",
-          "ImageName": "RightPalm90M"
-        },
-        {
-          "Photo": "RightPalm90L_2_11zon.jpeg",
-          "H": "960",
-          "V": "720",
-          "D": "0",
-          "R": "100",
-          "A": "",
-          "ImageName": "RightPalm90L"
-        },
-        {
-          "Photo": "LeftBack0_13_11zon.jpeg",
-          "H": "720",
-          "V": "960",
-          "D": "-100",
-          "R": "-100",
-          "A": "",
-          "ImageName": "LeftBack0"
-        },
-        {
-          "Photo": "LeftBack180_9_11zon.jpeg",
-          "H": "720",
-          "V": "960",
-          "D": "150",
-          "R": "50",
-          "A": "",
-          "ImageName": "LeftBack180"
-        },
-        {
-          "Photo": "Leftpalm0_14_11zon.jpeg",
-          "H": "720",
-          "V": "960",
-          "D": "-100",
-          "R": "0",
-          "A": "",
-          "ImageName": "Leftpalm0"
-        },
-        {
-          "Photo": "Leftpalm180_4_11zon.jpeg",
-          "H": "720",
-          "V": "960",
-          "D": "150",
-          "R": "0",
-          "A": "",
-          "ImageName": "Leftpalm180"
-        },
-        {
-          "Photo": "Rightback0_15_11zon.jpeg",
-          "H": "720",
-          "V": "960",
-          "D": "-100",
-          "R": "100",
-          "A": "",
-          "ImageName": "Rightback0"
-        },
-        {
-          "Photo": "Rightback180_12_11zon.jpeg",
-          "H": "720",
-          "V": "960",
-          "D": "150",
-          "R": "-100",
-          "A": "",
-          "ImageName": "Rightback180"
-        },
-        {
-          "Photo": "RightPalm0_16_11zon.jpeg",
-          "H": "720",
-          "V": "960",
-          "D": "-100",
-          "R": "0",
-          "A": "",
-          "ImageName": "RightPalm0"
-        },
-        {
-          "Photo": "RightPalm180_1_11zon.jpeg",
-          "H": "720",
-          "V": "960",
-          "D": "100",
-          "R": "0",
-          "A": "",
-          "ImageName": "RightPalm180"
-        },
-        {
-          "Photo": "LeftBack90L_8_11zon.jpeg",
-          "H": "960",
-          "V": "720",
-          "D": "50",
-          "R": "-100",
-          "A": "",
-          "ImageName": "LeftBack90L"
-        },
-        {
-          "Photo": "LeftBack90M_7_11zon.jpeg",
-          "H": "960",
-          "V": "720",
-          "D": "-50",
-          "R": "100",
-          "A": "",
-          "ImageName": "LeftBack90M"
-        },
-        {
-          "Photo": "Leftpalm90L_5_11zon.jpeg",
-          "H": "960",
-          "V": "720",
-          "D": "0",
-          "R": "-100",
-          "A": "",
-          "ImageName": "Leftpalm90L"
-        },
-        {
-          "Photo": "Leftpalm90M_6_11zon.jpeg",
-          "H": "960",
-          "V": "720",
-          "D": "0",
-          "R": "100",
-          "A": "",
-          "ImageName": "Leftpalm90M"
-        },
-        {
-          "Photo": "Rightback90L_11_11zon.jpeg",
-          "H": "960",
-          "V": "720",
-          "D": "100",
-          "R": "100",
-          "A": "",
-          "ImageName": "Rightback90L"
-        },
-        {
-          "Photo": "Rightback90M_10_11zon.jpeg",
-          "H": "960",
-          "V": "720",
-          "D": "-100",
-          "R": "-100",
-          "A": "",
-          "ImageName": "Rightback90M"
-        },
-        {
-          "Photo": "RightPalm90M_3_11zon.jpeg",
-          "H": "960",
-          "V": "720",
-          "D": "0",
-          "R": "-100",
-          "A": "",
-          "ImageName": "RightPalm90M"
-        },
-        {
-          "Photo": "RightPalm90L_2_11zon.jpeg",
-          "H": "960",
-          "V": "720",
-          "D": "0",
-          "R": "100",
-          "A": "",
-          "ImageName": "RightPalm90L"
-        },
-        {
-          "Photo": "LeftBack0_13_11zon.jpeg",
-          "H": "720",
-          "V": "960",
-          "D": "-100",
-          "R": "-100",
-          "A": "",
-          "ImageName": "LeftBack0"
-        },
-        {
-          "Photo": "LeftBack180_9_11zon.jpeg",
-          "H": "720",
-          "V": "960",
-          "D": "150",
-          "R": "50",
-          "A": "",
-          "ImageName": "LeftBack180"
-        },
-        {
-          "Photo": "Leftpalm0_14_11zon.jpeg",
-          "H": "720",
-          "V": "960",
-          "D": "-100",
-          "R": "0",
-          "A": "",
-          "ImageName": "Leftpalm0"
-        },
-        {
-          "Photo": "Leftpalm180_4_11zon.jpeg",
-          "H": "720",
-          "V": "960",
-          "D": "150",
-          "R": "0",
-          "A": "",
-          "ImageName": "Leftpalm180"
-        },
-        {
-          "Photo": "Rightback0_15_11zon.jpeg",
-          "H": "720",
-          "V": "960",
-          "D": "-100",
-          "R": "100",
-          "A": "",
-          "ImageName": "Rightback0"
-        },
-        {
-          "Photo": "Rightback180_12_11zon.jpeg",
-          "H": "720",
-          "V": "960",
-          "D": "150",
-          "R": "-100",
-          "A": "",
-          "ImageName": "Rightback180"
-        },
-        {
-          "Photo": "RightPalm0_16_11zon.jpeg",
-          "H": "720",
-          "V": "960",
-          "D": "-100",
-          "R": "0",
-          "A": "",
-          "ImageName": "RightPalm0"
-        },
-        {
-          "Photo": "RightPalm180_1_11zon.jpeg",
-          "H": "720",
-          "V": "960",
-          "D": "100",
-          "R": "0",
-          "A": "",
-          "ImageName": "RightPalm180"
-        },
-        {
-          "Photo": "LeftBack90L_8_11zon.jpeg",
-          "H": "960",
-          "V": "720",
-          "D": "50",
-          "R": "-100",
-          "A": "",
-          "ImageName": "LeftBack90L"
-        },
-        {
-          "Photo": "LeftBack90M_7_11zon.jpeg",
-          "H": "960",
-          "V": "720",
-          "D": "-50",
-          "R": "100",
-          "A": "",
-          "ImageName": "LeftBack90M"
-        },
-        {
-          "Photo": "Leftpalm90L_5_11zon.jpeg",
-          "H": "960",
-          "V": "720",
-          "D": "0",
-          "R": "-100",
-          "A": "",
-          "ImageName": "Leftpalm90L"
-        },
-        {
-          "Photo": "Leftpalm90M_6_11zon.jpeg",
-          "H": "960",
-          "V": "720",
-          "D": "0",
-          "R": "100",
-          "A": "",
-          "ImageName": "Leftpalm90M"
-        },
-        {
-          "Photo": "Rightback90L_11_11zon.jpeg",
-          "H": "960",
-          "V": "720",
-          "D": "100",
-          "R": "100",
-          "A": "",
-          "ImageName": "Rightback90L"
-        },
-        {
-          "Photo": "Rightback90M_10_11zon.jpeg",
-          "H": "960",
-          "V": "720",
-          "D": "-100",
-          "R": "-100",
-          "A": "",
-          "ImageName": "Rightback90M"
-        },
-        {
-          "Photo": "RightPalm90M_3_11zon.jpeg",
-          "H": "960",
-          "V": "720",
-          "D": "0",
-          "R": "-100",
-          "A": "",
-          "ImageName": "RightPalm90M"
-        },
-        {
-          "Photo": "RightPalm90L_2_11zon.jpeg",
-          "H": "960",
-          "V": "720",
-          "D": "0",
-          "R": "100",
-          "A": "",
-          "ImageName": "RightPalm90L"
-        },
         {
           "Photo": "LeftBack0_13_11zon.jpeg",
           "H": "720",
@@ -2948,8 +2523,8 @@ this.options.viewportScale = 1
       "items": [
         {
           "type": "text",
-          "title": "Block 1 complete",
-          "content": "Please inform the experimenter that you have completed the first experimental block."
+          "title": "Block 1-A complete",
+          "content": "Please inform the experimenter that you have completed the experimental block."
         }
       ],
       "scrollTop": true,
@@ -2966,11 +2541,1234 @@ this.options.viewportScale = 1
 document.body.style.backgroundColor = "white";
 }
       },
-      "title": "Block 1 complete"
+      "title": "Block 1-A complete"
     },
     {
       "type": "lab.html.Page",
       "items": [
+        {
+          "required": true,
+          "type": "text",
+          "title": "Phase 1-B"
+        },
+        {
+          "type": "text",
+          "title": "Instructions:",
+          "content": ""
+        },
+        {
+          "required": true,
+          "type": "html",
+          "content": "We will now proceed with the \u003Cb\u003E\u003Cspan style=\"color: red;\"\u003Eexperimental phase.\u003C\u002Fspan\u003E\u003C\u002Fb\u003E In this phase, you will be presented with hand images in different orientations. Please refrain from physically moving your hands, and instead use your mental abilities to rotate your hands. ",
+          "name": ""
+        },
+        {
+          "required": true,
+          "type": "text",
+          "title": "Your task is to :",
+          "content": "1. Please step on the \u003Cb\u003E\u003Cspan style=\"color: red;\"\u003E'left'\u003C\u002Fspan\u003E\u003C\u002Fb\u003E foot pedal for a \u003Cb\u003E\u003Cspan style=\"color: red;\"\u003Eleft\u003C\u002Fspan\u003E\u003C\u002Fb\u003E hand-stimulus and the \u003Cb\u003E\u003Cspan style=\"color: red;\"\u003E'right'\u003C\u002Fspan\u003E\u003C\u002Fb\u003E foot pedal for a \u003Cb\u003E\u003Cspan style=\"color: red;\"\u003Eright\u003C\u002Fspan\u003E\u003C\u002Fb\u003E hand-stimulus.\n"
+        },
+        {
+          "required": true,
+          "type": "image",
+          "src": "${ this.files[\"Screenshot 2024-07-16 at 12.04.50 PM.png\"] }",
+          "name": ""
+        },
+        {
+          "required": true,
+          "type": "text",
+          "content": "2. Respond as quickly and accurately as possible."
+        },
+        {
+          "required": true,
+          "type": "text",
+          "content": "3. Click 'continue' when you are ready to proceed. "
+        }
+      ],
+      "scrollTop": true,
+      "submitButtonText": "Continue →",
+      "submitButtonPosition": "right",
+      "files": {
+        "Screenshot 2024-07-16 at 12.04.50 PM.png": "embedded\u002F49e340eb188c832f74dbf98e612eb35be436052c257d6bed97bd55e36ac9803c.png"
+      },
+      "responses": {
+        "": ""
+      },
+      "parameters": {},
+      "messageHandlers": {
+        "run": function anonymous(
+) {
+document.body.style.backgroundColor = "white";
+
+}
+      },
+      "title": "Experimental phase 1B"
+    },
+    {
+      "type": "lab.flow.Loop",
+      "templateParameters": [
+        {
+          "Photo": "LeftBack0_13_11zon.jpeg",
+          "H": "720",
+          "V": "960",
+          "D": "-100",
+          "R": "-100",
+          "A": "",
+          "ImageName": "LeftBack0"
+        },
+        {
+          "Photo": "LeftBack180_9_11zon.jpeg",
+          "H": "720",
+          "V": "960",
+          "D": "150",
+          "R": "50",
+          "A": "",
+          "ImageName": "LeftBack180"
+        },
+        {
+          "Photo": "Leftpalm0_14_11zon.jpeg",
+          "H": "720",
+          "V": "960",
+          "D": "-100",
+          "R": "0",
+          "A": "",
+          "ImageName": "Leftpalm0"
+        },
+        {
+          "Photo": "Leftpalm180_4_11zon.jpeg",
+          "H": "720",
+          "V": "960",
+          "D": "150",
+          "R": "0",
+          "A": "",
+          "ImageName": "Leftpalm180"
+        },
+        {
+          "Photo": "Rightback0_15_11zon.jpeg",
+          "H": "720",
+          "V": "960",
+          "D": "-100",
+          "R": "100",
+          "A": "",
+          "ImageName": "Rightback0"
+        },
+        {
+          "Photo": "Rightback180_12_11zon.jpeg",
+          "H": "720",
+          "V": "960",
+          "D": "150",
+          "R": "-100",
+          "A": "",
+          "ImageName": "Rightback180"
+        },
+        {
+          "Photo": "RightPalm0_16_11zon.jpeg",
+          "H": "720",
+          "V": "960",
+          "D": "-100",
+          "R": "0",
+          "A": "",
+          "ImageName": "RightPalm0"
+        },
+        {
+          "Photo": "RightPalm180_1_11zon.jpeg",
+          "H": "720",
+          "V": "960",
+          "D": "100",
+          "R": "0",
+          "A": "",
+          "ImageName": "RightPalm180"
+        },
+        {
+          "Photo": "LeftBack90L_8_11zon.jpeg",
+          "H": "960",
+          "V": "720",
+          "D": "50",
+          "R": "-100",
+          "A": "",
+          "ImageName": "LeftBack90L"
+        },
+        {
+          "Photo": "LeftBack90M_7_11zon.jpeg",
+          "H": "960",
+          "V": "720",
+          "D": "-50",
+          "R": "100",
+          "A": "",
+          "ImageName": "LeftBack90M"
+        },
+        {
+          "Photo": "Leftpalm90L_5_11zon.jpeg",
+          "H": "960",
+          "V": "720",
+          "D": "0",
+          "R": "-100",
+          "A": "",
+          "ImageName": "Leftpalm90L"
+        },
+        {
+          "Photo": "Leftpalm90M_6_11zon.jpeg",
+          "H": "960",
+          "V": "720",
+          "D": "0",
+          "R": "100",
+          "A": "",
+          "ImageName": "Leftpalm90M"
+        },
+        {
+          "Photo": "Rightback90L_11_11zon.jpeg",
+          "H": "960",
+          "V": "720",
+          "D": "100",
+          "R": "100",
+          "A": "",
+          "ImageName": "Rightback90L"
+        },
+        {
+          "Photo": "Rightback90M_10_11zon.jpeg",
+          "H": "960",
+          "V": "720",
+          "D": "-100",
+          "R": "-100",
+          "A": "",
+          "ImageName": "Rightback90M"
+        },
+        {
+          "Photo": "RightPalm90M_3_11zon.jpeg",
+          "H": "960",
+          "V": "720",
+          "D": "0",
+          "R": "-100",
+          "A": "",
+          "ImageName": "RightPalm90M"
+        },
+        {
+          "Photo": "RightPalm90L_2_11zon.jpeg",
+          "H": "960",
+          "V": "720",
+          "D": "0",
+          "R": "100",
+          "A": "",
+          "ImageName": "RightPalm90L"
+        }
+      ],
+      "sample": {
+        "mode": "sequential"
+      },
+      "files": {},
+      "responses": {},
+      "parameters": {},
+      "messageHandlers": {
+        "run": function anonymous(
+) {
+document.body.style.backgroundColor = "black";
+}
+      },
+      "title": "Loop",
+      "shuffleGroups": [],
+      "template": {
+        "type": "lab.flow.Sequence",
+        "files": {},
+        "responses": {
+          "keypress(k)": "right",
+          "keypress(a)": "left"
+        },
+        "parameters": {},
+        "messageHandlers": {},
+        "title": "Trail",
+        "content": [
+          {
+            "type": "lab.canvas.Screen",
+            "content": [
+              {
+                "type": "i-text",
+                "left": 0,
+                "top": 0,
+                "angle": 0,
+                "width": 524.73,
+                "height": 36.16,
+                "stroke": "#ffffff",
+                "strokeWidth": 1,
+                "fill": "#000000",
+                "text": "Press the space key to begin the trial",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+                "fontSize": 32,
+                "fontFamily": "sans-serif",
+                "lineHeight": 1.16,
+                "textAlign": "center"
+              }
+            ],
+            "viewport": [
+              800,
+              600
+            ],
+            "files": {
+              "black screen.png": "embedded\u002F4f60031584d18659923576c9a1f7b446cae3556a7eac2d5e040be236a692cdfb.png"
+            },
+            "responses": {
+              "keypress(Space)": "space"
+            },
+            "parameters": {},
+            "messageHandlers": {},
+            "title": "Next trial screen",
+            "skip": true
+          },
+          {
+            "type": "lab.canvas.Screen",
+            "content": [
+              {
+                "type": "i-text",
+                "left": 0,
+                "top": 0,
+                "angle": 0,
+                "width": 35.04,
+                "height": 67.8,
+                "stroke": "#000000",
+                "strokeWidth": 1,
+                "fill": "#ffffff",
+                "text": "+",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+                "fontSize": "60",
+                "fontFamily": "sans-serif",
+                "lineHeight": 1.16,
+                "textAlign": "center"
+              }
+            ],
+            "viewport": [
+              800,
+              600
+            ],
+            "files": {},
+            "responses": {
+              "": ""
+            },
+            "parameters": {},
+            "messageHandlers": {},
+            "title": "Fixation cross",
+            "timeout": "1500"
+          },
+          {
+            "type": "lab.canvas.Screen",
+            "content": [
+              {
+                "type": "image",
+                "left": "${this.parameters.R}",
+                "top": "${this.parameters.D}",
+                "angle": "${this.parameters.A}",
+                "width": "${this.parameters.H}",
+                "height": "${this.parameters.V}",
+                "stroke": null,
+                "strokeWidth": 0,
+                "fill": "black",
+                "src": "${this.files[this.parameters.Photo]}"
+              }
+            ],
+            "viewport": [
+              800,
+              600
+            ],
+            "files": {
+              "LeftBack0_13_11zon.jpeg": "embedded\u002Fc01ae650201d30c61ef5917073b3db1bfb7e90843b024b9c44e84bd912b3a7de.jpeg",
+              "LeftBack90L_8_11zon.jpeg": "embedded\u002Fde4c0ac0b7e0ba689907a469e98d12c131bc88a8e163740d45320a3a028552bf.jpeg",
+              "LeftBack90M_7_11zon.jpeg": "embedded\u002F614470bfa47db0a003ba271a57b45ce14a5dde9da0ef44f31ecfb93238b29a13.jpeg",
+              "LeftBack180_9_11zon.jpeg": "embedded\u002Fb2c4eb982a0bfe139af1aa23d4f9e237f8b7649e96e705ef29ee406bb830e8fc.jpeg",
+              "Leftpalm0_14_11zon.jpeg": "embedded\u002Fc24fc2f85a1ea774aab3b46952f5a76a7b2607a996e6e6c526ca6eaa5439cddb.jpeg",
+              "Leftpalm90L_5_11zon.jpeg": "embedded\u002F48b75f6749dca5ae3b6d2b355e3334a5b950843cd6dc1beda7544b13c5cb2fd8.jpeg",
+              "Leftpalm90M_6_11zon.jpeg": "embedded\u002F79a71f3ee45aeb184b3bc523ac45a0b3beaa51f2b90f13c6bbe0d91ed3c9ff82.jpeg",
+              "Leftpalm180_4_11zon.jpeg": "embedded\u002F2fc87caa787fafcec47d35c570349cf05ab9069fbc8a20fc8697abee00f8bac3.jpeg",
+              "Rightback0_15_11zon.jpeg": "embedded\u002F2ee2a7712b81be820610bbe64bf8d0889d814157d058353868984bfec35b0a4c.jpeg",
+              "Rightback90L_11_11zon.jpeg": "embedded\u002F0854f5d521b7e139f038136989ae30f25d62e54aa57400f890b988373da11d12.jpeg",
+              "Rightback90M_10_11zon.jpeg": "embedded\u002Ff92b5c8724bb6648a65647898b9cd40f65af117f0474ce8fa7cc586df9a7cb4d.jpeg",
+              "Rightback180_12_11zon.jpeg": "embedded\u002Faddfc8397ae6891c1a36c7de3e992174e04f7b58366aec0eca6b6e63948880c1.jpeg",
+              "RightPalm0_16_11zon.jpeg": "embedded\u002F3d54f383030bd785aae08a6eca81109ec812e2f8a8253e8b91648a0840307c24.jpeg",
+              "RightPalm90L_2_11zon.jpeg": "embedded\u002Fa098dd626d29c44e9b87458183f5044392998e00ff5876f87ebf717ecf2c912d.jpeg",
+              "RightPalm90M_3_11zon.jpeg": "embedded\u002Fb9e6ba2ba0d302fba0e941dcfe21ff3e2405dce42781cb41191be5eb26cd9c71.jpeg",
+              "RightPalm180_1_11zon.jpeg": "embedded\u002F86f28af0f33d4abce861d305ec47db6eae379040884da50bd32cf9211b5c78d5.jpeg",
+              "LineRightPalm90L.png": "embedded\u002Fdc7522ec261847e06702dca3a70bf0a679ff6a47ba4efbafe0cc1bb74aef9571.png",
+              "LineRightPalm180.png": "embedded\u002F48e833d5b2f8dd033201ce27de499a70ca72091bb409c4860d6685f11ee0c23f.png",
+              "LineRightPalm90M.png": "embedded\u002F6356bbf2d7fea17519b6f3ee0ef2edc4bddbe49874ba3738329c865de0bdd711.png",
+              "LineRightback90L.png": "embedded\u002F5f4fb123a70d87e6559787f8863eb974026ac95f9f2d0772ed1a0129f73b4d65.png",
+              "LineRightback180.png": "embedded\u002F67850fc7ba947ed01659d03fc91abff7cd0be62af23882f9b0c5c515ff9549db.png",
+              "LineRightback90M.png": "embedded\u002F5932055cbca408ea3ab1f29721c6fa5afe5f12efc25e83f44bcc0f023fe8b6ef.png",
+              "LineLeftPalm180.png": "embedded\u002F6c5449ed018f4db7fea30e1e773ff268d4edaec6dfd31cce36f1b55bb405fccf.png",
+              "LineLeftPalm90L.png": "embedded\u002Fb10fd6539ccf838191fbae39f800d043ca7d8b5c71720904051610cdd6297235.png",
+              "LineLeftPalm90M.png": "embedded\u002Fcfed6a9c294d59b7d29c61135e83b5c9cc88c8a04ed705470c8abbb80b958ab3.png",
+              "LineLeftBack90M.png": "embedded\u002F9fe6196c4cb27e2516d3e391406ed04383b7eb5ae646e05bb30cad32bdb459dc.png",
+              "LineLeftBack90L.png": "embedded\u002F1e82a17a7776b4f9bab787d78ed372f7c4fdac2f9b0949b32b3ee6fd8a0b3f11.png",
+              "LineLeftBack180.png": "embedded\u002Fecff3f64162fef0c3a5f1f6591b5da616b556a361b9217d385d61a955ca685e4.png",
+              "LineRightback0.png": "embedded\u002F7e65be29cfd21158f5fc3f927e52ed8cbdd255c31047a68a93016e27a50f4e99.png",
+              "LineLeftBack0.png": "embedded\u002F94fef8be121cf1008ab8d1d525f1cb876ad5182cfee4a894a5bb4a8d3636006a.png",
+              "LineRightPalm0.png": "embedded\u002F38da56700193e5e6908a3be0bce9d30afca7fa4a987dc700e68fe0af610aa82e.png",
+              "LineLeftPalm0.png": "embedded\u002F5a141b870973bb6247061a171008cc35c3c235ab999cacaf93debf9ef4228dcf.png"
+            },
+            "responses": {
+              "keypress(k)": "Right",
+              "keypress(a)": "Left"
+            },
+            "parameters": {},
+            "messageHandlers": {
+              "before:prepare": function anonymous(
+) {
+this.options.viewport = ["parameters.H","parameters.V"]
+this.options.viewportScale = 1
+
+
+
+
+}
+            },
+            "title": "Stimulus Presentation "
+          }
+        ]
+      }
+    },
+    {
+      "type": "lab.html.Page",
+      "items": [
+        {
+          "type": "text",
+          "title": "Block 1-B complete",
+          "content": "Please inform the experimenter that you have completed the experimental block."
+        }
+      ],
+      "scrollTop": true,
+      "submitButtonText": "Continue →",
+      "submitButtonPosition": "right",
+      "files": {},
+      "responses": {
+        "": ""
+      },
+      "parameters": {},
+      "messageHandlers": {
+        "run": function anonymous(
+) {
+document.body.style.backgroundColor = "white";
+}
+      },
+      "title": "Block 1-B complete"
+    },
+    {
+      "type": "lab.html.Page",
+      "items": [
+        {
+          "required": true,
+          "type": "text",
+          "title": "Phase 1-C"
+        },
+        {
+          "type": "text",
+          "title": "Instructions:",
+          "content": ""
+        },
+        {
+          "required": true,
+          "type": "html",
+          "content": "We will now proceed with the \u003Cb\u003E\u003Cspan style=\"color: red;\"\u003Eexperimental phase.\u003C\u002Fspan\u003E\u003C\u002Fb\u003E In this phase, you will be presented with hand images in different orientations. Please refrain from physically moving your hands, and instead use your mental abilities to rotate your hands. ",
+          "name": ""
+        },
+        {
+          "required": true,
+          "type": "text",
+          "title": "Your task is to :",
+          "content": "1. Please step on the \u003Cb\u003E\u003Cspan style=\"color: red;\"\u003E'left'\u003C\u002Fspan\u003E\u003C\u002Fb\u003E foot pedal for a \u003Cb\u003E\u003Cspan style=\"color: red;\"\u003Eleft\u003C\u002Fspan\u003E\u003C\u002Fb\u003E hand-stimulus and the \u003Cb\u003E\u003Cspan style=\"color: red;\"\u003E'right'\u003C\u002Fspan\u003E\u003C\u002Fb\u003E foot pedal for a \u003Cb\u003E\u003Cspan style=\"color: red;\"\u003Eright\u003C\u002Fspan\u003E\u003C\u002Fb\u003E hand-stimulus.\n"
+        },
+        {
+          "required": true,
+          "type": "image",
+          "src": "${ this.files[\"Screenshot 2024-07-16 at 12.04.50 PM.png\"] }",
+          "name": ""
+        },
+        {
+          "required": true,
+          "type": "text",
+          "content": "2. Respond as quickly and accurately as possible."
+        },
+        {
+          "required": true,
+          "type": "text",
+          "content": "3. Click 'continue' when you are ready to proceed. "
+        }
+      ],
+      "scrollTop": true,
+      "submitButtonText": "Continue →",
+      "submitButtonPosition": "right",
+      "files": {
+        "Screenshot 2024-07-16 at 12.04.50 PM.png": "embedded\u002F49e340eb188c832f74dbf98e612eb35be436052c257d6bed97bd55e36ac9803c.png"
+      },
+      "responses": {
+        "": ""
+      },
+      "parameters": {},
+      "messageHandlers": {
+        "run": function anonymous(
+) {
+document.body.style.backgroundColor = "white";
+
+}
+      },
+      "title": "Experimental phase 1C"
+    },
+    {
+      "type": "lab.flow.Loop",
+      "templateParameters": [
+        {
+          "Photo": "LeftBack0_13_11zon.jpeg",
+          "H": "720",
+          "V": "960",
+          "D": "-100",
+          "R": "-100",
+          "A": "",
+          "ImageName": "LeftBack0"
+        },
+        {
+          "Photo": "LeftBack180_9_11zon.jpeg",
+          "H": "720",
+          "V": "960",
+          "D": "150",
+          "R": "50",
+          "A": "",
+          "ImageName": "LeftBack180"
+        },
+        {
+          "Photo": "Leftpalm0_14_11zon.jpeg",
+          "H": "720",
+          "V": "960",
+          "D": "-100",
+          "R": "0",
+          "A": "",
+          "ImageName": "Leftpalm0"
+        },
+        {
+          "Photo": "Leftpalm180_4_11zon.jpeg",
+          "H": "720",
+          "V": "960",
+          "D": "150",
+          "R": "0",
+          "A": "",
+          "ImageName": "Leftpalm180"
+        },
+        {
+          "Photo": "Rightback0_15_11zon.jpeg",
+          "H": "720",
+          "V": "960",
+          "D": "-100",
+          "R": "100",
+          "A": "",
+          "ImageName": "Rightback0"
+        },
+        {
+          "Photo": "Rightback180_12_11zon.jpeg",
+          "H": "720",
+          "V": "960",
+          "D": "150",
+          "R": "-100",
+          "A": "",
+          "ImageName": "Rightback180"
+        },
+        {
+          "Photo": "RightPalm0_16_11zon.jpeg",
+          "H": "720",
+          "V": "960",
+          "D": "-100",
+          "R": "0",
+          "A": "",
+          "ImageName": "RightPalm0"
+        },
+        {
+          "Photo": "RightPalm180_1_11zon.jpeg",
+          "H": "720",
+          "V": "960",
+          "D": "100",
+          "R": "0",
+          "A": "",
+          "ImageName": "RightPalm180"
+        },
+        {
+          "Photo": "LeftBack90L_8_11zon.jpeg",
+          "H": "960",
+          "V": "720",
+          "D": "50",
+          "R": "-100",
+          "A": "",
+          "ImageName": "LeftBack90L"
+        },
+        {
+          "Photo": "LeftBack90M_7_11zon.jpeg",
+          "H": "960",
+          "V": "720",
+          "D": "-50",
+          "R": "100",
+          "A": "",
+          "ImageName": "LeftBack90M"
+        },
+        {
+          "Photo": "Leftpalm90L_5_11zon.jpeg",
+          "H": "960",
+          "V": "720",
+          "D": "0",
+          "R": "-100",
+          "A": "",
+          "ImageName": "Leftpalm90L"
+        },
+        {
+          "Photo": "Leftpalm90M_6_11zon.jpeg",
+          "H": "960",
+          "V": "720",
+          "D": "0",
+          "R": "100",
+          "A": "",
+          "ImageName": "Leftpalm90M"
+        },
+        {
+          "Photo": "Rightback90L_11_11zon.jpeg",
+          "H": "960",
+          "V": "720",
+          "D": "100",
+          "R": "100",
+          "A": "",
+          "ImageName": "Rightback90L"
+        },
+        {
+          "Photo": "Rightback90M_10_11zon.jpeg",
+          "H": "960",
+          "V": "720",
+          "D": "-100",
+          "R": "-100",
+          "A": "",
+          "ImageName": "Rightback90M"
+        },
+        {
+          "Photo": "RightPalm90M_3_11zon.jpeg",
+          "H": "960",
+          "V": "720",
+          "D": "0",
+          "R": "-100",
+          "A": "",
+          "ImageName": "RightPalm90M"
+        },
+        {
+          "Photo": "RightPalm90L_2_11zon.jpeg",
+          "H": "960",
+          "V": "720",
+          "D": "0",
+          "R": "100",
+          "A": "",
+          "ImageName": "RightPalm90L"
+        }
+      ],
+      "sample": {
+        "mode": "sequential"
+      },
+      "files": {},
+      "responses": {},
+      "parameters": {},
+      "messageHandlers": {
+        "run": function anonymous(
+) {
+document.body.style.backgroundColor = "black";
+}
+      },
+      "title": "Loop",
+      "shuffleGroups": [],
+      "template": {
+        "type": "lab.flow.Sequence",
+        "files": {},
+        "responses": {
+          "keypress(k)": "right",
+          "keypress(a)": "left"
+        },
+        "parameters": {},
+        "messageHandlers": {},
+        "title": "Trail",
+        "content": [
+          {
+            "type": "lab.canvas.Screen",
+            "content": [
+              {
+                "type": "i-text",
+                "left": 0,
+                "top": 0,
+                "angle": 0,
+                "width": 524.73,
+                "height": 36.16,
+                "stroke": "#ffffff",
+                "strokeWidth": 1,
+                "fill": "#000000",
+                "text": "Press the space key to begin the trial",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+                "fontSize": 32,
+                "fontFamily": "sans-serif",
+                "lineHeight": 1.16,
+                "textAlign": "center"
+              }
+            ],
+            "viewport": [
+              800,
+              600
+            ],
+            "files": {
+              "black screen.png": "embedded\u002F4f60031584d18659923576c9a1f7b446cae3556a7eac2d5e040be236a692cdfb.png"
+            },
+            "responses": {
+              "keypress(Space)": "space"
+            },
+            "parameters": {},
+            "messageHandlers": {},
+            "title": "Next trial screen",
+            "skip": true
+          },
+          {
+            "type": "lab.canvas.Screen",
+            "content": [
+              {
+                "type": "i-text",
+                "left": 0,
+                "top": 0,
+                "angle": 0,
+                "width": 35.04,
+                "height": 67.8,
+                "stroke": "#000000",
+                "strokeWidth": 1,
+                "fill": "#ffffff",
+                "text": "+",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+                "fontSize": "60",
+                "fontFamily": "sans-serif",
+                "lineHeight": 1.16,
+                "textAlign": "center"
+              }
+            ],
+            "viewport": [
+              800,
+              600
+            ],
+            "files": {},
+            "responses": {
+              "": ""
+            },
+            "parameters": {},
+            "messageHandlers": {},
+            "title": "Fixation cross",
+            "timeout": "1500"
+          },
+          {
+            "type": "lab.canvas.Screen",
+            "content": [
+              {
+                "type": "image",
+                "left": "${this.parameters.R}",
+                "top": "${this.parameters.D}",
+                "angle": "${this.parameters.A}",
+                "width": "${this.parameters.H}",
+                "height": "${this.parameters.V}",
+                "stroke": null,
+                "strokeWidth": 0,
+                "fill": "black",
+                "src": "${this.files[this.parameters.Photo]}"
+              }
+            ],
+            "viewport": [
+              800,
+              600
+            ],
+            "files": {
+              "LeftBack0_13_11zon.jpeg": "embedded\u002Fc01ae650201d30c61ef5917073b3db1bfb7e90843b024b9c44e84bd912b3a7de.jpeg",
+              "LeftBack90L_8_11zon.jpeg": "embedded\u002Fde4c0ac0b7e0ba689907a469e98d12c131bc88a8e163740d45320a3a028552bf.jpeg",
+              "LeftBack90M_7_11zon.jpeg": "embedded\u002F614470bfa47db0a003ba271a57b45ce14a5dde9da0ef44f31ecfb93238b29a13.jpeg",
+              "LeftBack180_9_11zon.jpeg": "embedded\u002Fb2c4eb982a0bfe139af1aa23d4f9e237f8b7649e96e705ef29ee406bb830e8fc.jpeg",
+              "Leftpalm0_14_11zon.jpeg": "embedded\u002Fc24fc2f85a1ea774aab3b46952f5a76a7b2607a996e6e6c526ca6eaa5439cddb.jpeg",
+              "Leftpalm90L_5_11zon.jpeg": "embedded\u002F48b75f6749dca5ae3b6d2b355e3334a5b950843cd6dc1beda7544b13c5cb2fd8.jpeg",
+              "Leftpalm90M_6_11zon.jpeg": "embedded\u002F79a71f3ee45aeb184b3bc523ac45a0b3beaa51f2b90f13c6bbe0d91ed3c9ff82.jpeg",
+              "Leftpalm180_4_11zon.jpeg": "embedded\u002F2fc87caa787fafcec47d35c570349cf05ab9069fbc8a20fc8697abee00f8bac3.jpeg",
+              "Rightback0_15_11zon.jpeg": "embedded\u002F2ee2a7712b81be820610bbe64bf8d0889d814157d058353868984bfec35b0a4c.jpeg",
+              "Rightback90L_11_11zon.jpeg": "embedded\u002F0854f5d521b7e139f038136989ae30f25d62e54aa57400f890b988373da11d12.jpeg",
+              "Rightback90M_10_11zon.jpeg": "embedded\u002Ff92b5c8724bb6648a65647898b9cd40f65af117f0474ce8fa7cc586df9a7cb4d.jpeg",
+              "Rightback180_12_11zon.jpeg": "embedded\u002Faddfc8397ae6891c1a36c7de3e992174e04f7b58366aec0eca6b6e63948880c1.jpeg",
+              "RightPalm0_16_11zon.jpeg": "embedded\u002F3d54f383030bd785aae08a6eca81109ec812e2f8a8253e8b91648a0840307c24.jpeg",
+              "RightPalm90L_2_11zon.jpeg": "embedded\u002Fa098dd626d29c44e9b87458183f5044392998e00ff5876f87ebf717ecf2c912d.jpeg",
+              "RightPalm90M_3_11zon.jpeg": "embedded\u002Fb9e6ba2ba0d302fba0e941dcfe21ff3e2405dce42781cb41191be5eb26cd9c71.jpeg",
+              "RightPalm180_1_11zon.jpeg": "embedded\u002F86f28af0f33d4abce861d305ec47db6eae379040884da50bd32cf9211b5c78d5.jpeg",
+              "LineRightPalm90L.png": "embedded\u002Fdc7522ec261847e06702dca3a70bf0a679ff6a47ba4efbafe0cc1bb74aef9571.png",
+              "LineRightPalm180.png": "embedded\u002F48e833d5b2f8dd033201ce27de499a70ca72091bb409c4860d6685f11ee0c23f.png",
+              "LineRightPalm90M.png": "embedded\u002F6356bbf2d7fea17519b6f3ee0ef2edc4bddbe49874ba3738329c865de0bdd711.png",
+              "LineRightback90L.png": "embedded\u002F5f4fb123a70d87e6559787f8863eb974026ac95f9f2d0772ed1a0129f73b4d65.png",
+              "LineRightback180.png": "embedded\u002F67850fc7ba947ed01659d03fc91abff7cd0be62af23882f9b0c5c515ff9549db.png",
+              "LineRightback90M.png": "embedded\u002F5932055cbca408ea3ab1f29721c6fa5afe5f12efc25e83f44bcc0f023fe8b6ef.png",
+              "LineLeftPalm180.png": "embedded\u002F6c5449ed018f4db7fea30e1e773ff268d4edaec6dfd31cce36f1b55bb405fccf.png",
+              "LineLeftPalm90L.png": "embedded\u002Fb10fd6539ccf838191fbae39f800d043ca7d8b5c71720904051610cdd6297235.png",
+              "LineLeftPalm90M.png": "embedded\u002Fcfed6a9c294d59b7d29c61135e83b5c9cc88c8a04ed705470c8abbb80b958ab3.png",
+              "LineLeftBack90M.png": "embedded\u002F9fe6196c4cb27e2516d3e391406ed04383b7eb5ae646e05bb30cad32bdb459dc.png",
+              "LineLeftBack90L.png": "embedded\u002F1e82a17a7776b4f9bab787d78ed372f7c4fdac2f9b0949b32b3ee6fd8a0b3f11.png",
+              "LineLeftBack180.png": "embedded\u002Fecff3f64162fef0c3a5f1f6591b5da616b556a361b9217d385d61a955ca685e4.png",
+              "LineRightback0.png": "embedded\u002F7e65be29cfd21158f5fc3f927e52ed8cbdd255c31047a68a93016e27a50f4e99.png",
+              "LineLeftBack0.png": "embedded\u002F94fef8be121cf1008ab8d1d525f1cb876ad5182cfee4a894a5bb4a8d3636006a.png",
+              "LineRightPalm0.png": "embedded\u002F38da56700193e5e6908a3be0bce9d30afca7fa4a987dc700e68fe0af610aa82e.png",
+              "LineLeftPalm0.png": "embedded\u002F5a141b870973bb6247061a171008cc35c3c235ab999cacaf93debf9ef4228dcf.png"
+            },
+            "responses": {
+              "keypress(k)": "Right",
+              "keypress(a)": "Left"
+            },
+            "parameters": {},
+            "messageHandlers": {
+              "before:prepare": function anonymous(
+) {
+this.options.viewport = ["parameters.H","parameters.V"]
+this.options.viewportScale = 1
+
+
+
+
+}
+            },
+            "title": "Stimulus Presentation "
+          }
+        ]
+      }
+    },
+    {
+      "type": "lab.html.Page",
+      "items": [
+        {
+          "type": "text",
+          "title": "Block 1-C complete",
+          "content": "Please inform the experimenter that you have completed the experimental block."
+        }
+      ],
+      "scrollTop": true,
+      "submitButtonText": "Continue →",
+      "submitButtonPosition": "right",
+      "files": {},
+      "responses": {
+        "": ""
+      },
+      "parameters": {},
+      "messageHandlers": {
+        "run": function anonymous(
+) {
+document.body.style.backgroundColor = "white";
+}
+      },
+      "title": "Block 1-C complete"
+    },
+    {
+      "type": "lab.html.Page",
+      "items": [
+        {
+          "required": true,
+          "type": "text",
+          "title": "Phase 1-D"
+        },
+        {
+          "type": "text",
+          "title": "Instructions:",
+          "content": ""
+        },
+        {
+          "required": true,
+          "type": "html",
+          "content": "We will now proceed with the \u003Cb\u003E\u003Cspan style=\"color: red;\"\u003Eexperimental phase.\u003C\u002Fspan\u003E\u003C\u002Fb\u003E In this phase, you will be presented with hand images in different orientations. Please refrain from physically moving your hands, and instead use your mental abilities to rotate your hands. ",
+          "name": ""
+        },
+        {
+          "required": true,
+          "type": "text",
+          "title": "Your task is to :",
+          "content": "1. Please step on the \u003Cb\u003E\u003Cspan style=\"color: red;\"\u003E'left'\u003C\u002Fspan\u003E\u003C\u002Fb\u003E foot pedal for a \u003Cb\u003E\u003Cspan style=\"color: red;\"\u003Eleft\u003C\u002Fspan\u003E\u003C\u002Fb\u003E hand-stimulus and the \u003Cb\u003E\u003Cspan style=\"color: red;\"\u003E'right'\u003C\u002Fspan\u003E\u003C\u002Fb\u003E foot pedal for a \u003Cb\u003E\u003Cspan style=\"color: red;\"\u003Eright\u003C\u002Fspan\u003E\u003C\u002Fb\u003E hand-stimulus.\n"
+        },
+        {
+          "required": true,
+          "type": "image",
+          "src": "${ this.files[\"Screenshot 2024-07-16 at 12.04.50 PM.png\"] }",
+          "name": ""
+        },
+        {
+          "required": true,
+          "type": "text",
+          "content": "2. Respond as quickly and accurately as possible."
+        },
+        {
+          "required": true,
+          "type": "text",
+          "content": "3. Click 'continue' when you are ready to proceed. "
+        }
+      ],
+      "scrollTop": true,
+      "submitButtonText": "Continue →",
+      "submitButtonPosition": "right",
+      "files": {
+        "Screenshot 2024-07-16 at 12.04.50 PM.png": "embedded\u002F49e340eb188c832f74dbf98e612eb35be436052c257d6bed97bd55e36ac9803c.png"
+      },
+      "responses": {
+        "": ""
+      },
+      "parameters": {},
+      "messageHandlers": {
+        "run": function anonymous(
+) {
+document.body.style.backgroundColor = "white";
+
+}
+      },
+      "title": "Experimental phase 1D"
+    },
+    {
+      "type": "lab.flow.Loop",
+      "templateParameters": [
+        {
+          "Photo": "LeftBack0_13_11zon.jpeg",
+          "H": "720",
+          "V": "960",
+          "D": "-100",
+          "R": "-100",
+          "A": "",
+          "ImageName": "LeftBack0"
+        },
+        {
+          "Photo": "LeftBack180_9_11zon.jpeg",
+          "H": "720",
+          "V": "960",
+          "D": "150",
+          "R": "50",
+          "A": "",
+          "ImageName": "LeftBack180"
+        },
+        {
+          "Photo": "Leftpalm0_14_11zon.jpeg",
+          "H": "720",
+          "V": "960",
+          "D": "-100",
+          "R": "0",
+          "A": "",
+          "ImageName": "Leftpalm0"
+        },
+        {
+          "Photo": "Leftpalm180_4_11zon.jpeg",
+          "H": "720",
+          "V": "960",
+          "D": "150",
+          "R": "0",
+          "A": "",
+          "ImageName": "Leftpalm180"
+        },
+        {
+          "Photo": "Rightback0_15_11zon.jpeg",
+          "H": "720",
+          "V": "960",
+          "D": "-100",
+          "R": "100",
+          "A": "",
+          "ImageName": "Rightback0"
+        },
+        {
+          "Photo": "Rightback180_12_11zon.jpeg",
+          "H": "720",
+          "V": "960",
+          "D": "150",
+          "R": "-100",
+          "A": "",
+          "ImageName": "Rightback180"
+        },
+        {
+          "Photo": "RightPalm0_16_11zon.jpeg",
+          "H": "720",
+          "V": "960",
+          "D": "-100",
+          "R": "0",
+          "A": "",
+          "ImageName": "RightPalm0"
+        },
+        {
+          "Photo": "RightPalm180_1_11zon.jpeg",
+          "H": "720",
+          "V": "960",
+          "D": "100",
+          "R": "0",
+          "A": "",
+          "ImageName": "RightPalm180"
+        },
+        {
+          "Photo": "LeftBack90L_8_11zon.jpeg",
+          "H": "960",
+          "V": "720",
+          "D": "50",
+          "R": "-100",
+          "A": "",
+          "ImageName": "LeftBack90L"
+        },
+        {
+          "Photo": "LeftBack90M_7_11zon.jpeg",
+          "H": "960",
+          "V": "720",
+          "D": "-50",
+          "R": "100",
+          "A": "",
+          "ImageName": "LeftBack90M"
+        },
+        {
+          "Photo": "Leftpalm90L_5_11zon.jpeg",
+          "H": "960",
+          "V": "720",
+          "D": "0",
+          "R": "-100",
+          "A": "",
+          "ImageName": "Leftpalm90L"
+        },
+        {
+          "Photo": "Leftpalm90M_6_11zon.jpeg",
+          "H": "960",
+          "V": "720",
+          "D": "0",
+          "R": "100",
+          "A": "",
+          "ImageName": "Leftpalm90M"
+        },
+        {
+          "Photo": "Rightback90L_11_11zon.jpeg",
+          "H": "960",
+          "V": "720",
+          "D": "100",
+          "R": "100",
+          "A": "",
+          "ImageName": "Rightback90L"
+        },
+        {
+          "Photo": "Rightback90M_10_11zon.jpeg",
+          "H": "960",
+          "V": "720",
+          "D": "-100",
+          "R": "-100",
+          "A": "",
+          "ImageName": "Rightback90M"
+        },
+        {
+          "Photo": "RightPalm90M_3_11zon.jpeg",
+          "H": "960",
+          "V": "720",
+          "D": "0",
+          "R": "-100",
+          "A": "",
+          "ImageName": "RightPalm90M"
+        },
+        {
+          "Photo": "RightPalm90L_2_11zon.jpeg",
+          "H": "960",
+          "V": "720",
+          "D": "0",
+          "R": "100",
+          "A": "",
+          "ImageName": "RightPalm90L"
+        }
+      ],
+      "sample": {
+        "mode": "sequential"
+      },
+      "files": {},
+      "responses": {},
+      "parameters": {},
+      "messageHandlers": {
+        "run": function anonymous(
+) {
+document.body.style.backgroundColor = "black";
+}
+      },
+      "title": "Loop",
+      "shuffleGroups": [],
+      "template": {
+        "type": "lab.flow.Sequence",
+        "files": {},
+        "responses": {
+          "keypress(k)": "right",
+          "keypress(a)": "left"
+        },
+        "parameters": {},
+        "messageHandlers": {},
+        "title": "Trail",
+        "content": [
+          {
+            "type": "lab.canvas.Screen",
+            "content": [
+              {
+                "type": "i-text",
+                "left": 0,
+                "top": 0,
+                "angle": 0,
+                "width": 524.73,
+                "height": 36.16,
+                "stroke": "#ffffff",
+                "strokeWidth": 1,
+                "fill": "#000000",
+                "text": "Press the space key to begin the trial",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+                "fontSize": 32,
+                "fontFamily": "sans-serif",
+                "lineHeight": 1.16,
+                "textAlign": "center"
+              }
+            ],
+            "viewport": [
+              800,
+              600
+            ],
+            "files": {
+              "black screen.png": "embedded\u002F4f60031584d18659923576c9a1f7b446cae3556a7eac2d5e040be236a692cdfb.png"
+            },
+            "responses": {
+              "keypress(Space)": "space"
+            },
+            "parameters": {},
+            "messageHandlers": {},
+            "title": "Next trial screen",
+            "skip": true
+          },
+          {
+            "type": "lab.canvas.Screen",
+            "content": [
+              {
+                "type": "i-text",
+                "left": 0,
+                "top": 0,
+                "angle": 0,
+                "width": 35.04,
+                "height": 67.8,
+                "stroke": "#000000",
+                "strokeWidth": 1,
+                "fill": "#ffffff",
+                "text": "+",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+                "fontSize": "60",
+                "fontFamily": "sans-serif",
+                "lineHeight": 1.16,
+                "textAlign": "center"
+              }
+            ],
+            "viewport": [
+              800,
+              600
+            ],
+            "files": {},
+            "responses": {
+              "": ""
+            },
+            "parameters": {},
+            "messageHandlers": {},
+            "title": "Fixation cross",
+            "timeout": "1500"
+          },
+          {
+            "type": "lab.canvas.Screen",
+            "content": [
+              {
+                "type": "image",
+                "left": "${this.parameters.R}",
+                "top": "${this.parameters.D}",
+                "angle": "${this.parameters.A}",
+                "width": "${this.parameters.H}",
+                "height": "${this.parameters.V}",
+                "stroke": null,
+                "strokeWidth": 0,
+                "fill": "black",
+                "src": "${this.files[this.parameters.Photo]}"
+              }
+            ],
+            "viewport": [
+              800,
+              600
+            ],
+            "files": {
+              "LeftBack0_13_11zon.jpeg": "embedded\u002Fc01ae650201d30c61ef5917073b3db1bfb7e90843b024b9c44e84bd912b3a7de.jpeg",
+              "LeftBack90L_8_11zon.jpeg": "embedded\u002Fde4c0ac0b7e0ba689907a469e98d12c131bc88a8e163740d45320a3a028552bf.jpeg",
+              "LeftBack90M_7_11zon.jpeg": "embedded\u002F614470bfa47db0a003ba271a57b45ce14a5dde9da0ef44f31ecfb93238b29a13.jpeg",
+              "LeftBack180_9_11zon.jpeg": "embedded\u002Fb2c4eb982a0bfe139af1aa23d4f9e237f8b7649e96e705ef29ee406bb830e8fc.jpeg",
+              "Leftpalm0_14_11zon.jpeg": "embedded\u002Fc24fc2f85a1ea774aab3b46952f5a76a7b2607a996e6e6c526ca6eaa5439cddb.jpeg",
+              "Leftpalm90L_5_11zon.jpeg": "embedded\u002F48b75f6749dca5ae3b6d2b355e3334a5b950843cd6dc1beda7544b13c5cb2fd8.jpeg",
+              "Leftpalm90M_6_11zon.jpeg": "embedded\u002F79a71f3ee45aeb184b3bc523ac45a0b3beaa51f2b90f13c6bbe0d91ed3c9ff82.jpeg",
+              "Leftpalm180_4_11zon.jpeg": "embedded\u002F2fc87caa787fafcec47d35c570349cf05ab9069fbc8a20fc8697abee00f8bac3.jpeg",
+              "Rightback0_15_11zon.jpeg": "embedded\u002F2ee2a7712b81be820610bbe64bf8d0889d814157d058353868984bfec35b0a4c.jpeg",
+              "Rightback90L_11_11zon.jpeg": "embedded\u002F0854f5d521b7e139f038136989ae30f25d62e54aa57400f890b988373da11d12.jpeg",
+              "Rightback90M_10_11zon.jpeg": "embedded\u002Ff92b5c8724bb6648a65647898b9cd40f65af117f0474ce8fa7cc586df9a7cb4d.jpeg",
+              "Rightback180_12_11zon.jpeg": "embedded\u002Faddfc8397ae6891c1a36c7de3e992174e04f7b58366aec0eca6b6e63948880c1.jpeg",
+              "RightPalm0_16_11zon.jpeg": "embedded\u002F3d54f383030bd785aae08a6eca81109ec812e2f8a8253e8b91648a0840307c24.jpeg",
+              "RightPalm90L_2_11zon.jpeg": "embedded\u002Fa098dd626d29c44e9b87458183f5044392998e00ff5876f87ebf717ecf2c912d.jpeg",
+              "RightPalm90M_3_11zon.jpeg": "embedded\u002Fb9e6ba2ba0d302fba0e941dcfe21ff3e2405dce42781cb41191be5eb26cd9c71.jpeg",
+              "RightPalm180_1_11zon.jpeg": "embedded\u002F86f28af0f33d4abce861d305ec47db6eae379040884da50bd32cf9211b5c78d5.jpeg",
+              "LineRightPalm90L.png": "embedded\u002Fdc7522ec261847e06702dca3a70bf0a679ff6a47ba4efbafe0cc1bb74aef9571.png",
+              "LineRightPalm180.png": "embedded\u002F48e833d5b2f8dd033201ce27de499a70ca72091bb409c4860d6685f11ee0c23f.png",
+              "LineRightPalm90M.png": "embedded\u002F6356bbf2d7fea17519b6f3ee0ef2edc4bddbe49874ba3738329c865de0bdd711.png",
+              "LineRightback90L.png": "embedded\u002F5f4fb123a70d87e6559787f8863eb974026ac95f9f2d0772ed1a0129f73b4d65.png",
+              "LineRightback180.png": "embedded\u002F67850fc7ba947ed01659d03fc91abff7cd0be62af23882f9b0c5c515ff9549db.png",
+              "LineRightback90M.png": "embedded\u002F5932055cbca408ea3ab1f29721c6fa5afe5f12efc25e83f44bcc0f023fe8b6ef.png",
+              "LineLeftPalm180.png": "embedded\u002F6c5449ed018f4db7fea30e1e773ff268d4edaec6dfd31cce36f1b55bb405fccf.png",
+              "LineLeftPalm90L.png": "embedded\u002Fb10fd6539ccf838191fbae39f800d043ca7d8b5c71720904051610cdd6297235.png",
+              "LineLeftPalm90M.png": "embedded\u002Fcfed6a9c294d59b7d29c61135e83b5c9cc88c8a04ed705470c8abbb80b958ab3.png",
+              "LineLeftBack90M.png": "embedded\u002F9fe6196c4cb27e2516d3e391406ed04383b7eb5ae646e05bb30cad32bdb459dc.png",
+              "LineLeftBack90L.png": "embedded\u002F1e82a17a7776b4f9bab787d78ed372f7c4fdac2f9b0949b32b3ee6fd8a0b3f11.png",
+              "LineLeftBack180.png": "embedded\u002Fecff3f64162fef0c3a5f1f6591b5da616b556a361b9217d385d61a955ca685e4.png",
+              "LineRightback0.png": "embedded\u002F7e65be29cfd21158f5fc3f927e52ed8cbdd255c31047a68a93016e27a50f4e99.png",
+              "LineLeftBack0.png": "embedded\u002F94fef8be121cf1008ab8d1d525f1cb876ad5182cfee4a894a5bb4a8d3636006a.png",
+              "LineRightPalm0.png": "embedded\u002F38da56700193e5e6908a3be0bce9d30afca7fa4a987dc700e68fe0af610aa82e.png",
+              "LineLeftPalm0.png": "embedded\u002F5a141b870973bb6247061a171008cc35c3c235ab999cacaf93debf9ef4228dcf.png"
+            },
+            "responses": {
+              "keypress(k)": "Right",
+              "keypress(a)": "Left"
+            },
+            "parameters": {},
+            "messageHandlers": {
+              "before:prepare": function anonymous(
+) {
+this.options.viewport = ["parameters.H","parameters.V"]
+this.options.viewportScale = 1
+
+
+
+
+}
+            },
+            "title": "Stimulus Presentation "
+          }
+        ]
+      }
+    },
+    {
+      "type": "lab.html.Page",
+      "items": [
+        {
+          "type": "text",
+          "title": "Block 1-D complete",
+          "content": "Please inform the experimenter that you have completed the experimental block."
+        }
+      ],
+      "scrollTop": true,
+      "submitButtonText": "Continue →",
+      "submitButtonPosition": "right",
+      "files": {},
+      "responses": {
+        "": ""
+      },
+      "parameters": {},
+      "messageHandlers": {
+        "run": function anonymous(
+) {
+document.body.style.backgroundColor = "white";
+}
+      },
+      "title": "Block 1-D complete"
+    },
+    {
+      "type": "lab.html.Page",
+      "items": [
+        {
+          "required": true,
+          "type": "text",
+          "title": "Phase 2-A"
+        },
         {
           "type": "text",
           "title": "Instructions:",
@@ -3022,443 +3820,11 @@ document.body.style.backgroundColor = "white";
 
 }
       },
-      "title": "Experimental phase 2"
+      "title": "Experimental phase 2A"
     },
     {
       "type": "lab.flow.Loop",
       "templateParameters": [
-        {
-          "Photo": "LeftBack0_13_11zon.jpeg",
-          "H": "720",
-          "V": "960",
-          "D": "-100",
-          "R": "-100",
-          "A": "",
-          "ImageName": "LeftBack0"
-        },
-        {
-          "Photo": "LeftBack180_9_11zon.jpeg",
-          "H": "720",
-          "V": "960",
-          "D": "150",
-          "R": "50",
-          "A": "",
-          "ImageName": "LeftBack180"
-        },
-        {
-          "Photo": "Leftpalm0_14_11zon.jpeg",
-          "H": "720",
-          "V": "960",
-          "D": "-100",
-          "R": "0",
-          "A": "",
-          "ImageName": "Leftpalm0"
-        },
-        {
-          "Photo": "Leftpalm180_4_11zon.jpeg",
-          "H": "720",
-          "V": "960",
-          "D": "150",
-          "R": "0",
-          "A": "",
-          "ImageName": "Leftpalm180"
-        },
-        {
-          "Photo": "Rightback0_15_11zon.jpeg",
-          "H": "720",
-          "V": "960",
-          "D": "-100",
-          "R": "100",
-          "A": "",
-          "ImageName": "Rightback0"
-        },
-        {
-          "Photo": "Rightback180_12_11zon.jpeg",
-          "H": "720",
-          "V": "960",
-          "D": "150",
-          "R": "-100",
-          "A": "",
-          "ImageName": "Rightback180"
-        },
-        {
-          "Photo": "RightPalm0_16_11zon.jpeg",
-          "H": "720",
-          "V": "960",
-          "D": "-100",
-          "R": "0",
-          "A": "",
-          "ImageName": "RightPalm0"
-        },
-        {
-          "Photo": "RightPalm180_1_11zon.jpeg",
-          "H": "720",
-          "V": "960",
-          "D": "100",
-          "R": "0",
-          "A": "",
-          "ImageName": "RightPalm180"
-        },
-        {
-          "Photo": "LeftBack90L_8_11zon.jpeg",
-          "H": "960",
-          "V": "720",
-          "D": "50",
-          "R": "-100",
-          "A": "",
-          "ImageName": "LeftBack90L"
-        },
-        {
-          "Photo": "LeftBack90M_7_11zon.jpeg",
-          "H": "960",
-          "V": "720",
-          "D": "-50",
-          "R": "100",
-          "A": "",
-          "ImageName": "LeftBack90M"
-        },
-        {
-          "Photo": "Leftpalm90L_5_11zon.jpeg",
-          "H": "960",
-          "V": "720",
-          "D": "0",
-          "R": "-100",
-          "A": "",
-          "ImageName": "Leftpalm90L"
-        },
-        {
-          "Photo": "Leftpalm90M_6_11zon.jpeg",
-          "H": "960",
-          "V": "720",
-          "D": "0",
-          "R": "100",
-          "A": "",
-          "ImageName": "Leftpalm90M"
-        },
-        {
-          "Photo": "Rightback90L_11_11zon.jpeg",
-          "H": "960",
-          "V": "720",
-          "D": "100",
-          "R": "100",
-          "A": "",
-          "ImageName": "Rightback90L"
-        },
-        {
-          "Photo": "Rightback90M_10_11zon.jpeg",
-          "H": "960",
-          "V": "720",
-          "D": "-100",
-          "R": "-100",
-          "A": "",
-          "ImageName": "Rightback90M"
-        },
-        {
-          "Photo": "RightPalm90M_3_11zon.jpeg",
-          "H": "960",
-          "V": "720",
-          "D": "0",
-          "R": "-100",
-          "A": "",
-          "ImageName": "RightPalm90M"
-        },
-        {
-          "Photo": "RightPalm90L_2_11zon.jpeg",
-          "H": "960",
-          "V": "720",
-          "D": "0",
-          "R": "100",
-          "A": "",
-          "ImageName": "RightPalm90L"
-        },
-        {
-          "Photo": "LeftBack0_13_11zon.jpeg",
-          "H": "720",
-          "V": "960",
-          "D": "-100",
-          "R": "-100",
-          "A": "",
-          "ImageName": "LeftBack0"
-        },
-        {
-          "Photo": "LeftBack180_9_11zon.jpeg",
-          "H": "720",
-          "V": "960",
-          "D": "150",
-          "R": "50",
-          "A": "",
-          "ImageName": "LeftBack180"
-        },
-        {
-          "Photo": "Leftpalm0_14_11zon.jpeg",
-          "H": "720",
-          "V": "960",
-          "D": "-100",
-          "R": "0",
-          "A": "",
-          "ImageName": "Leftpalm0"
-        },
-        {
-          "Photo": "Leftpalm180_4_11zon.jpeg",
-          "H": "720",
-          "V": "960",
-          "D": "150",
-          "R": "0",
-          "A": "",
-          "ImageName": "Leftpalm180"
-        },
-        {
-          "Photo": "Rightback0_15_11zon.jpeg",
-          "H": "720",
-          "V": "960",
-          "D": "-100",
-          "R": "100",
-          "A": "",
-          "ImageName": "Rightback0"
-        },
-        {
-          "Photo": "Rightback180_12_11zon.jpeg",
-          "H": "720",
-          "V": "960",
-          "D": "150",
-          "R": "-100",
-          "A": "",
-          "ImageName": "Rightback180"
-        },
-        {
-          "Photo": "RightPalm0_16_11zon.jpeg",
-          "H": "720",
-          "V": "960",
-          "D": "-100",
-          "R": "0",
-          "A": "",
-          "ImageName": "RightPalm0"
-        },
-        {
-          "Photo": "RightPalm180_1_11zon.jpeg",
-          "H": "720",
-          "V": "960",
-          "D": "100",
-          "R": "0",
-          "A": "",
-          "ImageName": "RightPalm180"
-        },
-        {
-          "Photo": "LeftBack90L_8_11zon.jpeg",
-          "H": "960",
-          "V": "720",
-          "D": "50",
-          "R": "-100",
-          "A": "",
-          "ImageName": "LeftBack90L"
-        },
-        {
-          "Photo": "LeftBack90M_7_11zon.jpeg",
-          "H": "960",
-          "V": "720",
-          "D": "-50",
-          "R": "100",
-          "A": "",
-          "ImageName": "LeftBack90M"
-        },
-        {
-          "Photo": "Leftpalm90L_5_11zon.jpeg",
-          "H": "960",
-          "V": "720",
-          "D": "0",
-          "R": "-100",
-          "A": "",
-          "ImageName": "Leftpalm90L"
-        },
-        {
-          "Photo": "Leftpalm90M_6_11zon.jpeg",
-          "H": "960",
-          "V": "720",
-          "D": "0",
-          "R": "100",
-          "A": "",
-          "ImageName": "Leftpalm90M"
-        },
-        {
-          "Photo": "Rightback90L_11_11zon.jpeg",
-          "H": "960",
-          "V": "720",
-          "D": "100",
-          "R": "100",
-          "A": "",
-          "ImageName": "Rightback90L"
-        },
-        {
-          "Photo": "Rightback90M_10_11zon.jpeg",
-          "H": "960",
-          "V": "720",
-          "D": "-100",
-          "R": "-100",
-          "A": "",
-          "ImageName": "Rightback90M"
-        },
-        {
-          "Photo": "RightPalm90M_3_11zon.jpeg",
-          "H": "960",
-          "V": "720",
-          "D": "0",
-          "R": "-100",
-          "A": "",
-          "ImageName": "RightPalm90M"
-        },
-        {
-          "Photo": "RightPalm90L_2_11zon.jpeg",
-          "H": "960",
-          "V": "720",
-          "D": "0",
-          "R": "100",
-          "A": "",
-          "ImageName": "RightPalm90L"
-        },
-        {
-          "Photo": "LeftBack0_13_11zon.jpeg",
-          "H": "720",
-          "V": "960",
-          "D": "-100",
-          "R": "-100",
-          "A": "",
-          "ImageName": "LeftBack0"
-        },
-        {
-          "Photo": "LeftBack180_9_11zon.jpeg",
-          "H": "720",
-          "V": "960",
-          "D": "150",
-          "R": "50",
-          "A": "",
-          "ImageName": "LeftBack180"
-        },
-        {
-          "Photo": "Leftpalm0_14_11zon.jpeg",
-          "H": "720",
-          "V": "960",
-          "D": "-100",
-          "R": "0",
-          "A": "",
-          "ImageName": "Leftpalm0"
-        },
-        {
-          "Photo": "Leftpalm180_4_11zon.jpeg",
-          "H": "720",
-          "V": "960",
-          "D": "150",
-          "R": "0",
-          "A": "",
-          "ImageName": "Leftpalm180"
-        },
-        {
-          "Photo": "Rightback0_15_11zon.jpeg",
-          "H": "720",
-          "V": "960",
-          "D": "-100",
-          "R": "100",
-          "A": "",
-          "ImageName": "Rightback0"
-        },
-        {
-          "Photo": "Rightback180_12_11zon.jpeg",
-          "H": "720",
-          "V": "960",
-          "D": "150",
-          "R": "-100",
-          "A": "",
-          "ImageName": "Rightback180"
-        },
-        {
-          "Photo": "RightPalm0_16_11zon.jpeg",
-          "H": "720",
-          "V": "960",
-          "D": "-100",
-          "R": "0",
-          "A": "",
-          "ImageName": "RightPalm0"
-        },
-        {
-          "Photo": "RightPalm180_1_11zon.jpeg",
-          "H": "720",
-          "V": "960",
-          "D": "100",
-          "R": "0",
-          "A": "",
-          "ImageName": "RightPalm180"
-        },
-        {
-          "Photo": "LeftBack90L_8_11zon.jpeg",
-          "H": "960",
-          "V": "720",
-          "D": "50",
-          "R": "-100",
-          "A": "",
-          "ImageName": "LeftBack90L"
-        },
-        {
-          "Photo": "LeftBack90M_7_11zon.jpeg",
-          "H": "960",
-          "V": "720",
-          "D": "-50",
-          "R": "100",
-          "A": "",
-          "ImageName": "LeftBack90M"
-        },
-        {
-          "Photo": "Leftpalm90L_5_11zon.jpeg",
-          "H": "960",
-          "V": "720",
-          "D": "0",
-          "R": "-100",
-          "A": "",
-          "ImageName": "Leftpalm90L"
-        },
-        {
-          "Photo": "Leftpalm90M_6_11zon.jpeg",
-          "H": "960",
-          "V": "720",
-          "D": "0",
-          "R": "100",
-          "A": "",
-          "ImageName": "Leftpalm90M"
-        },
-        {
-          "Photo": "Rightback90L_11_11zon.jpeg",
-          "H": "960",
-          "V": "720",
-          "D": "100",
-          "R": "100",
-          "A": "",
-          "ImageName": "Rightback90L"
-        },
-        {
-          "Photo": "Rightback90M_10_11zon.jpeg",
-          "H": "960",
-          "V": "720",
-          "D": "-100",
-          "R": "-100",
-          "A": "",
-          "ImageName": "Rightback90M"
-        },
-        {
-          "Photo": "RightPalm90M_3_11zon.jpeg",
-          "H": "960",
-          "V": "720",
-          "D": "0",
-          "R": "-100",
-          "A": "",
-          "ImageName": "RightPalm90M"
-        },
-        {
-          "Photo": "RightPalm90L_2_11zon.jpeg",
-          "H": "960",
-          "V": "720",
-          "D": "0",
-          "R": "100",
-          "A": "",
-          "ImageName": "RightPalm90L"
-        },
         {
           "Photo": "LeftBack0_13_11zon.jpeg",
           "H": "720",
@@ -3781,7 +4147,7 @@ this.options.viewportScale = 1
       "items": [
         {
           "type": "text",
-          "title": "Block 2 complete",
+          "title": "Block 2-A complete",
           "content": "Please inform the experimenter that you have completed the second experimental block."
         }
       ],
@@ -3799,11 +4165,16 @@ this.options.viewportScale = 1
 document.body.style.backgroundColor = "white";
 }
       },
-      "title": "Block 2 complete"
+      "title": "Block 2-A complete"
     },
     {
       "type": "lab.html.Page",
       "items": [
+        {
+          "required": true,
+          "type": "text",
+          "title": "Phase 2-B"
+        },
         {
           "type": "text",
           "title": "Instructions:",
@@ -3855,443 +4226,11 @@ document.body.style.backgroundColor = "white";
 
 }
       },
-      "title": "Experimental phase 3"
+      "title": "Experimental phase 2B"
     },
     {
       "type": "lab.flow.Loop",
       "templateParameters": [
-        {
-          "Photo": "LeftBack0_13_11zon.jpeg",
-          "H": "720",
-          "V": "960",
-          "D": "-100",
-          "R": "-100",
-          "A": "",
-          "ImageName": "LeftBack0"
-        },
-        {
-          "Photo": "LeftBack180_9_11zon.jpeg",
-          "H": "720",
-          "V": "960",
-          "D": "150",
-          "R": "50",
-          "A": "",
-          "ImageName": "LeftBack180"
-        },
-        {
-          "Photo": "Leftpalm0_14_11zon.jpeg",
-          "H": "720",
-          "V": "960",
-          "D": "-100",
-          "R": "0",
-          "A": "",
-          "ImageName": "Leftpalm0"
-        },
-        {
-          "Photo": "Leftpalm180_4_11zon.jpeg",
-          "H": "720",
-          "V": "960",
-          "D": "150",
-          "R": "0",
-          "A": "",
-          "ImageName": "Leftpalm180"
-        },
-        {
-          "Photo": "Rightback0_15_11zon.jpeg",
-          "H": "720",
-          "V": "960",
-          "D": "-100",
-          "R": "100",
-          "A": "",
-          "ImageName": "Rightback0"
-        },
-        {
-          "Photo": "Rightback180_12_11zon.jpeg",
-          "H": "720",
-          "V": "960",
-          "D": "150",
-          "R": "-100",
-          "A": "",
-          "ImageName": "Rightback180"
-        },
-        {
-          "Photo": "RightPalm0_16_11zon.jpeg",
-          "H": "720",
-          "V": "960",
-          "D": "-100",
-          "R": "0",
-          "A": "",
-          "ImageName": "RightPalm0"
-        },
-        {
-          "Photo": "RightPalm180_1_11zon.jpeg",
-          "H": "720",
-          "V": "960",
-          "D": "100",
-          "R": "0",
-          "A": "",
-          "ImageName": "RightPalm180"
-        },
-        {
-          "Photo": "LeftBack90L_8_11zon.jpeg",
-          "H": "960",
-          "V": "720",
-          "D": "50",
-          "R": "-100",
-          "A": "",
-          "ImageName": "LeftBack90L"
-        },
-        {
-          "Photo": "LeftBack90M_7_11zon.jpeg",
-          "H": "960",
-          "V": "720",
-          "D": "-50",
-          "R": "100",
-          "A": "",
-          "ImageName": "LeftBack90M"
-        },
-        {
-          "Photo": "Leftpalm90L_5_11zon.jpeg",
-          "H": "960",
-          "V": "720",
-          "D": "0",
-          "R": "-100",
-          "A": "",
-          "ImageName": "Leftpalm90L"
-        },
-        {
-          "Photo": "Leftpalm90M_6_11zon.jpeg",
-          "H": "960",
-          "V": "720",
-          "D": "0",
-          "R": "100",
-          "A": "",
-          "ImageName": "Leftpalm90M"
-        },
-        {
-          "Photo": "Rightback90L_11_11zon.jpeg",
-          "H": "960",
-          "V": "720",
-          "D": "100",
-          "R": "100",
-          "A": "",
-          "ImageName": "Rightback90L"
-        },
-        {
-          "Photo": "Rightback90M_10_11zon.jpeg",
-          "H": "960",
-          "V": "720",
-          "D": "-100",
-          "R": "-100",
-          "A": "",
-          "ImageName": "Rightback90M"
-        },
-        {
-          "Photo": "RightPalm90M_3_11zon.jpeg",
-          "H": "960",
-          "V": "720",
-          "D": "0",
-          "R": "-100",
-          "A": "",
-          "ImageName": "RightPalm90M"
-        },
-        {
-          "Photo": "RightPalm90L_2_11zon.jpeg",
-          "H": "960",
-          "V": "720",
-          "D": "0",
-          "R": "100",
-          "A": "",
-          "ImageName": "RightPalm90L"
-        },
-        {
-          "Photo": "LeftBack0_13_11zon.jpeg",
-          "H": "720",
-          "V": "960",
-          "D": "-100",
-          "R": "-100",
-          "A": "",
-          "ImageName": "LeftBack0"
-        },
-        {
-          "Photo": "LeftBack180_9_11zon.jpeg",
-          "H": "720",
-          "V": "960",
-          "D": "150",
-          "R": "50",
-          "A": "",
-          "ImageName": "LeftBack180"
-        },
-        {
-          "Photo": "Leftpalm0_14_11zon.jpeg",
-          "H": "720",
-          "V": "960",
-          "D": "-100",
-          "R": "0",
-          "A": "",
-          "ImageName": "Leftpalm0"
-        },
-        {
-          "Photo": "Leftpalm180_4_11zon.jpeg",
-          "H": "720",
-          "V": "960",
-          "D": "150",
-          "R": "0",
-          "A": "",
-          "ImageName": "Leftpalm180"
-        },
-        {
-          "Photo": "Rightback0_15_11zon.jpeg",
-          "H": "720",
-          "V": "960",
-          "D": "-100",
-          "R": "100",
-          "A": "",
-          "ImageName": "Rightback0"
-        },
-        {
-          "Photo": "Rightback180_12_11zon.jpeg",
-          "H": "720",
-          "V": "960",
-          "D": "150",
-          "R": "-100",
-          "A": "",
-          "ImageName": "Rightback180"
-        },
-        {
-          "Photo": "RightPalm0_16_11zon.jpeg",
-          "H": "720",
-          "V": "960",
-          "D": "-100",
-          "R": "0",
-          "A": "",
-          "ImageName": "RightPalm0"
-        },
-        {
-          "Photo": "RightPalm180_1_11zon.jpeg",
-          "H": "720",
-          "V": "960",
-          "D": "100",
-          "R": "0",
-          "A": "",
-          "ImageName": "RightPalm180"
-        },
-        {
-          "Photo": "LeftBack90L_8_11zon.jpeg",
-          "H": "960",
-          "V": "720",
-          "D": "50",
-          "R": "-100",
-          "A": "",
-          "ImageName": "LeftBack90L"
-        },
-        {
-          "Photo": "LeftBack90M_7_11zon.jpeg",
-          "H": "960",
-          "V": "720",
-          "D": "-50",
-          "R": "100",
-          "A": "",
-          "ImageName": "LeftBack90M"
-        },
-        {
-          "Photo": "Leftpalm90L_5_11zon.jpeg",
-          "H": "960",
-          "V": "720",
-          "D": "0",
-          "R": "-100",
-          "A": "",
-          "ImageName": "Leftpalm90L"
-        },
-        {
-          "Photo": "Leftpalm90M_6_11zon.jpeg",
-          "H": "960",
-          "V": "720",
-          "D": "0",
-          "R": "100",
-          "A": "",
-          "ImageName": "Leftpalm90M"
-        },
-        {
-          "Photo": "Rightback90L_11_11zon.jpeg",
-          "H": "960",
-          "V": "720",
-          "D": "100",
-          "R": "100",
-          "A": "",
-          "ImageName": "Rightback90L"
-        },
-        {
-          "Photo": "Rightback90M_10_11zon.jpeg",
-          "H": "960",
-          "V": "720",
-          "D": "-100",
-          "R": "-100",
-          "A": "",
-          "ImageName": "Rightback90M"
-        },
-        {
-          "Photo": "RightPalm90M_3_11zon.jpeg",
-          "H": "960",
-          "V": "720",
-          "D": "0",
-          "R": "-100",
-          "A": "",
-          "ImageName": "RightPalm90M"
-        },
-        {
-          "Photo": "RightPalm90L_2_11zon.jpeg",
-          "H": "960",
-          "V": "720",
-          "D": "0",
-          "R": "100",
-          "A": "",
-          "ImageName": "RightPalm90L"
-        },
-        {
-          "Photo": "LeftBack0_13_11zon.jpeg",
-          "H": "720",
-          "V": "960",
-          "D": "-100",
-          "R": "-100",
-          "A": "",
-          "ImageName": "LeftBack0"
-        },
-        {
-          "Photo": "LeftBack180_9_11zon.jpeg",
-          "H": "720",
-          "V": "960",
-          "D": "150",
-          "R": "50",
-          "A": "",
-          "ImageName": "LeftBack180"
-        },
-        {
-          "Photo": "Leftpalm0_14_11zon.jpeg",
-          "H": "720",
-          "V": "960",
-          "D": "-100",
-          "R": "0",
-          "A": "",
-          "ImageName": "Leftpalm0"
-        },
-        {
-          "Photo": "Leftpalm180_4_11zon.jpeg",
-          "H": "720",
-          "V": "960",
-          "D": "150",
-          "R": "0",
-          "A": "",
-          "ImageName": "Leftpalm180"
-        },
-        {
-          "Photo": "Rightback0_15_11zon.jpeg",
-          "H": "720",
-          "V": "960",
-          "D": "-100",
-          "R": "100",
-          "A": "",
-          "ImageName": "Rightback0"
-        },
-        {
-          "Photo": "Rightback180_12_11zon.jpeg",
-          "H": "720",
-          "V": "960",
-          "D": "150",
-          "R": "-100",
-          "A": "",
-          "ImageName": "Rightback180"
-        },
-        {
-          "Photo": "RightPalm0_16_11zon.jpeg",
-          "H": "720",
-          "V": "960",
-          "D": "-100",
-          "R": "0",
-          "A": "",
-          "ImageName": "RightPalm0"
-        },
-        {
-          "Photo": "RightPalm180_1_11zon.jpeg",
-          "H": "720",
-          "V": "960",
-          "D": "100",
-          "R": "0",
-          "A": "",
-          "ImageName": "RightPalm180"
-        },
-        {
-          "Photo": "LeftBack90L_8_11zon.jpeg",
-          "H": "960",
-          "V": "720",
-          "D": "50",
-          "R": "-100",
-          "A": "",
-          "ImageName": "LeftBack90L"
-        },
-        {
-          "Photo": "LeftBack90M_7_11zon.jpeg",
-          "H": "960",
-          "V": "720",
-          "D": "-50",
-          "R": "100",
-          "A": "",
-          "ImageName": "LeftBack90M"
-        },
-        {
-          "Photo": "Leftpalm90L_5_11zon.jpeg",
-          "H": "960",
-          "V": "720",
-          "D": "0",
-          "R": "-100",
-          "A": "",
-          "ImageName": "Leftpalm90L"
-        },
-        {
-          "Photo": "Leftpalm90M_6_11zon.jpeg",
-          "H": "960",
-          "V": "720",
-          "D": "0",
-          "R": "100",
-          "A": "",
-          "ImageName": "Leftpalm90M"
-        },
-        {
-          "Photo": "Rightback90L_11_11zon.jpeg",
-          "H": "960",
-          "V": "720",
-          "D": "100",
-          "R": "100",
-          "A": "",
-          "ImageName": "Rightback90L"
-        },
-        {
-          "Photo": "Rightback90M_10_11zon.jpeg",
-          "H": "960",
-          "V": "720",
-          "D": "-100",
-          "R": "-100",
-          "A": "",
-          "ImageName": "Rightback90M"
-        },
-        {
-          "Photo": "RightPalm90M_3_11zon.jpeg",
-          "H": "960",
-          "V": "720",
-          "D": "0",
-          "R": "-100",
-          "A": "",
-          "ImageName": "RightPalm90M"
-        },
-        {
-          "Photo": "RightPalm90L_2_11zon.jpeg",
-          "H": "960",
-          "V": "720",
-          "D": "0",
-          "R": "100",
-          "A": "",
-          "ImageName": "RightPalm90L"
-        },
         {
           "Photo": "LeftBack0_13_11zon.jpeg",
           "H": "720",
@@ -4614,8 +4553,8 @@ this.options.viewportScale = 1
       "items": [
         {
           "type": "text",
-          "title": "Block 3 complete",
-          "content": "Please inform the experimenter that you have completed the third experimental block."
+          "title": "Block 2-B complete",
+          "content": "Please inform the experimenter that you have completed the second experimental block."
         }
       ],
       "scrollTop": true,
@@ -4632,11 +4571,16 @@ this.options.viewportScale = 1
 document.body.style.backgroundColor = "white";
 }
       },
-      "title": "Block 3 complete"
+      "title": "Block 2-B complete"
     },
     {
       "type": "lab.html.Page",
       "items": [
+        {
+          "required": true,
+          "type": "text",
+          "title": "Phase 2-C"
+        },
         {
           "type": "text",
           "title": "Instructions:",
@@ -4688,7 +4632,7 @@ document.body.style.backgroundColor = "white";
 
 }
       },
-      "title": "Experimental phase 4"
+      "title": "Experimental phase 2C"
     },
     {
       "type": "lab.flow.Loop",
@@ -4836,7 +4780,269 @@ document.body.style.backgroundColor = "white";
           "R": "100",
           "A": "",
           "ImageName": "RightPalm90L"
+        }
+      ],
+      "sample": {
+        "mode": "sequential"
+      },
+      "files": {},
+      "responses": {},
+      "parameters": {},
+      "messageHandlers": {
+        "run": function anonymous(
+) {
+document.body.style.backgroundColor = "black";
+}
+      },
+      "title": "Loop",
+      "shuffleGroups": [],
+      "template": {
+        "type": "lab.flow.Sequence",
+        "files": {},
+        "responses": {
+          "keypress(k)": "right",
+          "keypress(a)": "left"
         },
+        "parameters": {},
+        "messageHandlers": {},
+        "title": "Trail",
+        "content": [
+          {
+            "type": "lab.canvas.Screen",
+            "content": [
+              {
+                "type": "i-text",
+                "left": 0,
+                "top": 0,
+                "angle": 0,
+                "width": 524.73,
+                "height": 36.16,
+                "stroke": "#ffffff",
+                "strokeWidth": 1,
+                "fill": "#000000",
+                "text": "Press the space key to begin the trial",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+                "fontSize": 32,
+                "fontFamily": "sans-serif",
+                "lineHeight": 1.16,
+                "textAlign": "center"
+              }
+            ],
+            "viewport": [
+              800,
+              600
+            ],
+            "files": {
+              "black screen.png": "embedded\u002F4f60031584d18659923576c9a1f7b446cae3556a7eac2d5e040be236a692cdfb.png"
+            },
+            "responses": {
+              "keypress(Space)": "space"
+            },
+            "parameters": {},
+            "messageHandlers": {},
+            "title": "Next trial screen",
+            "skip": true
+          },
+          {
+            "type": "lab.canvas.Screen",
+            "content": [
+              {
+                "type": "i-text",
+                "left": 0,
+                "top": 0,
+                "angle": 0,
+                "width": 35.04,
+                "height": 67.8,
+                "stroke": "#000000",
+                "strokeWidth": 1,
+                "fill": "#ffffff",
+                "text": "+",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+                "fontSize": "60",
+                "fontFamily": "sans-serif",
+                "lineHeight": 1.16,
+                "textAlign": "center"
+              }
+            ],
+            "viewport": [
+              800,
+              600
+            ],
+            "files": {},
+            "responses": {
+              "": ""
+            },
+            "parameters": {},
+            "messageHandlers": {},
+            "title": "Fixation cross",
+            "timeout": "1500"
+          },
+          {
+            "type": "lab.canvas.Screen",
+            "content": [
+              {
+                "type": "image",
+                "left": "${this.parameters.R}",
+                "top": "${this.parameters.D}",
+                "angle": "${this.parameters.A}",
+                "width": "${this.parameters.H}",
+                "height": "${this.parameters.V}",
+                "stroke": null,
+                "strokeWidth": 0,
+                "fill": "black",
+                "src": "${this.files[this.parameters.Photo]}"
+              }
+            ],
+            "viewport": [
+              800,
+              600
+            ],
+            "files": {
+              "LeftBack0_13_11zon.jpeg": "embedded\u002Fc01ae650201d30c61ef5917073b3db1bfb7e90843b024b9c44e84bd912b3a7de.jpeg",
+              "LeftBack90L_8_11zon.jpeg": "embedded\u002Fde4c0ac0b7e0ba689907a469e98d12c131bc88a8e163740d45320a3a028552bf.jpeg",
+              "LeftBack90M_7_11zon.jpeg": "embedded\u002F614470bfa47db0a003ba271a57b45ce14a5dde9da0ef44f31ecfb93238b29a13.jpeg",
+              "LeftBack180_9_11zon.jpeg": "embedded\u002Fb2c4eb982a0bfe139af1aa23d4f9e237f8b7649e96e705ef29ee406bb830e8fc.jpeg",
+              "Leftpalm0_14_11zon.jpeg": "embedded\u002Fc24fc2f85a1ea774aab3b46952f5a76a7b2607a996e6e6c526ca6eaa5439cddb.jpeg",
+              "Leftpalm90L_5_11zon.jpeg": "embedded\u002F48b75f6749dca5ae3b6d2b355e3334a5b950843cd6dc1beda7544b13c5cb2fd8.jpeg",
+              "Leftpalm90M_6_11zon.jpeg": "embedded\u002F79a71f3ee45aeb184b3bc523ac45a0b3beaa51f2b90f13c6bbe0d91ed3c9ff82.jpeg",
+              "Leftpalm180_4_11zon.jpeg": "embedded\u002F2fc87caa787fafcec47d35c570349cf05ab9069fbc8a20fc8697abee00f8bac3.jpeg",
+              "Rightback0_15_11zon.jpeg": "embedded\u002F2ee2a7712b81be820610bbe64bf8d0889d814157d058353868984bfec35b0a4c.jpeg",
+              "Rightback90L_11_11zon.jpeg": "embedded\u002F0854f5d521b7e139f038136989ae30f25d62e54aa57400f890b988373da11d12.jpeg",
+              "Rightback90M_10_11zon.jpeg": "embedded\u002Ff92b5c8724bb6648a65647898b9cd40f65af117f0474ce8fa7cc586df9a7cb4d.jpeg",
+              "Rightback180_12_11zon.jpeg": "embedded\u002Faddfc8397ae6891c1a36c7de3e992174e04f7b58366aec0eca6b6e63948880c1.jpeg",
+              "RightPalm0_16_11zon.jpeg": "embedded\u002F3d54f383030bd785aae08a6eca81109ec812e2f8a8253e8b91648a0840307c24.jpeg",
+              "RightPalm90L_2_11zon.jpeg": "embedded\u002Fa098dd626d29c44e9b87458183f5044392998e00ff5876f87ebf717ecf2c912d.jpeg",
+              "RightPalm90M_3_11zon.jpeg": "embedded\u002Fb9e6ba2ba0d302fba0e941dcfe21ff3e2405dce42781cb41191be5eb26cd9c71.jpeg",
+              "RightPalm180_1_11zon.jpeg": "embedded\u002F86f28af0f33d4abce861d305ec47db6eae379040884da50bd32cf9211b5c78d5.jpeg",
+              "LineRightPalm90L.png": "embedded\u002Fdc7522ec261847e06702dca3a70bf0a679ff6a47ba4efbafe0cc1bb74aef9571.png",
+              "LineRightPalm180.png": "embedded\u002F48e833d5b2f8dd033201ce27de499a70ca72091bb409c4860d6685f11ee0c23f.png",
+              "LineRightPalm90M.png": "embedded\u002F6356bbf2d7fea17519b6f3ee0ef2edc4bddbe49874ba3738329c865de0bdd711.png",
+              "LineRightback90L.png": "embedded\u002F5f4fb123a70d87e6559787f8863eb974026ac95f9f2d0772ed1a0129f73b4d65.png",
+              "LineRightback180.png": "embedded\u002F67850fc7ba947ed01659d03fc91abff7cd0be62af23882f9b0c5c515ff9549db.png",
+              "LineRightback90M.png": "embedded\u002F5932055cbca408ea3ab1f29721c6fa5afe5f12efc25e83f44bcc0f023fe8b6ef.png",
+              "LineLeftPalm180.png": "embedded\u002F6c5449ed018f4db7fea30e1e773ff268d4edaec6dfd31cce36f1b55bb405fccf.png",
+              "LineLeftPalm90L.png": "embedded\u002Fb10fd6539ccf838191fbae39f800d043ca7d8b5c71720904051610cdd6297235.png",
+              "LineLeftPalm90M.png": "embedded\u002Fcfed6a9c294d59b7d29c61135e83b5c9cc88c8a04ed705470c8abbb80b958ab3.png",
+              "LineLeftBack90M.png": "embedded\u002F9fe6196c4cb27e2516d3e391406ed04383b7eb5ae646e05bb30cad32bdb459dc.png",
+              "LineLeftBack90L.png": "embedded\u002F1e82a17a7776b4f9bab787d78ed372f7c4fdac2f9b0949b32b3ee6fd8a0b3f11.png",
+              "LineLeftBack180.png": "embedded\u002Fecff3f64162fef0c3a5f1f6591b5da616b556a361b9217d385d61a955ca685e4.png",
+              "LineRightback0.png": "embedded\u002F7e65be29cfd21158f5fc3f927e52ed8cbdd255c31047a68a93016e27a50f4e99.png",
+              "LineLeftBack0.png": "embedded\u002F94fef8be121cf1008ab8d1d525f1cb876ad5182cfee4a894a5bb4a8d3636006a.png",
+              "LineRightPalm0.png": "embedded\u002F38da56700193e5e6908a3be0bce9d30afca7fa4a987dc700e68fe0af610aa82e.png",
+              "LineLeftPalm0.png": "embedded\u002F5a141b870973bb6247061a171008cc35c3c235ab999cacaf93debf9ef4228dcf.png"
+            },
+            "responses": {
+              "keypress(k)": "Right",
+              "keypress(a)": "Left"
+            },
+            "parameters": {},
+            "messageHandlers": {
+              "before:prepare": function anonymous(
+) {
+this.options.viewport = ["parameters.H","parameters.V"]
+this.options.viewportScale = 1
+
+
+
+
+}
+            },
+            "title": "Stimulus Presentation "
+          }
+        ]
+      }
+    },
+    {
+      "type": "lab.html.Page",
+      "items": [
+        {
+          "type": "text",
+          "title": "Block 2-C complete",
+          "content": "Please inform the experimenter that you have completed the second experimental block."
+        }
+      ],
+      "scrollTop": true,
+      "submitButtonText": "Continue →",
+      "submitButtonPosition": "right",
+      "files": {},
+      "responses": {
+        "": ""
+      },
+      "parameters": {},
+      "messageHandlers": {
+        "run": function anonymous(
+) {
+document.body.style.backgroundColor = "white";
+}
+      },
+      "title": "Block 2-C complete"
+    },
+    {
+      "type": "lab.html.Page",
+      "items": [
+        {
+          "required": true,
+          "type": "text",
+          "title": "Phase 2-D"
+        },
+        {
+          "type": "text",
+          "title": "Instructions:",
+          "content": ""
+        },
+        {
+          "required": true,
+          "type": "html",
+          "content": "We will now continue with the \u003Cb\u003E\u003Cspan style=\"color: red;\"\u003Eexperimental phase.\u003C\u002Fspan\u003E\u003C\u002Fb\u003E In this phase, you will be presented with hand images in different orientations. Please refrain from physically moving your hands, and instead use your mental abilities to rotate your hands. ",
+          "name": ""
+        },
+        {
+          "required": true,
+          "type": "text",
+          "title": "Your task is to :",
+          "content": "1. Please step on the \u003Cb\u003E\u003Cspan style=\"color: red;\"\u003E'left'\u003C\u002Fspan\u003E\u003C\u002Fb\u003E foot pedal for a \u003Cb\u003E\u003Cspan style=\"color: red;\"\u003Eleft\u003C\u002Fspan\u003E\u003C\u002Fb\u003E hand-stimulus and the \u003Cb\u003E\u003Cspan style=\"color: red;\"\u003E'right'\u003C\u002Fspan\u003E\u003C\u002Fb\u003E foot pedal for a \u003Cb\u003E\u003Cspan style=\"color: red;\"\u003Eright\u003C\u002Fspan\u003E\u003C\u002Fb\u003E hand-stimulus.\n"
+        },
+        {
+          "required": true,
+          "type": "image",
+          "src": "${ this.files[\"Screenshot 2024-07-16 at 12.04.50 PM.png\"] }",
+          "name": ""
+        },
+        {
+          "required": true,
+          "type": "text",
+          "content": "2. Respond as quickly and accurately as possible."
+        },
+        {
+          "required": true,
+          "type": "text",
+          "content": "3. Click 'continue' when you are ready to proceed. "
+        }
+      ],
+      "scrollTop": true,
+      "submitButtonText": "Continue →",
+      "submitButtonPosition": "right",
+      "files": {
+        "Screenshot 2024-07-16 at 12.04.50 PM.png": "embedded\u002F49e340eb188c832f74dbf98e612eb35be436052c257d6bed97bd55e36ac9803c.png"
+      },
+      "responses": {
+        "": ""
+      },
+      "parameters": {},
+      "messageHandlers": {
+        "run": function anonymous(
+) {
+document.body.style.backgroundColor = "white";
+
+}
+      },
+      "title": "Experimental phase 2D"
+    },
+    {
+      "type": "lab.flow.Loop",
+      "templateParameters": [
         {
           "Photo": "LeftBack0_13_11zon.jpeg",
           "H": "720",
@@ -4980,7 +5186,269 @@ document.body.style.backgroundColor = "white";
           "R": "100",
           "A": "",
           "ImageName": "RightPalm90L"
+        }
+      ],
+      "sample": {
+        "mode": "sequential"
+      },
+      "files": {},
+      "responses": {},
+      "parameters": {},
+      "messageHandlers": {
+        "run": function anonymous(
+) {
+document.body.style.backgroundColor = "black";
+}
+      },
+      "title": "Loop",
+      "shuffleGroups": [],
+      "template": {
+        "type": "lab.flow.Sequence",
+        "files": {},
+        "responses": {
+          "keypress(k)": "right",
+          "keypress(a)": "left"
         },
+        "parameters": {},
+        "messageHandlers": {},
+        "title": "Trail",
+        "content": [
+          {
+            "type": "lab.canvas.Screen",
+            "content": [
+              {
+                "type": "i-text",
+                "left": 0,
+                "top": 0,
+                "angle": 0,
+                "width": 524.73,
+                "height": 36.16,
+                "stroke": "#ffffff",
+                "strokeWidth": 1,
+                "fill": "#000000",
+                "text": "Press the space key to begin the trial",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+                "fontSize": 32,
+                "fontFamily": "sans-serif",
+                "lineHeight": 1.16,
+                "textAlign": "center"
+              }
+            ],
+            "viewport": [
+              800,
+              600
+            ],
+            "files": {
+              "black screen.png": "embedded\u002F4f60031584d18659923576c9a1f7b446cae3556a7eac2d5e040be236a692cdfb.png"
+            },
+            "responses": {
+              "keypress(Space)": "space"
+            },
+            "parameters": {},
+            "messageHandlers": {},
+            "title": "Next trial screen",
+            "skip": true
+          },
+          {
+            "type": "lab.canvas.Screen",
+            "content": [
+              {
+                "type": "i-text",
+                "left": 0,
+                "top": 0,
+                "angle": 0,
+                "width": 35.04,
+                "height": 67.8,
+                "stroke": "#000000",
+                "strokeWidth": 1,
+                "fill": "#ffffff",
+                "text": "+",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+                "fontSize": "60",
+                "fontFamily": "sans-serif",
+                "lineHeight": 1.16,
+                "textAlign": "center"
+              }
+            ],
+            "viewport": [
+              800,
+              600
+            ],
+            "files": {},
+            "responses": {
+              "": ""
+            },
+            "parameters": {},
+            "messageHandlers": {},
+            "title": "Fixation cross",
+            "timeout": "1500"
+          },
+          {
+            "type": "lab.canvas.Screen",
+            "content": [
+              {
+                "type": "image",
+                "left": "${this.parameters.R}",
+                "top": "${this.parameters.D}",
+                "angle": "${this.parameters.A}",
+                "width": "${this.parameters.H}",
+                "height": "${this.parameters.V}",
+                "stroke": null,
+                "strokeWidth": 0,
+                "fill": "black",
+                "src": "${this.files[this.parameters.Photo]}"
+              }
+            ],
+            "viewport": [
+              800,
+              600
+            ],
+            "files": {
+              "LeftBack0_13_11zon.jpeg": "embedded\u002Fc01ae650201d30c61ef5917073b3db1bfb7e90843b024b9c44e84bd912b3a7de.jpeg",
+              "LeftBack90L_8_11zon.jpeg": "embedded\u002Fde4c0ac0b7e0ba689907a469e98d12c131bc88a8e163740d45320a3a028552bf.jpeg",
+              "LeftBack90M_7_11zon.jpeg": "embedded\u002F614470bfa47db0a003ba271a57b45ce14a5dde9da0ef44f31ecfb93238b29a13.jpeg",
+              "LeftBack180_9_11zon.jpeg": "embedded\u002Fb2c4eb982a0bfe139af1aa23d4f9e237f8b7649e96e705ef29ee406bb830e8fc.jpeg",
+              "Leftpalm0_14_11zon.jpeg": "embedded\u002Fc24fc2f85a1ea774aab3b46952f5a76a7b2607a996e6e6c526ca6eaa5439cddb.jpeg",
+              "Leftpalm90L_5_11zon.jpeg": "embedded\u002F48b75f6749dca5ae3b6d2b355e3334a5b950843cd6dc1beda7544b13c5cb2fd8.jpeg",
+              "Leftpalm90M_6_11zon.jpeg": "embedded\u002F79a71f3ee45aeb184b3bc523ac45a0b3beaa51f2b90f13c6bbe0d91ed3c9ff82.jpeg",
+              "Leftpalm180_4_11zon.jpeg": "embedded\u002F2fc87caa787fafcec47d35c570349cf05ab9069fbc8a20fc8697abee00f8bac3.jpeg",
+              "Rightback0_15_11zon.jpeg": "embedded\u002F2ee2a7712b81be820610bbe64bf8d0889d814157d058353868984bfec35b0a4c.jpeg",
+              "Rightback90L_11_11zon.jpeg": "embedded\u002F0854f5d521b7e139f038136989ae30f25d62e54aa57400f890b988373da11d12.jpeg",
+              "Rightback90M_10_11zon.jpeg": "embedded\u002Ff92b5c8724bb6648a65647898b9cd40f65af117f0474ce8fa7cc586df9a7cb4d.jpeg",
+              "Rightback180_12_11zon.jpeg": "embedded\u002Faddfc8397ae6891c1a36c7de3e992174e04f7b58366aec0eca6b6e63948880c1.jpeg",
+              "RightPalm0_16_11zon.jpeg": "embedded\u002F3d54f383030bd785aae08a6eca81109ec812e2f8a8253e8b91648a0840307c24.jpeg",
+              "RightPalm90L_2_11zon.jpeg": "embedded\u002Fa098dd626d29c44e9b87458183f5044392998e00ff5876f87ebf717ecf2c912d.jpeg",
+              "RightPalm90M_3_11zon.jpeg": "embedded\u002Fb9e6ba2ba0d302fba0e941dcfe21ff3e2405dce42781cb41191be5eb26cd9c71.jpeg",
+              "RightPalm180_1_11zon.jpeg": "embedded\u002F86f28af0f33d4abce861d305ec47db6eae379040884da50bd32cf9211b5c78d5.jpeg",
+              "LineRightPalm90L.png": "embedded\u002Fdc7522ec261847e06702dca3a70bf0a679ff6a47ba4efbafe0cc1bb74aef9571.png",
+              "LineRightPalm180.png": "embedded\u002F48e833d5b2f8dd033201ce27de499a70ca72091bb409c4860d6685f11ee0c23f.png",
+              "LineRightPalm90M.png": "embedded\u002F6356bbf2d7fea17519b6f3ee0ef2edc4bddbe49874ba3738329c865de0bdd711.png",
+              "LineRightback90L.png": "embedded\u002F5f4fb123a70d87e6559787f8863eb974026ac95f9f2d0772ed1a0129f73b4d65.png",
+              "LineRightback180.png": "embedded\u002F67850fc7ba947ed01659d03fc91abff7cd0be62af23882f9b0c5c515ff9549db.png",
+              "LineRightback90M.png": "embedded\u002F5932055cbca408ea3ab1f29721c6fa5afe5f12efc25e83f44bcc0f023fe8b6ef.png",
+              "LineLeftPalm180.png": "embedded\u002F6c5449ed018f4db7fea30e1e773ff268d4edaec6dfd31cce36f1b55bb405fccf.png",
+              "LineLeftPalm90L.png": "embedded\u002Fb10fd6539ccf838191fbae39f800d043ca7d8b5c71720904051610cdd6297235.png",
+              "LineLeftPalm90M.png": "embedded\u002Fcfed6a9c294d59b7d29c61135e83b5c9cc88c8a04ed705470c8abbb80b958ab3.png",
+              "LineLeftBack90M.png": "embedded\u002F9fe6196c4cb27e2516d3e391406ed04383b7eb5ae646e05bb30cad32bdb459dc.png",
+              "LineLeftBack90L.png": "embedded\u002F1e82a17a7776b4f9bab787d78ed372f7c4fdac2f9b0949b32b3ee6fd8a0b3f11.png",
+              "LineLeftBack180.png": "embedded\u002Fecff3f64162fef0c3a5f1f6591b5da616b556a361b9217d385d61a955ca685e4.png",
+              "LineRightback0.png": "embedded\u002F7e65be29cfd21158f5fc3f927e52ed8cbdd255c31047a68a93016e27a50f4e99.png",
+              "LineLeftBack0.png": "embedded\u002F94fef8be121cf1008ab8d1d525f1cb876ad5182cfee4a894a5bb4a8d3636006a.png",
+              "LineRightPalm0.png": "embedded\u002F38da56700193e5e6908a3be0bce9d30afca7fa4a987dc700e68fe0af610aa82e.png",
+              "LineLeftPalm0.png": "embedded\u002F5a141b870973bb6247061a171008cc35c3c235ab999cacaf93debf9ef4228dcf.png"
+            },
+            "responses": {
+              "keypress(k)": "Right",
+              "keypress(a)": "Left"
+            },
+            "parameters": {},
+            "messageHandlers": {
+              "before:prepare": function anonymous(
+) {
+this.options.viewport = ["parameters.H","parameters.V"]
+this.options.viewportScale = 1
+
+
+
+
+}
+            },
+            "title": "Stimulus Presentation "
+          }
+        ]
+      }
+    },
+    {
+      "type": "lab.html.Page",
+      "items": [
+        {
+          "type": "text",
+          "title": "Block 2-D complete",
+          "content": "Please inform the experimenter that you have completed the second experimental block."
+        }
+      ],
+      "scrollTop": true,
+      "submitButtonText": "Continue →",
+      "submitButtonPosition": "right",
+      "files": {},
+      "responses": {
+        "": ""
+      },
+      "parameters": {},
+      "messageHandlers": {
+        "run": function anonymous(
+) {
+document.body.style.backgroundColor = "white";
+}
+      },
+      "title": "Block 2-D complete"
+    },
+    {
+      "type": "lab.html.Page",
+      "items": [
+        {
+          "required": true,
+          "type": "text",
+          "title": "Phase 3-A"
+        },
+        {
+          "type": "text",
+          "title": "Instructions:",
+          "content": ""
+        },
+        {
+          "required": true,
+          "type": "html",
+          "content": "We will now continue with the \u003Cb\u003E\u003Cspan style=\"color: red;\"\u003Eexperimental phase.\u003C\u002Fspan\u003E\u003C\u002Fb\u003E In this phase, you will be presented with hand images in different orientations. Please refrain from physically moving your hands, and instead use your mental abilities to rotate your hands. ",
+          "name": ""
+        },
+        {
+          "required": true,
+          "type": "text",
+          "title": "Your task is to :",
+          "content": "1. Please step on the \u003Cb\u003E\u003Cspan style=\"color: red;\"\u003E'left'\u003C\u002Fspan\u003E\u003C\u002Fb\u003E foot pedal for a \u003Cb\u003E\u003Cspan style=\"color: red;\"\u003Eleft\u003C\u002Fspan\u003E\u003C\u002Fb\u003E hand-stimulus and the \u003Cb\u003E\u003Cspan style=\"color: red;\"\u003E'right'\u003C\u002Fspan\u003E\u003C\u002Fb\u003E foot pedal for a \u003Cb\u003E\u003Cspan style=\"color: red;\"\u003Eright\u003C\u002Fspan\u003E\u003C\u002Fb\u003E hand-stimulus.\n"
+        },
+        {
+          "required": true,
+          "type": "image",
+          "src": "${ this.files[\"Screenshot 2024-07-16 at 12.04.50 PM.png\"] }",
+          "name": ""
+        },
+        {
+          "required": true,
+          "type": "text",
+          "content": "2. Respond as quickly and accurately as possible."
+        },
+        {
+          "required": true,
+          "type": "text",
+          "content": "3. Click 'continue' when you are ready to proceed. "
+        }
+      ],
+      "scrollTop": true,
+      "submitButtonText": "Continue →",
+      "submitButtonPosition": "right",
+      "files": {
+        "Screenshot 2024-07-16 at 12.04.50 PM.png": "embedded\u002F49e340eb188c832f74dbf98e612eb35be436052c257d6bed97bd55e36ac9803c.png"
+      },
+      "responses": {
+        "": ""
+      },
+      "parameters": {},
+      "messageHandlers": {
+        "run": function anonymous(
+) {
+document.body.style.backgroundColor = "white";
+
+}
+      },
+      "title": "Experimental phase 3A"
+    },
+    {
+      "type": "lab.flow.Loop",
+      "templateParameters": [
         {
           "Photo": "LeftBack0_13_11zon.jpeg",
           "H": "720",
@@ -5124,7 +5592,2705 @@ document.body.style.backgroundColor = "white";
           "R": "100",
           "A": "",
           "ImageName": "RightPalm90L"
+        }
+      ],
+      "sample": {
+        "mode": "sequential"
+      },
+      "files": {},
+      "responses": {},
+      "parameters": {},
+      "messageHandlers": {
+        "run": function anonymous(
+) {
+document.body.style.backgroundColor = "black";
+}
+      },
+      "title": "Loop",
+      "shuffleGroups": [],
+      "template": {
+        "type": "lab.flow.Sequence",
+        "files": {},
+        "responses": {
+          "keypress(k)": "right",
+          "keypress(a)": "left"
         },
+        "parameters": {},
+        "messageHandlers": {},
+        "title": "Trail",
+        "content": [
+          {
+            "type": "lab.canvas.Screen",
+            "content": [
+              {
+                "type": "i-text",
+                "left": 0,
+                "top": 0,
+                "angle": 0,
+                "width": 524.73,
+                "height": 36.16,
+                "stroke": "#ffffff",
+                "strokeWidth": 1,
+                "fill": "#000000",
+                "text": "Press the space key to begin the trial",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+                "fontSize": 32,
+                "fontFamily": "sans-serif",
+                "lineHeight": 1.16,
+                "textAlign": "center"
+              }
+            ],
+            "viewport": [
+              800,
+              600
+            ],
+            "files": {
+              "black screen.png": "embedded\u002F4f60031584d18659923576c9a1f7b446cae3556a7eac2d5e040be236a692cdfb.png"
+            },
+            "responses": {
+              "keypress(Space)": "space"
+            },
+            "parameters": {},
+            "messageHandlers": {},
+            "title": "Next trial screen",
+            "skip": true
+          },
+          {
+            "type": "lab.canvas.Screen",
+            "content": [
+              {
+                "type": "i-text",
+                "left": 0,
+                "top": 0,
+                "angle": 0,
+                "width": 35.04,
+                "height": 67.8,
+                "stroke": "#000000",
+                "strokeWidth": 1,
+                "fill": "#ffffff",
+                "text": "+",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+                "fontSize": "60",
+                "fontFamily": "sans-serif",
+                "lineHeight": 1.16,
+                "textAlign": "center"
+              }
+            ],
+            "viewport": [
+              800,
+              600
+            ],
+            "files": {},
+            "responses": {
+              "": ""
+            },
+            "parameters": {},
+            "messageHandlers": {},
+            "title": "Fixation cross",
+            "timeout": "1500"
+          },
+          {
+            "type": "lab.canvas.Screen",
+            "content": [
+              {
+                "type": "image",
+                "left": "${this.parameters.R}",
+                "top": "${this.parameters.D}",
+                "angle": "${this.parameters.A}",
+                "width": "${this.parameters.H}",
+                "height": "${this.parameters.V}",
+                "stroke": null,
+                "strokeWidth": 0,
+                "fill": "black",
+                "src": "${this.files[this.parameters.Photo]}"
+              }
+            ],
+            "viewport": [
+              800,
+              600
+            ],
+            "files": {
+              "LeftBack0_13_11zon.jpeg": "embedded\u002Fc01ae650201d30c61ef5917073b3db1bfb7e90843b024b9c44e84bd912b3a7de.jpeg",
+              "LeftBack90L_8_11zon.jpeg": "embedded\u002Fde4c0ac0b7e0ba689907a469e98d12c131bc88a8e163740d45320a3a028552bf.jpeg",
+              "LeftBack90M_7_11zon.jpeg": "embedded\u002F614470bfa47db0a003ba271a57b45ce14a5dde9da0ef44f31ecfb93238b29a13.jpeg",
+              "LeftBack180_9_11zon.jpeg": "embedded\u002Fb2c4eb982a0bfe139af1aa23d4f9e237f8b7649e96e705ef29ee406bb830e8fc.jpeg",
+              "Leftpalm0_14_11zon.jpeg": "embedded\u002Fc24fc2f85a1ea774aab3b46952f5a76a7b2607a996e6e6c526ca6eaa5439cddb.jpeg",
+              "Leftpalm90L_5_11zon.jpeg": "embedded\u002F48b75f6749dca5ae3b6d2b355e3334a5b950843cd6dc1beda7544b13c5cb2fd8.jpeg",
+              "Leftpalm90M_6_11zon.jpeg": "embedded\u002F79a71f3ee45aeb184b3bc523ac45a0b3beaa51f2b90f13c6bbe0d91ed3c9ff82.jpeg",
+              "Leftpalm180_4_11zon.jpeg": "embedded\u002F2fc87caa787fafcec47d35c570349cf05ab9069fbc8a20fc8697abee00f8bac3.jpeg",
+              "Rightback0_15_11zon.jpeg": "embedded\u002F2ee2a7712b81be820610bbe64bf8d0889d814157d058353868984bfec35b0a4c.jpeg",
+              "Rightback90L_11_11zon.jpeg": "embedded\u002F0854f5d521b7e139f038136989ae30f25d62e54aa57400f890b988373da11d12.jpeg",
+              "Rightback90M_10_11zon.jpeg": "embedded\u002Ff92b5c8724bb6648a65647898b9cd40f65af117f0474ce8fa7cc586df9a7cb4d.jpeg",
+              "Rightback180_12_11zon.jpeg": "embedded\u002Faddfc8397ae6891c1a36c7de3e992174e04f7b58366aec0eca6b6e63948880c1.jpeg",
+              "RightPalm0_16_11zon.jpeg": "embedded\u002F3d54f383030bd785aae08a6eca81109ec812e2f8a8253e8b91648a0840307c24.jpeg",
+              "RightPalm90L_2_11zon.jpeg": "embedded\u002Fa098dd626d29c44e9b87458183f5044392998e00ff5876f87ebf717ecf2c912d.jpeg",
+              "RightPalm90M_3_11zon.jpeg": "embedded\u002Fb9e6ba2ba0d302fba0e941dcfe21ff3e2405dce42781cb41191be5eb26cd9c71.jpeg",
+              "RightPalm180_1_11zon.jpeg": "embedded\u002F86f28af0f33d4abce861d305ec47db6eae379040884da50bd32cf9211b5c78d5.jpeg",
+              "LineRightPalm90L.png": "embedded\u002Fdc7522ec261847e06702dca3a70bf0a679ff6a47ba4efbafe0cc1bb74aef9571.png",
+              "LineRightPalm180.png": "embedded\u002F48e833d5b2f8dd033201ce27de499a70ca72091bb409c4860d6685f11ee0c23f.png",
+              "LineRightPalm90M.png": "embedded\u002F6356bbf2d7fea17519b6f3ee0ef2edc4bddbe49874ba3738329c865de0bdd711.png",
+              "LineRightback90L.png": "embedded\u002F5f4fb123a70d87e6559787f8863eb974026ac95f9f2d0772ed1a0129f73b4d65.png",
+              "LineRightback180.png": "embedded\u002F67850fc7ba947ed01659d03fc91abff7cd0be62af23882f9b0c5c515ff9549db.png",
+              "LineRightback90M.png": "embedded\u002F5932055cbca408ea3ab1f29721c6fa5afe5f12efc25e83f44bcc0f023fe8b6ef.png",
+              "LineLeftPalm180.png": "embedded\u002F6c5449ed018f4db7fea30e1e773ff268d4edaec6dfd31cce36f1b55bb405fccf.png",
+              "LineLeftPalm90L.png": "embedded\u002Fb10fd6539ccf838191fbae39f800d043ca7d8b5c71720904051610cdd6297235.png",
+              "LineLeftPalm90M.png": "embedded\u002Fcfed6a9c294d59b7d29c61135e83b5c9cc88c8a04ed705470c8abbb80b958ab3.png",
+              "LineLeftBack90M.png": "embedded\u002F9fe6196c4cb27e2516d3e391406ed04383b7eb5ae646e05bb30cad32bdb459dc.png",
+              "LineLeftBack90L.png": "embedded\u002F1e82a17a7776b4f9bab787d78ed372f7c4fdac2f9b0949b32b3ee6fd8a0b3f11.png",
+              "LineLeftBack180.png": "embedded\u002Fecff3f64162fef0c3a5f1f6591b5da616b556a361b9217d385d61a955ca685e4.png",
+              "LineRightback0.png": "embedded\u002F7e65be29cfd21158f5fc3f927e52ed8cbdd255c31047a68a93016e27a50f4e99.png",
+              "LineLeftBack0.png": "embedded\u002F94fef8be121cf1008ab8d1d525f1cb876ad5182cfee4a894a5bb4a8d3636006a.png",
+              "LineRightPalm0.png": "embedded\u002F38da56700193e5e6908a3be0bce9d30afca7fa4a987dc700e68fe0af610aa82e.png",
+              "LineLeftPalm0.png": "embedded\u002F5a141b870973bb6247061a171008cc35c3c235ab999cacaf93debf9ef4228dcf.png"
+            },
+            "responses": {
+              "keypress(k)": "Right",
+              "keypress(a)": "Left"
+            },
+            "parameters": {},
+            "messageHandlers": {
+              "before:prepare": function anonymous(
+) {
+this.options.viewport = ["parameters.H","parameters.V"]
+this.options.viewportScale = 1
+
+
+
+
+}
+            },
+            "title": "Stimulus Presentation "
+          }
+        ]
+      }
+    },
+    {
+      "type": "lab.html.Page",
+      "items": [
+        {
+          "type": "text",
+          "title": "Block 3-A complete",
+          "content": "Please inform the experimenter that you have completed the third experimental block."
+        }
+      ],
+      "scrollTop": true,
+      "submitButtonText": "Continue →",
+      "submitButtonPosition": "right",
+      "files": {},
+      "responses": {
+        "": ""
+      },
+      "parameters": {},
+      "messageHandlers": {
+        "run": function anonymous(
+) {
+document.body.style.backgroundColor = "white";
+}
+      },
+      "title": "Block 3-A complete"
+    },
+    {
+      "type": "lab.html.Page",
+      "items": [
+        {
+          "required": true,
+          "type": "text",
+          "title": "Phase 3-B"
+        },
+        {
+          "type": "text",
+          "title": "Instructions:",
+          "content": ""
+        },
+        {
+          "required": true,
+          "type": "html",
+          "content": "We will now continue with the \u003Cb\u003E\u003Cspan style=\"color: red;\"\u003Eexperimental phase.\u003C\u002Fspan\u003E\u003C\u002Fb\u003E In this phase, you will be presented with hand images in different orientations. Please refrain from physically moving your hands, and instead use your mental abilities to rotate your hands. ",
+          "name": ""
+        },
+        {
+          "required": true,
+          "type": "text",
+          "title": "Your task is to :",
+          "content": "1. Please step on the \u003Cb\u003E\u003Cspan style=\"color: red;\"\u003E'left'\u003C\u002Fspan\u003E\u003C\u002Fb\u003E foot pedal for a \u003Cb\u003E\u003Cspan style=\"color: red;\"\u003Eleft\u003C\u002Fspan\u003E\u003C\u002Fb\u003E hand-stimulus and the \u003Cb\u003E\u003Cspan style=\"color: red;\"\u003E'right'\u003C\u002Fspan\u003E\u003C\u002Fb\u003E foot pedal for a \u003Cb\u003E\u003Cspan style=\"color: red;\"\u003Eright\u003C\u002Fspan\u003E\u003C\u002Fb\u003E hand-stimulus.\n"
+        },
+        {
+          "required": true,
+          "type": "image",
+          "src": "${ this.files[\"Screenshot 2024-07-16 at 12.04.50 PM.png\"] }",
+          "name": ""
+        },
+        {
+          "required": true,
+          "type": "text",
+          "content": "2. Respond as quickly and accurately as possible."
+        },
+        {
+          "required": true,
+          "type": "text",
+          "content": "3. Click 'continue' when you are ready to proceed. "
+        }
+      ],
+      "scrollTop": true,
+      "submitButtonText": "Continue →",
+      "submitButtonPosition": "right",
+      "files": {
+        "Screenshot 2024-07-16 at 12.04.50 PM.png": "embedded\u002F49e340eb188c832f74dbf98e612eb35be436052c257d6bed97bd55e36ac9803c.png"
+      },
+      "responses": {
+        "": ""
+      },
+      "parameters": {},
+      "messageHandlers": {
+        "run": function anonymous(
+) {
+document.body.style.backgroundColor = "white";
+
+}
+      },
+      "title": "Experimental phase 3B"
+    },
+    {
+      "type": "lab.flow.Loop",
+      "templateParameters": [
+        {
+          "Photo": "LeftBack0_13_11zon.jpeg",
+          "H": "720",
+          "V": "960",
+          "D": "-100",
+          "R": "-100",
+          "A": "",
+          "ImageName": "LeftBack0"
+        },
+        {
+          "Photo": "LeftBack180_9_11zon.jpeg",
+          "H": "720",
+          "V": "960",
+          "D": "150",
+          "R": "50",
+          "A": "",
+          "ImageName": "LeftBack180"
+        },
+        {
+          "Photo": "Leftpalm0_14_11zon.jpeg",
+          "H": "720",
+          "V": "960",
+          "D": "-100",
+          "R": "0",
+          "A": "",
+          "ImageName": "Leftpalm0"
+        },
+        {
+          "Photo": "Leftpalm180_4_11zon.jpeg",
+          "H": "720",
+          "V": "960",
+          "D": "150",
+          "R": "0",
+          "A": "",
+          "ImageName": "Leftpalm180"
+        },
+        {
+          "Photo": "Rightback0_15_11zon.jpeg",
+          "H": "720",
+          "V": "960",
+          "D": "-100",
+          "R": "100",
+          "A": "",
+          "ImageName": "Rightback0"
+        },
+        {
+          "Photo": "Rightback180_12_11zon.jpeg",
+          "H": "720",
+          "V": "960",
+          "D": "150",
+          "R": "-100",
+          "A": "",
+          "ImageName": "Rightback180"
+        },
+        {
+          "Photo": "RightPalm0_16_11zon.jpeg",
+          "H": "720",
+          "V": "960",
+          "D": "-100",
+          "R": "0",
+          "A": "",
+          "ImageName": "RightPalm0"
+        },
+        {
+          "Photo": "RightPalm180_1_11zon.jpeg",
+          "H": "720",
+          "V": "960",
+          "D": "100",
+          "R": "0",
+          "A": "",
+          "ImageName": "RightPalm180"
+        },
+        {
+          "Photo": "LeftBack90L_8_11zon.jpeg",
+          "H": "960",
+          "V": "720",
+          "D": "50",
+          "R": "-100",
+          "A": "",
+          "ImageName": "LeftBack90L"
+        },
+        {
+          "Photo": "LeftBack90M_7_11zon.jpeg",
+          "H": "960",
+          "V": "720",
+          "D": "-50",
+          "R": "100",
+          "A": "",
+          "ImageName": "LeftBack90M"
+        },
+        {
+          "Photo": "Leftpalm90L_5_11zon.jpeg",
+          "H": "960",
+          "V": "720",
+          "D": "0",
+          "R": "-100",
+          "A": "",
+          "ImageName": "Leftpalm90L"
+        },
+        {
+          "Photo": "Leftpalm90M_6_11zon.jpeg",
+          "H": "960",
+          "V": "720",
+          "D": "0",
+          "R": "100",
+          "A": "",
+          "ImageName": "Leftpalm90M"
+        },
+        {
+          "Photo": "Rightback90L_11_11zon.jpeg",
+          "H": "960",
+          "V": "720",
+          "D": "100",
+          "R": "100",
+          "A": "",
+          "ImageName": "Rightback90L"
+        },
+        {
+          "Photo": "Rightback90M_10_11zon.jpeg",
+          "H": "960",
+          "V": "720",
+          "D": "-100",
+          "R": "-100",
+          "A": "",
+          "ImageName": "Rightback90M"
+        },
+        {
+          "Photo": "RightPalm90M_3_11zon.jpeg",
+          "H": "960",
+          "V": "720",
+          "D": "0",
+          "R": "-100",
+          "A": "",
+          "ImageName": "RightPalm90M"
+        },
+        {
+          "Photo": "RightPalm90L_2_11zon.jpeg",
+          "H": "960",
+          "V": "720",
+          "D": "0",
+          "R": "100",
+          "A": "",
+          "ImageName": "RightPalm90L"
+        }
+      ],
+      "sample": {
+        "mode": "sequential"
+      },
+      "files": {},
+      "responses": {},
+      "parameters": {},
+      "messageHandlers": {
+        "run": function anonymous(
+) {
+document.body.style.backgroundColor = "black";
+}
+      },
+      "title": "Loop",
+      "shuffleGroups": [],
+      "template": {
+        "type": "lab.flow.Sequence",
+        "files": {},
+        "responses": {
+          "keypress(k)": "right",
+          "keypress(a)": "left"
+        },
+        "parameters": {},
+        "messageHandlers": {},
+        "title": "Trail",
+        "content": [
+          {
+            "type": "lab.canvas.Screen",
+            "content": [
+              {
+                "type": "i-text",
+                "left": 0,
+                "top": 0,
+                "angle": 0,
+                "width": 524.73,
+                "height": 36.16,
+                "stroke": "#ffffff",
+                "strokeWidth": 1,
+                "fill": "#000000",
+                "text": "Press the space key to begin the trial",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+                "fontSize": 32,
+                "fontFamily": "sans-serif",
+                "lineHeight": 1.16,
+                "textAlign": "center"
+              }
+            ],
+            "viewport": [
+              800,
+              600
+            ],
+            "files": {
+              "black screen.png": "embedded\u002F4f60031584d18659923576c9a1f7b446cae3556a7eac2d5e040be236a692cdfb.png"
+            },
+            "responses": {
+              "keypress(Space)": "space"
+            },
+            "parameters": {},
+            "messageHandlers": {},
+            "title": "Next trial screen",
+            "skip": true
+          },
+          {
+            "type": "lab.canvas.Screen",
+            "content": [
+              {
+                "type": "i-text",
+                "left": 0,
+                "top": 0,
+                "angle": 0,
+                "width": 35.04,
+                "height": 67.8,
+                "stroke": "#000000",
+                "strokeWidth": 1,
+                "fill": "#ffffff",
+                "text": "+",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+                "fontSize": "60",
+                "fontFamily": "sans-serif",
+                "lineHeight": 1.16,
+                "textAlign": "center"
+              }
+            ],
+            "viewport": [
+              800,
+              600
+            ],
+            "files": {},
+            "responses": {
+              "": ""
+            },
+            "parameters": {},
+            "messageHandlers": {},
+            "title": "Fixation cross",
+            "timeout": "1500"
+          },
+          {
+            "type": "lab.canvas.Screen",
+            "content": [
+              {
+                "type": "image",
+                "left": "${this.parameters.R}",
+                "top": "${this.parameters.D}",
+                "angle": "${this.parameters.A}",
+                "width": "${this.parameters.H}",
+                "height": "${this.parameters.V}",
+                "stroke": null,
+                "strokeWidth": 0,
+                "fill": "black",
+                "src": "${this.files[this.parameters.Photo]}"
+              }
+            ],
+            "viewport": [
+              800,
+              600
+            ],
+            "files": {
+              "LeftBack0_13_11zon.jpeg": "embedded\u002Fc01ae650201d30c61ef5917073b3db1bfb7e90843b024b9c44e84bd912b3a7de.jpeg",
+              "LeftBack90L_8_11zon.jpeg": "embedded\u002Fde4c0ac0b7e0ba689907a469e98d12c131bc88a8e163740d45320a3a028552bf.jpeg",
+              "LeftBack90M_7_11zon.jpeg": "embedded\u002F614470bfa47db0a003ba271a57b45ce14a5dde9da0ef44f31ecfb93238b29a13.jpeg",
+              "LeftBack180_9_11zon.jpeg": "embedded\u002Fb2c4eb982a0bfe139af1aa23d4f9e237f8b7649e96e705ef29ee406bb830e8fc.jpeg",
+              "Leftpalm0_14_11zon.jpeg": "embedded\u002Fc24fc2f85a1ea774aab3b46952f5a76a7b2607a996e6e6c526ca6eaa5439cddb.jpeg",
+              "Leftpalm90L_5_11zon.jpeg": "embedded\u002F48b75f6749dca5ae3b6d2b355e3334a5b950843cd6dc1beda7544b13c5cb2fd8.jpeg",
+              "Leftpalm90M_6_11zon.jpeg": "embedded\u002F79a71f3ee45aeb184b3bc523ac45a0b3beaa51f2b90f13c6bbe0d91ed3c9ff82.jpeg",
+              "Leftpalm180_4_11zon.jpeg": "embedded\u002F2fc87caa787fafcec47d35c570349cf05ab9069fbc8a20fc8697abee00f8bac3.jpeg",
+              "Rightback0_15_11zon.jpeg": "embedded\u002F2ee2a7712b81be820610bbe64bf8d0889d814157d058353868984bfec35b0a4c.jpeg",
+              "Rightback90L_11_11zon.jpeg": "embedded\u002F0854f5d521b7e139f038136989ae30f25d62e54aa57400f890b988373da11d12.jpeg",
+              "Rightback90M_10_11zon.jpeg": "embedded\u002Ff92b5c8724bb6648a65647898b9cd40f65af117f0474ce8fa7cc586df9a7cb4d.jpeg",
+              "Rightback180_12_11zon.jpeg": "embedded\u002Faddfc8397ae6891c1a36c7de3e992174e04f7b58366aec0eca6b6e63948880c1.jpeg",
+              "RightPalm0_16_11zon.jpeg": "embedded\u002F3d54f383030bd785aae08a6eca81109ec812e2f8a8253e8b91648a0840307c24.jpeg",
+              "RightPalm90L_2_11zon.jpeg": "embedded\u002Fa098dd626d29c44e9b87458183f5044392998e00ff5876f87ebf717ecf2c912d.jpeg",
+              "RightPalm90M_3_11zon.jpeg": "embedded\u002Fb9e6ba2ba0d302fba0e941dcfe21ff3e2405dce42781cb41191be5eb26cd9c71.jpeg",
+              "RightPalm180_1_11zon.jpeg": "embedded\u002F86f28af0f33d4abce861d305ec47db6eae379040884da50bd32cf9211b5c78d5.jpeg",
+              "LineRightPalm90L.png": "embedded\u002Fdc7522ec261847e06702dca3a70bf0a679ff6a47ba4efbafe0cc1bb74aef9571.png",
+              "LineRightPalm180.png": "embedded\u002F48e833d5b2f8dd033201ce27de499a70ca72091bb409c4860d6685f11ee0c23f.png",
+              "LineRightPalm90M.png": "embedded\u002F6356bbf2d7fea17519b6f3ee0ef2edc4bddbe49874ba3738329c865de0bdd711.png",
+              "LineRightback90L.png": "embedded\u002F5f4fb123a70d87e6559787f8863eb974026ac95f9f2d0772ed1a0129f73b4d65.png",
+              "LineRightback180.png": "embedded\u002F67850fc7ba947ed01659d03fc91abff7cd0be62af23882f9b0c5c515ff9549db.png",
+              "LineRightback90M.png": "embedded\u002F5932055cbca408ea3ab1f29721c6fa5afe5f12efc25e83f44bcc0f023fe8b6ef.png",
+              "LineLeftPalm180.png": "embedded\u002F6c5449ed018f4db7fea30e1e773ff268d4edaec6dfd31cce36f1b55bb405fccf.png",
+              "LineLeftPalm90L.png": "embedded\u002Fb10fd6539ccf838191fbae39f800d043ca7d8b5c71720904051610cdd6297235.png",
+              "LineLeftPalm90M.png": "embedded\u002Fcfed6a9c294d59b7d29c61135e83b5c9cc88c8a04ed705470c8abbb80b958ab3.png",
+              "LineLeftBack90M.png": "embedded\u002F9fe6196c4cb27e2516d3e391406ed04383b7eb5ae646e05bb30cad32bdb459dc.png",
+              "LineLeftBack90L.png": "embedded\u002F1e82a17a7776b4f9bab787d78ed372f7c4fdac2f9b0949b32b3ee6fd8a0b3f11.png",
+              "LineLeftBack180.png": "embedded\u002Fecff3f64162fef0c3a5f1f6591b5da616b556a361b9217d385d61a955ca685e4.png",
+              "LineRightback0.png": "embedded\u002F7e65be29cfd21158f5fc3f927e52ed8cbdd255c31047a68a93016e27a50f4e99.png",
+              "LineLeftBack0.png": "embedded\u002F94fef8be121cf1008ab8d1d525f1cb876ad5182cfee4a894a5bb4a8d3636006a.png",
+              "LineRightPalm0.png": "embedded\u002F38da56700193e5e6908a3be0bce9d30afca7fa4a987dc700e68fe0af610aa82e.png",
+              "LineLeftPalm0.png": "embedded\u002F5a141b870973bb6247061a171008cc35c3c235ab999cacaf93debf9ef4228dcf.png"
+            },
+            "responses": {
+              "keypress(k)": "Right",
+              "keypress(a)": "Left"
+            },
+            "parameters": {},
+            "messageHandlers": {
+              "before:prepare": function anonymous(
+) {
+this.options.viewport = ["parameters.H","parameters.V"]
+this.options.viewportScale = 1
+
+
+
+
+}
+            },
+            "title": "Stimulus Presentation "
+          }
+        ]
+      }
+    },
+    {
+      "type": "lab.html.Page",
+      "items": [
+        {
+          "type": "text",
+          "title": "Block 3-B complete",
+          "content": "Please inform the experimenter that you have completed the third experimental block."
+        }
+      ],
+      "scrollTop": true,
+      "submitButtonText": "Continue →",
+      "submitButtonPosition": "right",
+      "files": {},
+      "responses": {
+        "": ""
+      },
+      "parameters": {},
+      "messageHandlers": {
+        "run": function anonymous(
+) {
+document.body.style.backgroundColor = "white";
+}
+      },
+      "title": "Block 3-B complete"
+    },
+    {
+      "type": "lab.html.Page",
+      "items": [
+        {
+          "required": true,
+          "type": "text",
+          "title": "Phase 3-C"
+        },
+        {
+          "type": "text",
+          "title": "Instructions:",
+          "content": ""
+        },
+        {
+          "required": true,
+          "type": "html",
+          "content": "We will now continue with the \u003Cb\u003E\u003Cspan style=\"color: red;\"\u003Eexperimental phase.\u003C\u002Fspan\u003E\u003C\u002Fb\u003E In this phase, you will be presented with hand images in different orientations. Please refrain from physically moving your hands, and instead use your mental abilities to rotate your hands. ",
+          "name": ""
+        },
+        {
+          "required": true,
+          "type": "text",
+          "title": "Your task is to :",
+          "content": "1. Please step on the \u003Cb\u003E\u003Cspan style=\"color: red;\"\u003E'left'\u003C\u002Fspan\u003E\u003C\u002Fb\u003E foot pedal for a \u003Cb\u003E\u003Cspan style=\"color: red;\"\u003Eleft\u003C\u002Fspan\u003E\u003C\u002Fb\u003E hand-stimulus and the \u003Cb\u003E\u003Cspan style=\"color: red;\"\u003E'right'\u003C\u002Fspan\u003E\u003C\u002Fb\u003E foot pedal for a \u003Cb\u003E\u003Cspan style=\"color: red;\"\u003Eright\u003C\u002Fspan\u003E\u003C\u002Fb\u003E hand-stimulus.\n"
+        },
+        {
+          "required": true,
+          "type": "image",
+          "src": "${ this.files[\"Screenshot 2024-07-16 at 12.04.50 PM.png\"] }",
+          "name": ""
+        },
+        {
+          "required": true,
+          "type": "text",
+          "content": "2. Respond as quickly and accurately as possible."
+        },
+        {
+          "required": true,
+          "type": "text",
+          "content": "3. Click 'continue' when you are ready to proceed. "
+        }
+      ],
+      "scrollTop": true,
+      "submitButtonText": "Continue →",
+      "submitButtonPosition": "right",
+      "files": {
+        "Screenshot 2024-07-16 at 12.04.50 PM.png": "embedded\u002F49e340eb188c832f74dbf98e612eb35be436052c257d6bed97bd55e36ac9803c.png"
+      },
+      "responses": {
+        "": ""
+      },
+      "parameters": {},
+      "messageHandlers": {
+        "run": function anonymous(
+) {
+document.body.style.backgroundColor = "white";
+
+}
+      },
+      "title": "Experimental phase 3C"
+    },
+    {
+      "type": "lab.flow.Loop",
+      "templateParameters": [
+        {
+          "Photo": "LeftBack0_13_11zon.jpeg",
+          "H": "720",
+          "V": "960",
+          "D": "-100",
+          "R": "-100",
+          "A": "",
+          "ImageName": "LeftBack0"
+        },
+        {
+          "Photo": "LeftBack180_9_11zon.jpeg",
+          "H": "720",
+          "V": "960",
+          "D": "150",
+          "R": "50",
+          "A": "",
+          "ImageName": "LeftBack180"
+        },
+        {
+          "Photo": "Leftpalm0_14_11zon.jpeg",
+          "H": "720",
+          "V": "960",
+          "D": "-100",
+          "R": "0",
+          "A": "",
+          "ImageName": "Leftpalm0"
+        },
+        {
+          "Photo": "Leftpalm180_4_11zon.jpeg",
+          "H": "720",
+          "V": "960",
+          "D": "150",
+          "R": "0",
+          "A": "",
+          "ImageName": "Leftpalm180"
+        },
+        {
+          "Photo": "Rightback0_15_11zon.jpeg",
+          "H": "720",
+          "V": "960",
+          "D": "-100",
+          "R": "100",
+          "A": "",
+          "ImageName": "Rightback0"
+        },
+        {
+          "Photo": "Rightback180_12_11zon.jpeg",
+          "H": "720",
+          "V": "960",
+          "D": "150",
+          "R": "-100",
+          "A": "",
+          "ImageName": "Rightback180"
+        },
+        {
+          "Photo": "RightPalm0_16_11zon.jpeg",
+          "H": "720",
+          "V": "960",
+          "D": "-100",
+          "R": "0",
+          "A": "",
+          "ImageName": "RightPalm0"
+        },
+        {
+          "Photo": "RightPalm180_1_11zon.jpeg",
+          "H": "720",
+          "V": "960",
+          "D": "100",
+          "R": "0",
+          "A": "",
+          "ImageName": "RightPalm180"
+        },
+        {
+          "Photo": "LeftBack90L_8_11zon.jpeg",
+          "H": "960",
+          "V": "720",
+          "D": "50",
+          "R": "-100",
+          "A": "",
+          "ImageName": "LeftBack90L"
+        },
+        {
+          "Photo": "LeftBack90M_7_11zon.jpeg",
+          "H": "960",
+          "V": "720",
+          "D": "-50",
+          "R": "100",
+          "A": "",
+          "ImageName": "LeftBack90M"
+        },
+        {
+          "Photo": "Leftpalm90L_5_11zon.jpeg",
+          "H": "960",
+          "V": "720",
+          "D": "0",
+          "R": "-100",
+          "A": "",
+          "ImageName": "Leftpalm90L"
+        },
+        {
+          "Photo": "Leftpalm90M_6_11zon.jpeg",
+          "H": "960",
+          "V": "720",
+          "D": "0",
+          "R": "100",
+          "A": "",
+          "ImageName": "Leftpalm90M"
+        },
+        {
+          "Photo": "Rightback90L_11_11zon.jpeg",
+          "H": "960",
+          "V": "720",
+          "D": "100",
+          "R": "100",
+          "A": "",
+          "ImageName": "Rightback90L"
+        },
+        {
+          "Photo": "Rightback90M_10_11zon.jpeg",
+          "H": "960",
+          "V": "720",
+          "D": "-100",
+          "R": "-100",
+          "A": "",
+          "ImageName": "Rightback90M"
+        },
+        {
+          "Photo": "RightPalm90M_3_11zon.jpeg",
+          "H": "960",
+          "V": "720",
+          "D": "0",
+          "R": "-100",
+          "A": "",
+          "ImageName": "RightPalm90M"
+        },
+        {
+          "Photo": "RightPalm90L_2_11zon.jpeg",
+          "H": "960",
+          "V": "720",
+          "D": "0",
+          "R": "100",
+          "A": "",
+          "ImageName": "RightPalm90L"
+        }
+      ],
+      "sample": {
+        "mode": "sequential"
+      },
+      "files": {},
+      "responses": {},
+      "parameters": {},
+      "messageHandlers": {
+        "run": function anonymous(
+) {
+document.body.style.backgroundColor = "black";
+}
+      },
+      "title": "Loop",
+      "shuffleGroups": [],
+      "template": {
+        "type": "lab.flow.Sequence",
+        "files": {},
+        "responses": {
+          "keypress(k)": "right",
+          "keypress(a)": "left"
+        },
+        "parameters": {},
+        "messageHandlers": {},
+        "title": "Trail",
+        "content": [
+          {
+            "type": "lab.canvas.Screen",
+            "content": [
+              {
+                "type": "i-text",
+                "left": 0,
+                "top": 0,
+                "angle": 0,
+                "width": 524.73,
+                "height": 36.16,
+                "stroke": "#ffffff",
+                "strokeWidth": 1,
+                "fill": "#000000",
+                "text": "Press the space key to begin the trial",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+                "fontSize": 32,
+                "fontFamily": "sans-serif",
+                "lineHeight": 1.16,
+                "textAlign": "center"
+              }
+            ],
+            "viewport": [
+              800,
+              600
+            ],
+            "files": {
+              "black screen.png": "embedded\u002F4f60031584d18659923576c9a1f7b446cae3556a7eac2d5e040be236a692cdfb.png"
+            },
+            "responses": {
+              "keypress(Space)": "space"
+            },
+            "parameters": {},
+            "messageHandlers": {},
+            "title": "Next trial screen",
+            "skip": true
+          },
+          {
+            "type": "lab.canvas.Screen",
+            "content": [
+              {
+                "type": "i-text",
+                "left": 0,
+                "top": 0,
+                "angle": 0,
+                "width": 35.04,
+                "height": 67.8,
+                "stroke": "#000000",
+                "strokeWidth": 1,
+                "fill": "#ffffff",
+                "text": "+",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+                "fontSize": "60",
+                "fontFamily": "sans-serif",
+                "lineHeight": 1.16,
+                "textAlign": "center"
+              }
+            ],
+            "viewport": [
+              800,
+              600
+            ],
+            "files": {},
+            "responses": {
+              "": ""
+            },
+            "parameters": {},
+            "messageHandlers": {},
+            "title": "Fixation cross",
+            "timeout": "1500"
+          },
+          {
+            "type": "lab.canvas.Screen",
+            "content": [
+              {
+                "type": "image",
+                "left": "${this.parameters.R}",
+                "top": "${this.parameters.D}",
+                "angle": "${this.parameters.A}",
+                "width": "${this.parameters.H}",
+                "height": "${this.parameters.V}",
+                "stroke": null,
+                "strokeWidth": 0,
+                "fill": "black",
+                "src": "${this.files[this.parameters.Photo]}"
+              }
+            ],
+            "viewport": [
+              800,
+              600
+            ],
+            "files": {
+              "LeftBack0_13_11zon.jpeg": "embedded\u002Fc01ae650201d30c61ef5917073b3db1bfb7e90843b024b9c44e84bd912b3a7de.jpeg",
+              "LeftBack90L_8_11zon.jpeg": "embedded\u002Fde4c0ac0b7e0ba689907a469e98d12c131bc88a8e163740d45320a3a028552bf.jpeg",
+              "LeftBack90M_7_11zon.jpeg": "embedded\u002F614470bfa47db0a003ba271a57b45ce14a5dde9da0ef44f31ecfb93238b29a13.jpeg",
+              "LeftBack180_9_11zon.jpeg": "embedded\u002Fb2c4eb982a0bfe139af1aa23d4f9e237f8b7649e96e705ef29ee406bb830e8fc.jpeg",
+              "Leftpalm0_14_11zon.jpeg": "embedded\u002Fc24fc2f85a1ea774aab3b46952f5a76a7b2607a996e6e6c526ca6eaa5439cddb.jpeg",
+              "Leftpalm90L_5_11zon.jpeg": "embedded\u002F48b75f6749dca5ae3b6d2b355e3334a5b950843cd6dc1beda7544b13c5cb2fd8.jpeg",
+              "Leftpalm90M_6_11zon.jpeg": "embedded\u002F79a71f3ee45aeb184b3bc523ac45a0b3beaa51f2b90f13c6bbe0d91ed3c9ff82.jpeg",
+              "Leftpalm180_4_11zon.jpeg": "embedded\u002F2fc87caa787fafcec47d35c570349cf05ab9069fbc8a20fc8697abee00f8bac3.jpeg",
+              "Rightback0_15_11zon.jpeg": "embedded\u002F2ee2a7712b81be820610bbe64bf8d0889d814157d058353868984bfec35b0a4c.jpeg",
+              "Rightback90L_11_11zon.jpeg": "embedded\u002F0854f5d521b7e139f038136989ae30f25d62e54aa57400f890b988373da11d12.jpeg",
+              "Rightback90M_10_11zon.jpeg": "embedded\u002Ff92b5c8724bb6648a65647898b9cd40f65af117f0474ce8fa7cc586df9a7cb4d.jpeg",
+              "Rightback180_12_11zon.jpeg": "embedded\u002Faddfc8397ae6891c1a36c7de3e992174e04f7b58366aec0eca6b6e63948880c1.jpeg",
+              "RightPalm0_16_11zon.jpeg": "embedded\u002F3d54f383030bd785aae08a6eca81109ec812e2f8a8253e8b91648a0840307c24.jpeg",
+              "RightPalm90L_2_11zon.jpeg": "embedded\u002Fa098dd626d29c44e9b87458183f5044392998e00ff5876f87ebf717ecf2c912d.jpeg",
+              "RightPalm90M_3_11zon.jpeg": "embedded\u002Fb9e6ba2ba0d302fba0e941dcfe21ff3e2405dce42781cb41191be5eb26cd9c71.jpeg",
+              "RightPalm180_1_11zon.jpeg": "embedded\u002F86f28af0f33d4abce861d305ec47db6eae379040884da50bd32cf9211b5c78d5.jpeg",
+              "LineRightPalm90L.png": "embedded\u002Fdc7522ec261847e06702dca3a70bf0a679ff6a47ba4efbafe0cc1bb74aef9571.png",
+              "LineRightPalm180.png": "embedded\u002F48e833d5b2f8dd033201ce27de499a70ca72091bb409c4860d6685f11ee0c23f.png",
+              "LineRightPalm90M.png": "embedded\u002F6356bbf2d7fea17519b6f3ee0ef2edc4bddbe49874ba3738329c865de0bdd711.png",
+              "LineRightback90L.png": "embedded\u002F5f4fb123a70d87e6559787f8863eb974026ac95f9f2d0772ed1a0129f73b4d65.png",
+              "LineRightback180.png": "embedded\u002F67850fc7ba947ed01659d03fc91abff7cd0be62af23882f9b0c5c515ff9549db.png",
+              "LineRightback90M.png": "embedded\u002F5932055cbca408ea3ab1f29721c6fa5afe5f12efc25e83f44bcc0f023fe8b6ef.png",
+              "LineLeftPalm180.png": "embedded\u002F6c5449ed018f4db7fea30e1e773ff268d4edaec6dfd31cce36f1b55bb405fccf.png",
+              "LineLeftPalm90L.png": "embedded\u002Fb10fd6539ccf838191fbae39f800d043ca7d8b5c71720904051610cdd6297235.png",
+              "LineLeftPalm90M.png": "embedded\u002Fcfed6a9c294d59b7d29c61135e83b5c9cc88c8a04ed705470c8abbb80b958ab3.png",
+              "LineLeftBack90M.png": "embedded\u002F9fe6196c4cb27e2516d3e391406ed04383b7eb5ae646e05bb30cad32bdb459dc.png",
+              "LineLeftBack90L.png": "embedded\u002F1e82a17a7776b4f9bab787d78ed372f7c4fdac2f9b0949b32b3ee6fd8a0b3f11.png",
+              "LineLeftBack180.png": "embedded\u002Fecff3f64162fef0c3a5f1f6591b5da616b556a361b9217d385d61a955ca685e4.png",
+              "LineRightback0.png": "embedded\u002F7e65be29cfd21158f5fc3f927e52ed8cbdd255c31047a68a93016e27a50f4e99.png",
+              "LineLeftBack0.png": "embedded\u002F94fef8be121cf1008ab8d1d525f1cb876ad5182cfee4a894a5bb4a8d3636006a.png",
+              "LineRightPalm0.png": "embedded\u002F38da56700193e5e6908a3be0bce9d30afca7fa4a987dc700e68fe0af610aa82e.png",
+              "LineLeftPalm0.png": "embedded\u002F5a141b870973bb6247061a171008cc35c3c235ab999cacaf93debf9ef4228dcf.png"
+            },
+            "responses": {
+              "keypress(k)": "Right",
+              "keypress(a)": "Left"
+            },
+            "parameters": {},
+            "messageHandlers": {
+              "before:prepare": function anonymous(
+) {
+this.options.viewport = ["parameters.H","parameters.V"]
+this.options.viewportScale = 1
+
+
+
+
+}
+            },
+            "title": "Stimulus Presentation "
+          }
+        ]
+      }
+    },
+    {
+      "type": "lab.html.Page",
+      "items": [
+        {
+          "type": "text",
+          "title": "Block 3-C complete",
+          "content": "Please inform the experimenter that you have completed the third experimental block."
+        }
+      ],
+      "scrollTop": true,
+      "submitButtonText": "Continue →",
+      "submitButtonPosition": "right",
+      "files": {},
+      "responses": {
+        "": ""
+      },
+      "parameters": {},
+      "messageHandlers": {
+        "run": function anonymous(
+) {
+document.body.style.backgroundColor = "white";
+}
+      },
+      "title": "Block 3-C complete"
+    },
+    {
+      "type": "lab.html.Page",
+      "items": [
+        {
+          "required": true,
+          "type": "text",
+          "title": "Phase 3-D"
+        },
+        {
+          "type": "text",
+          "title": "Instructions:",
+          "content": ""
+        },
+        {
+          "required": true,
+          "type": "html",
+          "content": "We will now continue with the \u003Cb\u003E\u003Cspan style=\"color: red;\"\u003Eexperimental phase.\u003C\u002Fspan\u003E\u003C\u002Fb\u003E In this phase, you will be presented with hand images in different orientations. Please refrain from physically moving your hands, and instead use your mental abilities to rotate your hands. ",
+          "name": ""
+        },
+        {
+          "required": true,
+          "type": "text",
+          "title": "Your task is to :",
+          "content": "1. Please step on the \u003Cb\u003E\u003Cspan style=\"color: red;\"\u003E'left'\u003C\u002Fspan\u003E\u003C\u002Fb\u003E foot pedal for a \u003Cb\u003E\u003Cspan style=\"color: red;\"\u003Eleft\u003C\u002Fspan\u003E\u003C\u002Fb\u003E hand-stimulus and the \u003Cb\u003E\u003Cspan style=\"color: red;\"\u003E'right'\u003C\u002Fspan\u003E\u003C\u002Fb\u003E foot pedal for a \u003Cb\u003E\u003Cspan style=\"color: red;\"\u003Eright\u003C\u002Fspan\u003E\u003C\u002Fb\u003E hand-stimulus.\n"
+        },
+        {
+          "required": true,
+          "type": "image",
+          "src": "${ this.files[\"Screenshot 2024-07-16 at 12.04.50 PM.png\"] }",
+          "name": ""
+        },
+        {
+          "required": true,
+          "type": "text",
+          "content": "2. Respond as quickly and accurately as possible."
+        },
+        {
+          "required": true,
+          "type": "text",
+          "content": "3. Click 'continue' when you are ready to proceed. "
+        }
+      ],
+      "scrollTop": true,
+      "submitButtonText": "Continue →",
+      "submitButtonPosition": "right",
+      "files": {
+        "Screenshot 2024-07-16 at 12.04.50 PM.png": "embedded\u002F49e340eb188c832f74dbf98e612eb35be436052c257d6bed97bd55e36ac9803c.png"
+      },
+      "responses": {
+        "": ""
+      },
+      "parameters": {},
+      "messageHandlers": {
+        "run": function anonymous(
+) {
+document.body.style.backgroundColor = "white";
+
+}
+      },
+      "title": "Experimental phase 3D"
+    },
+    {
+      "type": "lab.flow.Loop",
+      "templateParameters": [
+        {
+          "Photo": "LeftBack0_13_11zon.jpeg",
+          "H": "720",
+          "V": "960",
+          "D": "-100",
+          "R": "-100",
+          "A": "",
+          "ImageName": "LeftBack0"
+        },
+        {
+          "Photo": "LeftBack180_9_11zon.jpeg",
+          "H": "720",
+          "V": "960",
+          "D": "150",
+          "R": "50",
+          "A": "",
+          "ImageName": "LeftBack180"
+        },
+        {
+          "Photo": "Leftpalm0_14_11zon.jpeg",
+          "H": "720",
+          "V": "960",
+          "D": "-100",
+          "R": "0",
+          "A": "",
+          "ImageName": "Leftpalm0"
+        },
+        {
+          "Photo": "Leftpalm180_4_11zon.jpeg",
+          "H": "720",
+          "V": "960",
+          "D": "150",
+          "R": "0",
+          "A": "",
+          "ImageName": "Leftpalm180"
+        },
+        {
+          "Photo": "Rightback0_15_11zon.jpeg",
+          "H": "720",
+          "V": "960",
+          "D": "-100",
+          "R": "100",
+          "A": "",
+          "ImageName": "Rightback0"
+        },
+        {
+          "Photo": "Rightback180_12_11zon.jpeg",
+          "H": "720",
+          "V": "960",
+          "D": "150",
+          "R": "-100",
+          "A": "",
+          "ImageName": "Rightback180"
+        },
+        {
+          "Photo": "RightPalm0_16_11zon.jpeg",
+          "H": "720",
+          "V": "960",
+          "D": "-100",
+          "R": "0",
+          "A": "",
+          "ImageName": "RightPalm0"
+        },
+        {
+          "Photo": "RightPalm180_1_11zon.jpeg",
+          "H": "720",
+          "V": "960",
+          "D": "100",
+          "R": "0",
+          "A": "",
+          "ImageName": "RightPalm180"
+        },
+        {
+          "Photo": "LeftBack90L_8_11zon.jpeg",
+          "H": "960",
+          "V": "720",
+          "D": "50",
+          "R": "-100",
+          "A": "",
+          "ImageName": "LeftBack90L"
+        },
+        {
+          "Photo": "LeftBack90M_7_11zon.jpeg",
+          "H": "960",
+          "V": "720",
+          "D": "-50",
+          "R": "100",
+          "A": "",
+          "ImageName": "LeftBack90M"
+        },
+        {
+          "Photo": "Leftpalm90L_5_11zon.jpeg",
+          "H": "960",
+          "V": "720",
+          "D": "0",
+          "R": "-100",
+          "A": "",
+          "ImageName": "Leftpalm90L"
+        },
+        {
+          "Photo": "Leftpalm90M_6_11zon.jpeg",
+          "H": "960",
+          "V": "720",
+          "D": "0",
+          "R": "100",
+          "A": "",
+          "ImageName": "Leftpalm90M"
+        },
+        {
+          "Photo": "Rightback90L_11_11zon.jpeg",
+          "H": "960",
+          "V": "720",
+          "D": "100",
+          "R": "100",
+          "A": "",
+          "ImageName": "Rightback90L"
+        },
+        {
+          "Photo": "Rightback90M_10_11zon.jpeg",
+          "H": "960",
+          "V": "720",
+          "D": "-100",
+          "R": "-100",
+          "A": "",
+          "ImageName": "Rightback90M"
+        },
+        {
+          "Photo": "RightPalm90M_3_11zon.jpeg",
+          "H": "960",
+          "V": "720",
+          "D": "0",
+          "R": "-100",
+          "A": "",
+          "ImageName": "RightPalm90M"
+        },
+        {
+          "Photo": "RightPalm90L_2_11zon.jpeg",
+          "H": "960",
+          "V": "720",
+          "D": "0",
+          "R": "100",
+          "A": "",
+          "ImageName": "RightPalm90L"
+        }
+      ],
+      "sample": {
+        "mode": "sequential"
+      },
+      "files": {},
+      "responses": {},
+      "parameters": {},
+      "messageHandlers": {
+        "run": function anonymous(
+) {
+document.body.style.backgroundColor = "black";
+}
+      },
+      "title": "Loop",
+      "shuffleGroups": [],
+      "template": {
+        "type": "lab.flow.Sequence",
+        "files": {},
+        "responses": {
+          "keypress(k)": "right",
+          "keypress(a)": "left"
+        },
+        "parameters": {},
+        "messageHandlers": {},
+        "title": "Trail",
+        "content": [
+          {
+            "type": "lab.canvas.Screen",
+            "content": [
+              {
+                "type": "i-text",
+                "left": 0,
+                "top": 0,
+                "angle": 0,
+                "width": 524.73,
+                "height": 36.16,
+                "stroke": "#ffffff",
+                "strokeWidth": 1,
+                "fill": "#000000",
+                "text": "Press the space key to begin the trial",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+                "fontSize": 32,
+                "fontFamily": "sans-serif",
+                "lineHeight": 1.16,
+                "textAlign": "center"
+              }
+            ],
+            "viewport": [
+              800,
+              600
+            ],
+            "files": {
+              "black screen.png": "embedded\u002F4f60031584d18659923576c9a1f7b446cae3556a7eac2d5e040be236a692cdfb.png"
+            },
+            "responses": {
+              "keypress(Space)": "space"
+            },
+            "parameters": {},
+            "messageHandlers": {},
+            "title": "Next trial screen",
+            "skip": true
+          },
+          {
+            "type": "lab.canvas.Screen",
+            "content": [
+              {
+                "type": "i-text",
+                "left": 0,
+                "top": 0,
+                "angle": 0,
+                "width": 35.04,
+                "height": 67.8,
+                "stroke": "#000000",
+                "strokeWidth": 1,
+                "fill": "#ffffff",
+                "text": "+",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+                "fontSize": "60",
+                "fontFamily": "sans-serif",
+                "lineHeight": 1.16,
+                "textAlign": "center"
+              }
+            ],
+            "viewport": [
+              800,
+              600
+            ],
+            "files": {},
+            "responses": {
+              "": ""
+            },
+            "parameters": {},
+            "messageHandlers": {},
+            "title": "Fixation cross",
+            "timeout": "1500"
+          },
+          {
+            "type": "lab.canvas.Screen",
+            "content": [
+              {
+                "type": "image",
+                "left": "${this.parameters.R}",
+                "top": "${this.parameters.D}",
+                "angle": "${this.parameters.A}",
+                "width": "${this.parameters.H}",
+                "height": "${this.parameters.V}",
+                "stroke": null,
+                "strokeWidth": 0,
+                "fill": "black",
+                "src": "${this.files[this.parameters.Photo]}"
+              }
+            ],
+            "viewport": [
+              800,
+              600
+            ],
+            "files": {
+              "LeftBack0_13_11zon.jpeg": "embedded\u002Fc01ae650201d30c61ef5917073b3db1bfb7e90843b024b9c44e84bd912b3a7de.jpeg",
+              "LeftBack90L_8_11zon.jpeg": "embedded\u002Fde4c0ac0b7e0ba689907a469e98d12c131bc88a8e163740d45320a3a028552bf.jpeg",
+              "LeftBack90M_7_11zon.jpeg": "embedded\u002F614470bfa47db0a003ba271a57b45ce14a5dde9da0ef44f31ecfb93238b29a13.jpeg",
+              "LeftBack180_9_11zon.jpeg": "embedded\u002Fb2c4eb982a0bfe139af1aa23d4f9e237f8b7649e96e705ef29ee406bb830e8fc.jpeg",
+              "Leftpalm0_14_11zon.jpeg": "embedded\u002Fc24fc2f85a1ea774aab3b46952f5a76a7b2607a996e6e6c526ca6eaa5439cddb.jpeg",
+              "Leftpalm90L_5_11zon.jpeg": "embedded\u002F48b75f6749dca5ae3b6d2b355e3334a5b950843cd6dc1beda7544b13c5cb2fd8.jpeg",
+              "Leftpalm90M_6_11zon.jpeg": "embedded\u002F79a71f3ee45aeb184b3bc523ac45a0b3beaa51f2b90f13c6bbe0d91ed3c9ff82.jpeg",
+              "Leftpalm180_4_11zon.jpeg": "embedded\u002F2fc87caa787fafcec47d35c570349cf05ab9069fbc8a20fc8697abee00f8bac3.jpeg",
+              "Rightback0_15_11zon.jpeg": "embedded\u002F2ee2a7712b81be820610bbe64bf8d0889d814157d058353868984bfec35b0a4c.jpeg",
+              "Rightback90L_11_11zon.jpeg": "embedded\u002F0854f5d521b7e139f038136989ae30f25d62e54aa57400f890b988373da11d12.jpeg",
+              "Rightback90M_10_11zon.jpeg": "embedded\u002Ff92b5c8724bb6648a65647898b9cd40f65af117f0474ce8fa7cc586df9a7cb4d.jpeg",
+              "Rightback180_12_11zon.jpeg": "embedded\u002Faddfc8397ae6891c1a36c7de3e992174e04f7b58366aec0eca6b6e63948880c1.jpeg",
+              "RightPalm0_16_11zon.jpeg": "embedded\u002F3d54f383030bd785aae08a6eca81109ec812e2f8a8253e8b91648a0840307c24.jpeg",
+              "RightPalm90L_2_11zon.jpeg": "embedded\u002Fa098dd626d29c44e9b87458183f5044392998e00ff5876f87ebf717ecf2c912d.jpeg",
+              "RightPalm90M_3_11zon.jpeg": "embedded\u002Fb9e6ba2ba0d302fba0e941dcfe21ff3e2405dce42781cb41191be5eb26cd9c71.jpeg",
+              "RightPalm180_1_11zon.jpeg": "embedded\u002F86f28af0f33d4abce861d305ec47db6eae379040884da50bd32cf9211b5c78d5.jpeg",
+              "LineRightPalm90L.png": "embedded\u002Fdc7522ec261847e06702dca3a70bf0a679ff6a47ba4efbafe0cc1bb74aef9571.png",
+              "LineRightPalm180.png": "embedded\u002F48e833d5b2f8dd033201ce27de499a70ca72091bb409c4860d6685f11ee0c23f.png",
+              "LineRightPalm90M.png": "embedded\u002F6356bbf2d7fea17519b6f3ee0ef2edc4bddbe49874ba3738329c865de0bdd711.png",
+              "LineRightback90L.png": "embedded\u002F5f4fb123a70d87e6559787f8863eb974026ac95f9f2d0772ed1a0129f73b4d65.png",
+              "LineRightback180.png": "embedded\u002F67850fc7ba947ed01659d03fc91abff7cd0be62af23882f9b0c5c515ff9549db.png",
+              "LineRightback90M.png": "embedded\u002F5932055cbca408ea3ab1f29721c6fa5afe5f12efc25e83f44bcc0f023fe8b6ef.png",
+              "LineLeftPalm180.png": "embedded\u002F6c5449ed018f4db7fea30e1e773ff268d4edaec6dfd31cce36f1b55bb405fccf.png",
+              "LineLeftPalm90L.png": "embedded\u002Fb10fd6539ccf838191fbae39f800d043ca7d8b5c71720904051610cdd6297235.png",
+              "LineLeftPalm90M.png": "embedded\u002Fcfed6a9c294d59b7d29c61135e83b5c9cc88c8a04ed705470c8abbb80b958ab3.png",
+              "LineLeftBack90M.png": "embedded\u002F9fe6196c4cb27e2516d3e391406ed04383b7eb5ae646e05bb30cad32bdb459dc.png",
+              "LineLeftBack90L.png": "embedded\u002F1e82a17a7776b4f9bab787d78ed372f7c4fdac2f9b0949b32b3ee6fd8a0b3f11.png",
+              "LineLeftBack180.png": "embedded\u002Fecff3f64162fef0c3a5f1f6591b5da616b556a361b9217d385d61a955ca685e4.png",
+              "LineRightback0.png": "embedded\u002F7e65be29cfd21158f5fc3f927e52ed8cbdd255c31047a68a93016e27a50f4e99.png",
+              "LineLeftBack0.png": "embedded\u002F94fef8be121cf1008ab8d1d525f1cb876ad5182cfee4a894a5bb4a8d3636006a.png",
+              "LineRightPalm0.png": "embedded\u002F38da56700193e5e6908a3be0bce9d30afca7fa4a987dc700e68fe0af610aa82e.png",
+              "LineLeftPalm0.png": "embedded\u002F5a141b870973bb6247061a171008cc35c3c235ab999cacaf93debf9ef4228dcf.png"
+            },
+            "responses": {
+              "keypress(k)": "Right",
+              "keypress(a)": "Left"
+            },
+            "parameters": {},
+            "messageHandlers": {
+              "before:prepare": function anonymous(
+) {
+this.options.viewport = ["parameters.H","parameters.V"]
+this.options.viewportScale = 1
+
+
+
+
+}
+            },
+            "title": "Stimulus Presentation "
+          }
+        ]
+      }
+    },
+    {
+      "type": "lab.html.Page",
+      "items": [
+        {
+          "type": "text",
+          "title": "Block 3-D complete",
+          "content": "Please inform the experimenter that you have completed the third experimental block."
+        }
+      ],
+      "scrollTop": true,
+      "submitButtonText": "Continue →",
+      "submitButtonPosition": "right",
+      "files": {},
+      "responses": {
+        "": ""
+      },
+      "parameters": {},
+      "messageHandlers": {
+        "run": function anonymous(
+) {
+document.body.style.backgroundColor = "white";
+}
+      },
+      "title": "Block 3-D complete"
+    },
+    {
+      "type": "lab.html.Page",
+      "items": [
+        {
+          "required": true,
+          "type": "text",
+          "title": "Phase 4-A"
+        },
+        {
+          "type": "text",
+          "title": "Instructions:",
+          "content": ""
+        },
+        {
+          "required": true,
+          "type": "html",
+          "content": "We will now continue with the \u003Cb\u003E\u003Cspan style=\"color: red;\"\u003Eexperimental phase.\u003C\u002Fspan\u003E\u003C\u002Fb\u003E In this phase, you will be presented with hand images in different orientations. Please refrain from physically moving your hands, and instead use your mental abilities to rotate your hands. ",
+          "name": ""
+        },
+        {
+          "required": true,
+          "type": "text",
+          "title": "Your task is to :",
+          "content": "1. Please step on the \u003Cb\u003E\u003Cspan style=\"color: red;\"\u003E'left'\u003C\u002Fspan\u003E\u003C\u002Fb\u003E foot pedal for a \u003Cb\u003E\u003Cspan style=\"color: red;\"\u003Eleft\u003C\u002Fspan\u003E\u003C\u002Fb\u003E hand-stimulus and the \u003Cb\u003E\u003Cspan style=\"color: red;\"\u003E'right'\u003C\u002Fspan\u003E\u003C\u002Fb\u003E foot pedal for a \u003Cb\u003E\u003Cspan style=\"color: red;\"\u003Eright\u003C\u002Fspan\u003E\u003C\u002Fb\u003E hand-stimulus.\n"
+        },
+        {
+          "required": true,
+          "type": "image",
+          "src": "${ this.files[\"Screenshot 2024-07-16 at 12.04.50 PM.png\"] }",
+          "name": ""
+        },
+        {
+          "required": true,
+          "type": "text",
+          "content": "2. Respond as quickly and accurately as possible."
+        },
+        {
+          "required": true,
+          "type": "text",
+          "content": "3. Click 'continue' when you are ready to proceed. "
+        }
+      ],
+      "scrollTop": true,
+      "submitButtonText": "Continue →",
+      "submitButtonPosition": "right",
+      "files": {
+        "Screenshot 2024-07-16 at 12.04.50 PM.png": "embedded\u002F49e340eb188c832f74dbf98e612eb35be436052c257d6bed97bd55e36ac9803c.png"
+      },
+      "responses": {
+        "": ""
+      },
+      "parameters": {},
+      "messageHandlers": {
+        "run": function anonymous(
+) {
+document.body.style.backgroundColor = "white";
+
+}
+      },
+      "title": "Experimental phase 4A"
+    },
+    {
+      "type": "lab.flow.Loop",
+      "templateParameters": [
+        {
+          "Photo": "LeftBack0_13_11zon.jpeg",
+          "H": "720",
+          "V": "960",
+          "D": "-100",
+          "R": "-100",
+          "A": "",
+          "ImageName": "LeftBack0"
+        },
+        {
+          "Photo": "LeftBack180_9_11zon.jpeg",
+          "H": "720",
+          "V": "960",
+          "D": "150",
+          "R": "50",
+          "A": "",
+          "ImageName": "LeftBack180"
+        },
+        {
+          "Photo": "Leftpalm0_14_11zon.jpeg",
+          "H": "720",
+          "V": "960",
+          "D": "-100",
+          "R": "0",
+          "A": "",
+          "ImageName": "Leftpalm0"
+        },
+        {
+          "Photo": "Leftpalm180_4_11zon.jpeg",
+          "H": "720",
+          "V": "960",
+          "D": "150",
+          "R": "0",
+          "A": "",
+          "ImageName": "Leftpalm180"
+        },
+        {
+          "Photo": "Rightback0_15_11zon.jpeg",
+          "H": "720",
+          "V": "960",
+          "D": "-100",
+          "R": "100",
+          "A": "",
+          "ImageName": "Rightback0"
+        },
+        {
+          "Photo": "Rightback180_12_11zon.jpeg",
+          "H": "720",
+          "V": "960",
+          "D": "150",
+          "R": "-100",
+          "A": "",
+          "ImageName": "Rightback180"
+        },
+        {
+          "Photo": "RightPalm0_16_11zon.jpeg",
+          "H": "720",
+          "V": "960",
+          "D": "-100",
+          "R": "0",
+          "A": "",
+          "ImageName": "RightPalm0"
+        },
+        {
+          "Photo": "RightPalm180_1_11zon.jpeg",
+          "H": "720",
+          "V": "960",
+          "D": "100",
+          "R": "0",
+          "A": "",
+          "ImageName": "RightPalm180"
+        },
+        {
+          "Photo": "LeftBack90L_8_11zon.jpeg",
+          "H": "960",
+          "V": "720",
+          "D": "50",
+          "R": "-100",
+          "A": "",
+          "ImageName": "LeftBack90L"
+        },
+        {
+          "Photo": "LeftBack90M_7_11zon.jpeg",
+          "H": "960",
+          "V": "720",
+          "D": "-50",
+          "R": "100",
+          "A": "",
+          "ImageName": "LeftBack90M"
+        },
+        {
+          "Photo": "Leftpalm90L_5_11zon.jpeg",
+          "H": "960",
+          "V": "720",
+          "D": "0",
+          "R": "-100",
+          "A": "",
+          "ImageName": "Leftpalm90L"
+        },
+        {
+          "Photo": "Leftpalm90M_6_11zon.jpeg",
+          "H": "960",
+          "V": "720",
+          "D": "0",
+          "R": "100",
+          "A": "",
+          "ImageName": "Leftpalm90M"
+        },
+        {
+          "Photo": "Rightback90L_11_11zon.jpeg",
+          "H": "960",
+          "V": "720",
+          "D": "100",
+          "R": "100",
+          "A": "",
+          "ImageName": "Rightback90L"
+        },
+        {
+          "Photo": "Rightback90M_10_11zon.jpeg",
+          "H": "960",
+          "V": "720",
+          "D": "-100",
+          "R": "-100",
+          "A": "",
+          "ImageName": "Rightback90M"
+        },
+        {
+          "Photo": "RightPalm90M_3_11zon.jpeg",
+          "H": "960",
+          "V": "720",
+          "D": "0",
+          "R": "-100",
+          "A": "",
+          "ImageName": "RightPalm90M"
+        },
+        {
+          "Photo": "RightPalm90L_2_11zon.jpeg",
+          "H": "960",
+          "V": "720",
+          "D": "0",
+          "R": "100",
+          "A": "",
+          "ImageName": "RightPalm90L"
+        }
+      ],
+      "sample": {
+        "mode": "sequential"
+      },
+      "files": {},
+      "responses": {},
+      "parameters": {},
+      "messageHandlers": {
+        "run": function anonymous(
+) {
+document.body.style.backgroundColor = "black";
+}
+      },
+      "title": "Loop",
+      "shuffleGroups": [],
+      "template": {
+        "type": "lab.flow.Sequence",
+        "files": {},
+        "responses": {
+          "keypress(k)": "right",
+          "keypress(a)": "left"
+        },
+        "parameters": {},
+        "messageHandlers": {},
+        "title": "Trail",
+        "content": [
+          {
+            "type": "lab.canvas.Screen",
+            "content": [
+              {
+                "type": "i-text",
+                "left": 0,
+                "top": 0,
+                "angle": 0,
+                "width": 524.73,
+                "height": 36.16,
+                "stroke": "#ffffff",
+                "strokeWidth": 1,
+                "fill": "#000000",
+                "text": "Press the space key to begin the trial",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+                "fontSize": 32,
+                "fontFamily": "sans-serif",
+                "lineHeight": 1.16,
+                "textAlign": "center"
+              }
+            ],
+            "viewport": [
+              800,
+              600
+            ],
+            "files": {
+              "black screen.png": "embedded\u002F4f60031584d18659923576c9a1f7b446cae3556a7eac2d5e040be236a692cdfb.png"
+            },
+            "responses": {
+              "keypress(Space)": "space"
+            },
+            "parameters": {},
+            "messageHandlers": {},
+            "title": "Next trial screen",
+            "skip": true
+          },
+          {
+            "type": "lab.canvas.Screen",
+            "content": [
+              {
+                "type": "i-text",
+                "left": 0,
+                "top": 0,
+                "angle": 0,
+                "width": 35.04,
+                "height": 67.8,
+                "stroke": "#000000",
+                "strokeWidth": 1,
+                "fill": "#ffffff",
+                "text": "+",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+                "fontSize": "60",
+                "fontFamily": "sans-serif",
+                "lineHeight": 1.16,
+                "textAlign": "center"
+              }
+            ],
+            "viewport": [
+              800,
+              600
+            ],
+            "files": {},
+            "responses": {
+              "": ""
+            },
+            "parameters": {},
+            "messageHandlers": {},
+            "title": "Fixation cross",
+            "timeout": "1500"
+          },
+          {
+            "type": "lab.canvas.Screen",
+            "content": [
+              {
+                "type": "image",
+                "left": "${this.parameters.R}",
+                "top": "${this.parameters.D}",
+                "angle": "${this.parameters.A}",
+                "width": "${this.parameters.H}",
+                "height": "${this.parameters.V}",
+                "stroke": null,
+                "strokeWidth": 0,
+                "fill": "black",
+                "src": "${this.files[this.parameters.Photo]}"
+              }
+            ],
+            "viewport": [
+              800,
+              600
+            ],
+            "files": {
+              "LeftBack0_13_11zon.jpeg": "embedded\u002Fc01ae650201d30c61ef5917073b3db1bfb7e90843b024b9c44e84bd912b3a7de.jpeg",
+              "LeftBack90L_8_11zon.jpeg": "embedded\u002Fde4c0ac0b7e0ba689907a469e98d12c131bc88a8e163740d45320a3a028552bf.jpeg",
+              "LeftBack90M_7_11zon.jpeg": "embedded\u002F614470bfa47db0a003ba271a57b45ce14a5dde9da0ef44f31ecfb93238b29a13.jpeg",
+              "LeftBack180_9_11zon.jpeg": "embedded\u002Fb2c4eb982a0bfe139af1aa23d4f9e237f8b7649e96e705ef29ee406bb830e8fc.jpeg",
+              "Leftpalm0_14_11zon.jpeg": "embedded\u002Fc24fc2f85a1ea774aab3b46952f5a76a7b2607a996e6e6c526ca6eaa5439cddb.jpeg",
+              "Leftpalm90L_5_11zon.jpeg": "embedded\u002F48b75f6749dca5ae3b6d2b355e3334a5b950843cd6dc1beda7544b13c5cb2fd8.jpeg",
+              "Leftpalm90M_6_11zon.jpeg": "embedded\u002F79a71f3ee45aeb184b3bc523ac45a0b3beaa51f2b90f13c6bbe0d91ed3c9ff82.jpeg",
+              "Leftpalm180_4_11zon.jpeg": "embedded\u002F2fc87caa787fafcec47d35c570349cf05ab9069fbc8a20fc8697abee00f8bac3.jpeg",
+              "Rightback0_15_11zon.jpeg": "embedded\u002F2ee2a7712b81be820610bbe64bf8d0889d814157d058353868984bfec35b0a4c.jpeg",
+              "Rightback90L_11_11zon.jpeg": "embedded\u002F0854f5d521b7e139f038136989ae30f25d62e54aa57400f890b988373da11d12.jpeg",
+              "Rightback90M_10_11zon.jpeg": "embedded\u002Ff92b5c8724bb6648a65647898b9cd40f65af117f0474ce8fa7cc586df9a7cb4d.jpeg",
+              "Rightback180_12_11zon.jpeg": "embedded\u002Faddfc8397ae6891c1a36c7de3e992174e04f7b58366aec0eca6b6e63948880c1.jpeg",
+              "RightPalm0_16_11zon.jpeg": "embedded\u002F3d54f383030bd785aae08a6eca81109ec812e2f8a8253e8b91648a0840307c24.jpeg",
+              "RightPalm90L_2_11zon.jpeg": "embedded\u002Fa098dd626d29c44e9b87458183f5044392998e00ff5876f87ebf717ecf2c912d.jpeg",
+              "RightPalm90M_3_11zon.jpeg": "embedded\u002Fb9e6ba2ba0d302fba0e941dcfe21ff3e2405dce42781cb41191be5eb26cd9c71.jpeg",
+              "RightPalm180_1_11zon.jpeg": "embedded\u002F86f28af0f33d4abce861d305ec47db6eae379040884da50bd32cf9211b5c78d5.jpeg",
+              "LineRightPalm90L.png": "embedded\u002Fdc7522ec261847e06702dca3a70bf0a679ff6a47ba4efbafe0cc1bb74aef9571.png",
+              "LineRightPalm180.png": "embedded\u002F48e833d5b2f8dd033201ce27de499a70ca72091bb409c4860d6685f11ee0c23f.png",
+              "LineRightPalm90M.png": "embedded\u002F6356bbf2d7fea17519b6f3ee0ef2edc4bddbe49874ba3738329c865de0bdd711.png",
+              "LineRightback90L.png": "embedded\u002F5f4fb123a70d87e6559787f8863eb974026ac95f9f2d0772ed1a0129f73b4d65.png",
+              "LineRightback180.png": "embedded\u002F67850fc7ba947ed01659d03fc91abff7cd0be62af23882f9b0c5c515ff9549db.png",
+              "LineRightback90M.png": "embedded\u002F5932055cbca408ea3ab1f29721c6fa5afe5f12efc25e83f44bcc0f023fe8b6ef.png",
+              "LineLeftPalm180.png": "embedded\u002F6c5449ed018f4db7fea30e1e773ff268d4edaec6dfd31cce36f1b55bb405fccf.png",
+              "LineLeftPalm90L.png": "embedded\u002Fb10fd6539ccf838191fbae39f800d043ca7d8b5c71720904051610cdd6297235.png",
+              "LineLeftPalm90M.png": "embedded\u002Fcfed6a9c294d59b7d29c61135e83b5c9cc88c8a04ed705470c8abbb80b958ab3.png",
+              "LineLeftBack90M.png": "embedded\u002F9fe6196c4cb27e2516d3e391406ed04383b7eb5ae646e05bb30cad32bdb459dc.png",
+              "LineLeftBack90L.png": "embedded\u002F1e82a17a7776b4f9bab787d78ed372f7c4fdac2f9b0949b32b3ee6fd8a0b3f11.png",
+              "LineLeftBack180.png": "embedded\u002Fecff3f64162fef0c3a5f1f6591b5da616b556a361b9217d385d61a955ca685e4.png",
+              "LineRightback0.png": "embedded\u002F7e65be29cfd21158f5fc3f927e52ed8cbdd255c31047a68a93016e27a50f4e99.png",
+              "LineLeftBack0.png": "embedded\u002F94fef8be121cf1008ab8d1d525f1cb876ad5182cfee4a894a5bb4a8d3636006a.png",
+              "LineRightPalm0.png": "embedded\u002F38da56700193e5e6908a3be0bce9d30afca7fa4a987dc700e68fe0af610aa82e.png",
+              "LineLeftPalm0.png": "embedded\u002F5a141b870973bb6247061a171008cc35c3c235ab999cacaf93debf9ef4228dcf.png"
+            },
+            "responses": {
+              "keypress(k)": "Right",
+              "keypress(a)": "Left"
+            },
+            "parameters": {},
+            "messageHandlers": {
+              "before:prepare": function anonymous(
+) {
+this.options.viewport = ["parameters.H","parameters.V"]
+this.options.viewportScale = 1
+
+
+
+
+}
+            },
+            "title": "Stimulus Presentation "
+          }
+        ]
+      }
+    },
+    {
+      "type": "lab.html.Page",
+      "items": [
+        {
+          "type": "text",
+          "title": "Block 4-A complete",
+          "content": "Please inform the experimenter that you have completed the third experimental block."
+        }
+      ],
+      "scrollTop": true,
+      "submitButtonText": "Continue →",
+      "submitButtonPosition": "right",
+      "files": {},
+      "responses": {
+        "": ""
+      },
+      "parameters": {},
+      "messageHandlers": {
+        "run": function anonymous(
+) {
+document.body.style.backgroundColor = "white";
+}
+      },
+      "title": "Block 4-A complete"
+    },
+    {
+      "type": "lab.html.Page",
+      "items": [
+        {
+          "required": true,
+          "type": "text",
+          "title": "Phase 4-B"
+        },
+        {
+          "type": "text",
+          "title": "Instructions:",
+          "content": ""
+        },
+        {
+          "required": true,
+          "type": "html",
+          "content": "We will now continue with the \u003Cb\u003E\u003Cspan style=\"color: red;\"\u003Eexperimental phase.\u003C\u002Fspan\u003E\u003C\u002Fb\u003E In this phase, you will be presented with hand images in different orientations. Please refrain from physically moving your hands, and instead use your mental abilities to rotate your hands. ",
+          "name": ""
+        },
+        {
+          "required": true,
+          "type": "text",
+          "title": "Your task is to :",
+          "content": "1. Please step on the \u003Cb\u003E\u003Cspan style=\"color: red;\"\u003E'left'\u003C\u002Fspan\u003E\u003C\u002Fb\u003E foot pedal for a \u003Cb\u003E\u003Cspan style=\"color: red;\"\u003Eleft\u003C\u002Fspan\u003E\u003C\u002Fb\u003E hand-stimulus and the \u003Cb\u003E\u003Cspan style=\"color: red;\"\u003E'right'\u003C\u002Fspan\u003E\u003C\u002Fb\u003E foot pedal for a \u003Cb\u003E\u003Cspan style=\"color: red;\"\u003Eright\u003C\u002Fspan\u003E\u003C\u002Fb\u003E hand-stimulus.\n"
+        },
+        {
+          "required": true,
+          "type": "image",
+          "src": "${ this.files[\"Screenshot 2024-07-16 at 12.04.50 PM.png\"] }",
+          "name": ""
+        },
+        {
+          "required": true,
+          "type": "text",
+          "content": "2. Respond as quickly and accurately as possible."
+        },
+        {
+          "required": true,
+          "type": "text",
+          "content": "3. Click 'continue' when you are ready to proceed. "
+        }
+      ],
+      "scrollTop": true,
+      "submitButtonText": "Continue →",
+      "submitButtonPosition": "right",
+      "files": {
+        "Screenshot 2024-07-16 at 12.04.50 PM.png": "embedded\u002F49e340eb188c832f74dbf98e612eb35be436052c257d6bed97bd55e36ac9803c.png"
+      },
+      "responses": {
+        "": ""
+      },
+      "parameters": {},
+      "messageHandlers": {
+        "run": function anonymous(
+) {
+document.body.style.backgroundColor = "white";
+
+}
+      },
+      "title": "Experimental phase 4B"
+    },
+    {
+      "type": "lab.flow.Loop",
+      "templateParameters": [
+        {
+          "Photo": "LeftBack0_13_11zon.jpeg",
+          "H": "720",
+          "V": "960",
+          "D": "-100",
+          "R": "-100",
+          "A": "",
+          "ImageName": "LeftBack0"
+        },
+        {
+          "Photo": "LeftBack180_9_11zon.jpeg",
+          "H": "720",
+          "V": "960",
+          "D": "150",
+          "R": "50",
+          "A": "",
+          "ImageName": "LeftBack180"
+        },
+        {
+          "Photo": "Leftpalm0_14_11zon.jpeg",
+          "H": "720",
+          "V": "960",
+          "D": "-100",
+          "R": "0",
+          "A": "",
+          "ImageName": "Leftpalm0"
+        },
+        {
+          "Photo": "Leftpalm180_4_11zon.jpeg",
+          "H": "720",
+          "V": "960",
+          "D": "150",
+          "R": "0",
+          "A": "",
+          "ImageName": "Leftpalm180"
+        },
+        {
+          "Photo": "Rightback0_15_11zon.jpeg",
+          "H": "720",
+          "V": "960",
+          "D": "-100",
+          "R": "100",
+          "A": "",
+          "ImageName": "Rightback0"
+        },
+        {
+          "Photo": "Rightback180_12_11zon.jpeg",
+          "H": "720",
+          "V": "960",
+          "D": "150",
+          "R": "-100",
+          "A": "",
+          "ImageName": "Rightback180"
+        },
+        {
+          "Photo": "RightPalm0_16_11zon.jpeg",
+          "H": "720",
+          "V": "960",
+          "D": "-100",
+          "R": "0",
+          "A": "",
+          "ImageName": "RightPalm0"
+        },
+        {
+          "Photo": "RightPalm180_1_11zon.jpeg",
+          "H": "720",
+          "V": "960",
+          "D": "100",
+          "R": "0",
+          "A": "",
+          "ImageName": "RightPalm180"
+        },
+        {
+          "Photo": "LeftBack90L_8_11zon.jpeg",
+          "H": "960",
+          "V": "720",
+          "D": "50",
+          "R": "-100",
+          "A": "",
+          "ImageName": "LeftBack90L"
+        },
+        {
+          "Photo": "LeftBack90M_7_11zon.jpeg",
+          "H": "960",
+          "V": "720",
+          "D": "-50",
+          "R": "100",
+          "A": "",
+          "ImageName": "LeftBack90M"
+        },
+        {
+          "Photo": "Leftpalm90L_5_11zon.jpeg",
+          "H": "960",
+          "V": "720",
+          "D": "0",
+          "R": "-100",
+          "A": "",
+          "ImageName": "Leftpalm90L"
+        },
+        {
+          "Photo": "Leftpalm90M_6_11zon.jpeg",
+          "H": "960",
+          "V": "720",
+          "D": "0",
+          "R": "100",
+          "A": "",
+          "ImageName": "Leftpalm90M"
+        },
+        {
+          "Photo": "Rightback90L_11_11zon.jpeg",
+          "H": "960",
+          "V": "720",
+          "D": "100",
+          "R": "100",
+          "A": "",
+          "ImageName": "Rightback90L"
+        },
+        {
+          "Photo": "Rightback90M_10_11zon.jpeg",
+          "H": "960",
+          "V": "720",
+          "D": "-100",
+          "R": "-100",
+          "A": "",
+          "ImageName": "Rightback90M"
+        },
+        {
+          "Photo": "RightPalm90M_3_11zon.jpeg",
+          "H": "960",
+          "V": "720",
+          "D": "0",
+          "R": "-100",
+          "A": "",
+          "ImageName": "RightPalm90M"
+        },
+        {
+          "Photo": "RightPalm90L_2_11zon.jpeg",
+          "H": "960",
+          "V": "720",
+          "D": "0",
+          "R": "100",
+          "A": "",
+          "ImageName": "RightPalm90L"
+        }
+      ],
+      "sample": {
+        "mode": "sequential"
+      },
+      "files": {},
+      "responses": {},
+      "parameters": {},
+      "messageHandlers": {
+        "run": function anonymous(
+) {
+document.body.style.backgroundColor = "black";
+}
+      },
+      "title": "Loop",
+      "shuffleGroups": [],
+      "template": {
+        "type": "lab.flow.Sequence",
+        "files": {},
+        "responses": {
+          "keypress(k)": "right",
+          "keypress(a)": "left"
+        },
+        "parameters": {},
+        "messageHandlers": {},
+        "title": "Trail",
+        "content": [
+          {
+            "type": "lab.canvas.Screen",
+            "content": [
+              {
+                "type": "i-text",
+                "left": 0,
+                "top": 0,
+                "angle": 0,
+                "width": 524.73,
+                "height": 36.16,
+                "stroke": "#ffffff",
+                "strokeWidth": 1,
+                "fill": "#000000",
+                "text": "Press the space key to begin the trial",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+                "fontSize": 32,
+                "fontFamily": "sans-serif",
+                "lineHeight": 1.16,
+                "textAlign": "center"
+              }
+            ],
+            "viewport": [
+              800,
+              600
+            ],
+            "files": {
+              "black screen.png": "embedded\u002F4f60031584d18659923576c9a1f7b446cae3556a7eac2d5e040be236a692cdfb.png"
+            },
+            "responses": {
+              "keypress(Space)": "space"
+            },
+            "parameters": {},
+            "messageHandlers": {},
+            "title": "Next trial screen",
+            "skip": true
+          },
+          {
+            "type": "lab.canvas.Screen",
+            "content": [
+              {
+                "type": "i-text",
+                "left": 0,
+                "top": 0,
+                "angle": 0,
+                "width": 35.04,
+                "height": 67.8,
+                "stroke": "#000000",
+                "strokeWidth": 1,
+                "fill": "#ffffff",
+                "text": "+",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+                "fontSize": "60",
+                "fontFamily": "sans-serif",
+                "lineHeight": 1.16,
+                "textAlign": "center"
+              }
+            ],
+            "viewport": [
+              800,
+              600
+            ],
+            "files": {},
+            "responses": {
+              "": ""
+            },
+            "parameters": {},
+            "messageHandlers": {},
+            "title": "Fixation cross",
+            "timeout": "1500"
+          },
+          {
+            "type": "lab.canvas.Screen",
+            "content": [
+              {
+                "type": "image",
+                "left": "${this.parameters.R}",
+                "top": "${this.parameters.D}",
+                "angle": "${this.parameters.A}",
+                "width": "${this.parameters.H}",
+                "height": "${this.parameters.V}",
+                "stroke": null,
+                "strokeWidth": 0,
+                "fill": "black",
+                "src": "${this.files[this.parameters.Photo]}"
+              }
+            ],
+            "viewport": [
+              800,
+              600
+            ],
+            "files": {
+              "LeftBack0_13_11zon.jpeg": "embedded\u002Fc01ae650201d30c61ef5917073b3db1bfb7e90843b024b9c44e84bd912b3a7de.jpeg",
+              "LeftBack90L_8_11zon.jpeg": "embedded\u002Fde4c0ac0b7e0ba689907a469e98d12c131bc88a8e163740d45320a3a028552bf.jpeg",
+              "LeftBack90M_7_11zon.jpeg": "embedded\u002F614470bfa47db0a003ba271a57b45ce14a5dde9da0ef44f31ecfb93238b29a13.jpeg",
+              "LeftBack180_9_11zon.jpeg": "embedded\u002Fb2c4eb982a0bfe139af1aa23d4f9e237f8b7649e96e705ef29ee406bb830e8fc.jpeg",
+              "Leftpalm0_14_11zon.jpeg": "embedded\u002Fc24fc2f85a1ea774aab3b46952f5a76a7b2607a996e6e6c526ca6eaa5439cddb.jpeg",
+              "Leftpalm90L_5_11zon.jpeg": "embedded\u002F48b75f6749dca5ae3b6d2b355e3334a5b950843cd6dc1beda7544b13c5cb2fd8.jpeg",
+              "Leftpalm90M_6_11zon.jpeg": "embedded\u002F79a71f3ee45aeb184b3bc523ac45a0b3beaa51f2b90f13c6bbe0d91ed3c9ff82.jpeg",
+              "Leftpalm180_4_11zon.jpeg": "embedded\u002F2fc87caa787fafcec47d35c570349cf05ab9069fbc8a20fc8697abee00f8bac3.jpeg",
+              "Rightback0_15_11zon.jpeg": "embedded\u002F2ee2a7712b81be820610bbe64bf8d0889d814157d058353868984bfec35b0a4c.jpeg",
+              "Rightback90L_11_11zon.jpeg": "embedded\u002F0854f5d521b7e139f038136989ae30f25d62e54aa57400f890b988373da11d12.jpeg",
+              "Rightback90M_10_11zon.jpeg": "embedded\u002Ff92b5c8724bb6648a65647898b9cd40f65af117f0474ce8fa7cc586df9a7cb4d.jpeg",
+              "Rightback180_12_11zon.jpeg": "embedded\u002Faddfc8397ae6891c1a36c7de3e992174e04f7b58366aec0eca6b6e63948880c1.jpeg",
+              "RightPalm0_16_11zon.jpeg": "embedded\u002F3d54f383030bd785aae08a6eca81109ec812e2f8a8253e8b91648a0840307c24.jpeg",
+              "RightPalm90L_2_11zon.jpeg": "embedded\u002Fa098dd626d29c44e9b87458183f5044392998e00ff5876f87ebf717ecf2c912d.jpeg",
+              "RightPalm90M_3_11zon.jpeg": "embedded\u002Fb9e6ba2ba0d302fba0e941dcfe21ff3e2405dce42781cb41191be5eb26cd9c71.jpeg",
+              "RightPalm180_1_11zon.jpeg": "embedded\u002F86f28af0f33d4abce861d305ec47db6eae379040884da50bd32cf9211b5c78d5.jpeg",
+              "LineRightPalm90L.png": "embedded\u002Fdc7522ec261847e06702dca3a70bf0a679ff6a47ba4efbafe0cc1bb74aef9571.png",
+              "LineRightPalm180.png": "embedded\u002F48e833d5b2f8dd033201ce27de499a70ca72091bb409c4860d6685f11ee0c23f.png",
+              "LineRightPalm90M.png": "embedded\u002F6356bbf2d7fea17519b6f3ee0ef2edc4bddbe49874ba3738329c865de0bdd711.png",
+              "LineRightback90L.png": "embedded\u002F5f4fb123a70d87e6559787f8863eb974026ac95f9f2d0772ed1a0129f73b4d65.png",
+              "LineRightback180.png": "embedded\u002F67850fc7ba947ed01659d03fc91abff7cd0be62af23882f9b0c5c515ff9549db.png",
+              "LineRightback90M.png": "embedded\u002F5932055cbca408ea3ab1f29721c6fa5afe5f12efc25e83f44bcc0f023fe8b6ef.png",
+              "LineLeftPalm180.png": "embedded\u002F6c5449ed018f4db7fea30e1e773ff268d4edaec6dfd31cce36f1b55bb405fccf.png",
+              "LineLeftPalm90L.png": "embedded\u002Fb10fd6539ccf838191fbae39f800d043ca7d8b5c71720904051610cdd6297235.png",
+              "LineLeftPalm90M.png": "embedded\u002Fcfed6a9c294d59b7d29c61135e83b5c9cc88c8a04ed705470c8abbb80b958ab3.png",
+              "LineLeftBack90M.png": "embedded\u002F9fe6196c4cb27e2516d3e391406ed04383b7eb5ae646e05bb30cad32bdb459dc.png",
+              "LineLeftBack90L.png": "embedded\u002F1e82a17a7776b4f9bab787d78ed372f7c4fdac2f9b0949b32b3ee6fd8a0b3f11.png",
+              "LineLeftBack180.png": "embedded\u002Fecff3f64162fef0c3a5f1f6591b5da616b556a361b9217d385d61a955ca685e4.png",
+              "LineRightback0.png": "embedded\u002F7e65be29cfd21158f5fc3f927e52ed8cbdd255c31047a68a93016e27a50f4e99.png",
+              "LineLeftBack0.png": "embedded\u002F94fef8be121cf1008ab8d1d525f1cb876ad5182cfee4a894a5bb4a8d3636006a.png",
+              "LineRightPalm0.png": "embedded\u002F38da56700193e5e6908a3be0bce9d30afca7fa4a987dc700e68fe0af610aa82e.png",
+              "LineLeftPalm0.png": "embedded\u002F5a141b870973bb6247061a171008cc35c3c235ab999cacaf93debf9ef4228dcf.png"
+            },
+            "responses": {
+              "keypress(k)": "Right",
+              "keypress(a)": "Left"
+            },
+            "parameters": {},
+            "messageHandlers": {
+              "before:prepare": function anonymous(
+) {
+this.options.viewport = ["parameters.H","parameters.V"]
+this.options.viewportScale = 1
+
+
+
+
+}
+            },
+            "title": "Stimulus Presentation "
+          }
+        ]
+      }
+    },
+    {
+      "type": "lab.html.Page",
+      "items": [
+        {
+          "type": "text",
+          "title": "Block 4-B complete",
+          "content": "Please inform the experimenter that you have completed the third experimental block."
+        }
+      ],
+      "scrollTop": true,
+      "submitButtonText": "Continue →",
+      "submitButtonPosition": "right",
+      "files": {},
+      "responses": {
+        "": ""
+      },
+      "parameters": {},
+      "messageHandlers": {
+        "run": function anonymous(
+) {
+document.body.style.backgroundColor = "white";
+}
+      },
+      "title": "Block 4-B complete"
+    },
+    {
+      "type": "lab.html.Page",
+      "items": [
+        {
+          "required": true,
+          "type": "text",
+          "title": "Phase 4-C"
+        },
+        {
+          "type": "text",
+          "title": "Instructions:",
+          "content": ""
+        },
+        {
+          "required": true,
+          "type": "html",
+          "content": "We will now continue with the \u003Cb\u003E\u003Cspan style=\"color: red;\"\u003Eexperimental phase.\u003C\u002Fspan\u003E\u003C\u002Fb\u003E In this phase, you will be presented with hand images in different orientations. Please refrain from physically moving your hands, and instead use your mental abilities to rotate your hands. ",
+          "name": ""
+        },
+        {
+          "required": true,
+          "type": "text",
+          "title": "Your task is to :",
+          "content": "1. Please step on the \u003Cb\u003E\u003Cspan style=\"color: red;\"\u003E'left'\u003C\u002Fspan\u003E\u003C\u002Fb\u003E foot pedal for a \u003Cb\u003E\u003Cspan style=\"color: red;\"\u003Eleft\u003C\u002Fspan\u003E\u003C\u002Fb\u003E hand-stimulus and the \u003Cb\u003E\u003Cspan style=\"color: red;\"\u003E'right'\u003C\u002Fspan\u003E\u003C\u002Fb\u003E foot pedal for a \u003Cb\u003E\u003Cspan style=\"color: red;\"\u003Eright\u003C\u002Fspan\u003E\u003C\u002Fb\u003E hand-stimulus.\n"
+        },
+        {
+          "required": true,
+          "type": "image",
+          "src": "${ this.files[\"Screenshot 2024-07-16 at 12.04.50 PM.png\"] }",
+          "name": ""
+        },
+        {
+          "required": true,
+          "type": "text",
+          "content": "2. Respond as quickly and accurately as possible."
+        },
+        {
+          "required": true,
+          "type": "text",
+          "content": "3. Click 'continue' when you are ready to proceed. "
+        }
+      ],
+      "scrollTop": true,
+      "submitButtonText": "Continue →",
+      "submitButtonPosition": "right",
+      "files": {
+        "Screenshot 2024-07-16 at 12.04.50 PM.png": "embedded\u002F49e340eb188c832f74dbf98e612eb35be436052c257d6bed97bd55e36ac9803c.png"
+      },
+      "responses": {
+        "": ""
+      },
+      "parameters": {},
+      "messageHandlers": {
+        "run": function anonymous(
+) {
+document.body.style.backgroundColor = "white";
+
+}
+      },
+      "title": "Experimental phase 4C"
+    },
+    {
+      "type": "lab.flow.Loop",
+      "templateParameters": [
+        {
+          "Photo": "LeftBack0_13_11zon.jpeg",
+          "H": "720",
+          "V": "960",
+          "D": "-100",
+          "R": "-100",
+          "A": "",
+          "ImageName": "LeftBack0"
+        },
+        {
+          "Photo": "LeftBack180_9_11zon.jpeg",
+          "H": "720",
+          "V": "960",
+          "D": "150",
+          "R": "50",
+          "A": "",
+          "ImageName": "LeftBack180"
+        },
+        {
+          "Photo": "Leftpalm0_14_11zon.jpeg",
+          "H": "720",
+          "V": "960",
+          "D": "-100",
+          "R": "0",
+          "A": "",
+          "ImageName": "Leftpalm0"
+        },
+        {
+          "Photo": "Leftpalm180_4_11zon.jpeg",
+          "H": "720",
+          "V": "960",
+          "D": "150",
+          "R": "0",
+          "A": "",
+          "ImageName": "Leftpalm180"
+        },
+        {
+          "Photo": "Rightback0_15_11zon.jpeg",
+          "H": "720",
+          "V": "960",
+          "D": "-100",
+          "R": "100",
+          "A": "",
+          "ImageName": "Rightback0"
+        },
+        {
+          "Photo": "Rightback180_12_11zon.jpeg",
+          "H": "720",
+          "V": "960",
+          "D": "150",
+          "R": "-100",
+          "A": "",
+          "ImageName": "Rightback180"
+        },
+        {
+          "Photo": "RightPalm0_16_11zon.jpeg",
+          "H": "720",
+          "V": "960",
+          "D": "-100",
+          "R": "0",
+          "A": "",
+          "ImageName": "RightPalm0"
+        },
+        {
+          "Photo": "RightPalm180_1_11zon.jpeg",
+          "H": "720",
+          "V": "960",
+          "D": "100",
+          "R": "0",
+          "A": "",
+          "ImageName": "RightPalm180"
+        },
+        {
+          "Photo": "LeftBack90L_8_11zon.jpeg",
+          "H": "960",
+          "V": "720",
+          "D": "50",
+          "R": "-100",
+          "A": "",
+          "ImageName": "LeftBack90L"
+        },
+        {
+          "Photo": "LeftBack90M_7_11zon.jpeg",
+          "H": "960",
+          "V": "720",
+          "D": "-50",
+          "R": "100",
+          "A": "",
+          "ImageName": "LeftBack90M"
+        },
+        {
+          "Photo": "Leftpalm90L_5_11zon.jpeg",
+          "H": "960",
+          "V": "720",
+          "D": "0",
+          "R": "-100",
+          "A": "",
+          "ImageName": "Leftpalm90L"
+        },
+        {
+          "Photo": "Leftpalm90M_6_11zon.jpeg",
+          "H": "960",
+          "V": "720",
+          "D": "0",
+          "R": "100",
+          "A": "",
+          "ImageName": "Leftpalm90M"
+        },
+        {
+          "Photo": "Rightback90L_11_11zon.jpeg",
+          "H": "960",
+          "V": "720",
+          "D": "100",
+          "R": "100",
+          "A": "",
+          "ImageName": "Rightback90L"
+        },
+        {
+          "Photo": "Rightback90M_10_11zon.jpeg",
+          "H": "960",
+          "V": "720",
+          "D": "-100",
+          "R": "-100",
+          "A": "",
+          "ImageName": "Rightback90M"
+        },
+        {
+          "Photo": "RightPalm90M_3_11zon.jpeg",
+          "H": "960",
+          "V": "720",
+          "D": "0",
+          "R": "-100",
+          "A": "",
+          "ImageName": "RightPalm90M"
+        },
+        {
+          "Photo": "RightPalm90L_2_11zon.jpeg",
+          "H": "960",
+          "V": "720",
+          "D": "0",
+          "R": "100",
+          "A": "",
+          "ImageName": "RightPalm90L"
+        }
+      ],
+      "sample": {
+        "mode": "sequential"
+      },
+      "files": {},
+      "responses": {},
+      "parameters": {},
+      "messageHandlers": {
+        "run": function anonymous(
+) {
+document.body.style.backgroundColor = "black";
+}
+      },
+      "title": "Loop",
+      "shuffleGroups": [],
+      "template": {
+        "type": "lab.flow.Sequence",
+        "files": {},
+        "responses": {
+          "keypress(k)": "right",
+          "keypress(a)": "left"
+        },
+        "parameters": {},
+        "messageHandlers": {},
+        "title": "Trail",
+        "content": [
+          {
+            "type": "lab.canvas.Screen",
+            "content": [
+              {
+                "type": "i-text",
+                "left": 0,
+                "top": 0,
+                "angle": 0,
+                "width": 524.73,
+                "height": 36.16,
+                "stroke": "#ffffff",
+                "strokeWidth": 1,
+                "fill": "#000000",
+                "text": "Press the space key to begin the trial",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+                "fontSize": 32,
+                "fontFamily": "sans-serif",
+                "lineHeight": 1.16,
+                "textAlign": "center"
+              }
+            ],
+            "viewport": [
+              800,
+              600
+            ],
+            "files": {
+              "black screen.png": "embedded\u002F4f60031584d18659923576c9a1f7b446cae3556a7eac2d5e040be236a692cdfb.png"
+            },
+            "responses": {
+              "keypress(Space)": "space"
+            },
+            "parameters": {},
+            "messageHandlers": {},
+            "title": "Next trial screen",
+            "skip": true
+          },
+          {
+            "type": "lab.canvas.Screen",
+            "content": [
+              {
+                "type": "i-text",
+                "left": 0,
+                "top": 0,
+                "angle": 0,
+                "width": 35.04,
+                "height": 67.8,
+                "stroke": "#000000",
+                "strokeWidth": 1,
+                "fill": "#ffffff",
+                "text": "+",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+                "fontSize": "60",
+                "fontFamily": "sans-serif",
+                "lineHeight": 1.16,
+                "textAlign": "center"
+              }
+            ],
+            "viewport": [
+              800,
+              600
+            ],
+            "files": {},
+            "responses": {
+              "": ""
+            },
+            "parameters": {},
+            "messageHandlers": {},
+            "title": "Fixation cross",
+            "timeout": "1500"
+          },
+          {
+            "type": "lab.canvas.Screen",
+            "content": [
+              {
+                "type": "image",
+                "left": "${this.parameters.R}",
+                "top": "${this.parameters.D}",
+                "angle": "${this.parameters.A}",
+                "width": "${this.parameters.H}",
+                "height": "${this.parameters.V}",
+                "stroke": null,
+                "strokeWidth": 0,
+                "fill": "black",
+                "src": "${this.files[this.parameters.Photo]}"
+              }
+            ],
+            "viewport": [
+              800,
+              600
+            ],
+            "files": {
+              "LeftBack0_13_11zon.jpeg": "embedded\u002Fc01ae650201d30c61ef5917073b3db1bfb7e90843b024b9c44e84bd912b3a7de.jpeg",
+              "LeftBack90L_8_11zon.jpeg": "embedded\u002Fde4c0ac0b7e0ba689907a469e98d12c131bc88a8e163740d45320a3a028552bf.jpeg",
+              "LeftBack90M_7_11zon.jpeg": "embedded\u002F614470bfa47db0a003ba271a57b45ce14a5dde9da0ef44f31ecfb93238b29a13.jpeg",
+              "LeftBack180_9_11zon.jpeg": "embedded\u002Fb2c4eb982a0bfe139af1aa23d4f9e237f8b7649e96e705ef29ee406bb830e8fc.jpeg",
+              "Leftpalm0_14_11zon.jpeg": "embedded\u002Fc24fc2f85a1ea774aab3b46952f5a76a7b2607a996e6e6c526ca6eaa5439cddb.jpeg",
+              "Leftpalm90L_5_11zon.jpeg": "embedded\u002F48b75f6749dca5ae3b6d2b355e3334a5b950843cd6dc1beda7544b13c5cb2fd8.jpeg",
+              "Leftpalm90M_6_11zon.jpeg": "embedded\u002F79a71f3ee45aeb184b3bc523ac45a0b3beaa51f2b90f13c6bbe0d91ed3c9ff82.jpeg",
+              "Leftpalm180_4_11zon.jpeg": "embedded\u002F2fc87caa787fafcec47d35c570349cf05ab9069fbc8a20fc8697abee00f8bac3.jpeg",
+              "Rightback0_15_11zon.jpeg": "embedded\u002F2ee2a7712b81be820610bbe64bf8d0889d814157d058353868984bfec35b0a4c.jpeg",
+              "Rightback90L_11_11zon.jpeg": "embedded\u002F0854f5d521b7e139f038136989ae30f25d62e54aa57400f890b988373da11d12.jpeg",
+              "Rightback90M_10_11zon.jpeg": "embedded\u002Ff92b5c8724bb6648a65647898b9cd40f65af117f0474ce8fa7cc586df9a7cb4d.jpeg",
+              "Rightback180_12_11zon.jpeg": "embedded\u002Faddfc8397ae6891c1a36c7de3e992174e04f7b58366aec0eca6b6e63948880c1.jpeg",
+              "RightPalm0_16_11zon.jpeg": "embedded\u002F3d54f383030bd785aae08a6eca81109ec812e2f8a8253e8b91648a0840307c24.jpeg",
+              "RightPalm90L_2_11zon.jpeg": "embedded\u002Fa098dd626d29c44e9b87458183f5044392998e00ff5876f87ebf717ecf2c912d.jpeg",
+              "RightPalm90M_3_11zon.jpeg": "embedded\u002Fb9e6ba2ba0d302fba0e941dcfe21ff3e2405dce42781cb41191be5eb26cd9c71.jpeg",
+              "RightPalm180_1_11zon.jpeg": "embedded\u002F86f28af0f33d4abce861d305ec47db6eae379040884da50bd32cf9211b5c78d5.jpeg",
+              "LineRightPalm90L.png": "embedded\u002Fdc7522ec261847e06702dca3a70bf0a679ff6a47ba4efbafe0cc1bb74aef9571.png",
+              "LineRightPalm180.png": "embedded\u002F48e833d5b2f8dd033201ce27de499a70ca72091bb409c4860d6685f11ee0c23f.png",
+              "LineRightPalm90M.png": "embedded\u002F6356bbf2d7fea17519b6f3ee0ef2edc4bddbe49874ba3738329c865de0bdd711.png",
+              "LineRightback90L.png": "embedded\u002F5f4fb123a70d87e6559787f8863eb974026ac95f9f2d0772ed1a0129f73b4d65.png",
+              "LineRightback180.png": "embedded\u002F67850fc7ba947ed01659d03fc91abff7cd0be62af23882f9b0c5c515ff9549db.png",
+              "LineRightback90M.png": "embedded\u002F5932055cbca408ea3ab1f29721c6fa5afe5f12efc25e83f44bcc0f023fe8b6ef.png",
+              "LineLeftPalm180.png": "embedded\u002F6c5449ed018f4db7fea30e1e773ff268d4edaec6dfd31cce36f1b55bb405fccf.png",
+              "LineLeftPalm90L.png": "embedded\u002Fb10fd6539ccf838191fbae39f800d043ca7d8b5c71720904051610cdd6297235.png",
+              "LineLeftPalm90M.png": "embedded\u002Fcfed6a9c294d59b7d29c61135e83b5c9cc88c8a04ed705470c8abbb80b958ab3.png",
+              "LineLeftBack90M.png": "embedded\u002F9fe6196c4cb27e2516d3e391406ed04383b7eb5ae646e05bb30cad32bdb459dc.png",
+              "LineLeftBack90L.png": "embedded\u002F1e82a17a7776b4f9bab787d78ed372f7c4fdac2f9b0949b32b3ee6fd8a0b3f11.png",
+              "LineLeftBack180.png": "embedded\u002Fecff3f64162fef0c3a5f1f6591b5da616b556a361b9217d385d61a955ca685e4.png",
+              "LineRightback0.png": "embedded\u002F7e65be29cfd21158f5fc3f927e52ed8cbdd255c31047a68a93016e27a50f4e99.png",
+              "LineLeftBack0.png": "embedded\u002F94fef8be121cf1008ab8d1d525f1cb876ad5182cfee4a894a5bb4a8d3636006a.png",
+              "LineRightPalm0.png": "embedded\u002F38da56700193e5e6908a3be0bce9d30afca7fa4a987dc700e68fe0af610aa82e.png",
+              "LineLeftPalm0.png": "embedded\u002F5a141b870973bb6247061a171008cc35c3c235ab999cacaf93debf9ef4228dcf.png"
+            },
+            "responses": {
+              "keypress(k)": "Right",
+              "keypress(a)": "Left"
+            },
+            "parameters": {},
+            "messageHandlers": {
+              "before:prepare": function anonymous(
+) {
+this.options.viewport = ["parameters.H","parameters.V"]
+this.options.viewportScale = 1
+
+
+
+
+}
+            },
+            "title": "Stimulus Presentation "
+          }
+        ]
+      }
+    },
+    {
+      "type": "lab.html.Page",
+      "items": [
+        {
+          "type": "text",
+          "title": "Block 4-C complete",
+          "content": "Please inform the experimenter that you have completed the third experimental block."
+        }
+      ],
+      "scrollTop": true,
+      "submitButtonText": "Continue →",
+      "submitButtonPosition": "right",
+      "files": {},
+      "responses": {
+        "": ""
+      },
+      "parameters": {},
+      "messageHandlers": {
+        "run": function anonymous(
+) {
+document.body.style.backgroundColor = "white";
+}
+      },
+      "title": "Block 4-C complete"
+    },
+    {
+      "type": "lab.html.Page",
+      "items": [
+        {
+          "required": true,
+          "type": "text",
+          "title": "Phase 4-D"
+        },
+        {
+          "type": "text",
+          "title": "Instructions:",
+          "content": ""
+        },
+        {
+          "required": true,
+          "type": "html",
+          "content": "We will now continue with the \u003Cb\u003E\u003Cspan style=\"color: red;\"\u003Eexperimental phase.\u003C\u002Fspan\u003E\u003C\u002Fb\u003E In this phase, you will be presented with hand images in different orientations. Please refrain from physically moving your hands, and instead use your mental abilities to rotate your hands. ",
+          "name": ""
+        },
+        {
+          "required": true,
+          "type": "text",
+          "title": "Your task is to :",
+          "content": "1. Please step on the \u003Cb\u003E\u003Cspan style=\"color: red;\"\u003E'left'\u003C\u002Fspan\u003E\u003C\u002Fb\u003E foot pedal for a \u003Cb\u003E\u003Cspan style=\"color: red;\"\u003Eleft\u003C\u002Fspan\u003E\u003C\u002Fb\u003E hand-stimulus and the \u003Cb\u003E\u003Cspan style=\"color: red;\"\u003E'right'\u003C\u002Fspan\u003E\u003C\u002Fb\u003E foot pedal for a \u003Cb\u003E\u003Cspan style=\"color: red;\"\u003Eright\u003C\u002Fspan\u003E\u003C\u002Fb\u003E hand-stimulus.\n"
+        },
+        {
+          "required": true,
+          "type": "image",
+          "src": "${ this.files[\"Screenshot 2024-07-16 at 12.04.50 PM.png\"] }",
+          "name": ""
+        },
+        {
+          "required": true,
+          "type": "text",
+          "content": "2. Respond as quickly and accurately as possible."
+        },
+        {
+          "required": true,
+          "type": "text",
+          "content": "3. Click 'continue' when you are ready to proceed. "
+        }
+      ],
+      "scrollTop": true,
+      "submitButtonText": "Continue →",
+      "submitButtonPosition": "right",
+      "files": {
+        "Screenshot 2024-07-16 at 12.04.50 PM.png": "embedded\u002F49e340eb188c832f74dbf98e612eb35be436052c257d6bed97bd55e36ac9803c.png"
+      },
+      "responses": {
+        "": ""
+      },
+      "parameters": {},
+      "messageHandlers": {
+        "run": function anonymous(
+) {
+document.body.style.backgroundColor = "white";
+
+}
+      },
+      "title": "Experimental phase 4D"
+    },
+    {
+      "type": "lab.flow.Loop",
+      "templateParameters": [
         {
           "Photo": "LeftBack0_13_11zon.jpeg",
           "H": "720",
@@ -5469,16 +8635,17 @@ this.options.viewportScale = 1
 /* Get the documentElement (<html>) to display the page in fullscreen */
 var elem = document.documentElement;
 
-console.log("HEKJAKJSDBHAJKD");
-const rng = new lab.util.Random();
-
-firebase.database().ref(rng.uuid4()).set({
+/* Download data to firebase */
+this.options.events['click button#Continue'] = function sendToFirebase() {
+    const rng = new lab.util.Random();
+  
+  firebase.database().ref(rng.uuid4()).set({
     data: this.options.datastore.exportJson()
     });
 
 /* Continue to next screen */
 this.end()
-
+}
 }
       },
       "title": "Page"
