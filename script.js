@@ -401,25 +401,35 @@ this.end()
           "type": "radio",
           "options": [
             {
-              "label": "1 - Very hard to feel"
+              "label": "1 - Very hard to feel",
+              "coding": "1"
             },
             {
-              "label": "2 - Hard to feel"
+              "label": "2 - Hard to feel",
+              "coding": "2"
             },
             {
-              "label": "3 - Somewhat hard to feel"
+              "label": "3 - Somewhat hard to feel",
+              "coding": "3"
             },
             {
-              "label": "4 - Neutral (not easy, not hard)"
+              "label": "4 - Neutral (not easy, not hard)",
+              "coding": "4"
             },
             {
-              "label": "5 - Somewhat easy to feel"
+              "label": "5 - Somewhat easy to feel",
+              "coding": "5"
             },
             {
-              "label": "6 - Easy to feel"
+              "label": "6 - Easy to feel",
+              "coding": "6"
             },
             {
-              "label": "7 - Very easy to feel"
+              "label": "7 - Very easy to feel",
+              "coding": "7"
+            },
+            {
+              "coding": ""
             }
           ],
           "label": "Rate the ease\u002Fdifficulty with which you were able to do this mental task.",
@@ -468,25 +478,32 @@ this.end()
           "type": "radio",
           "options": [
             {
-              "label": "1 - Very hard to see"
+              "label": "1 - Very hard to see",
+              "coding": "1"
             },
             {
-              "label": "2 - Hard to see"
+              "label": "2 - Hard to see",
+              "coding": "2"
             },
             {
-              "label": "3 - Somewhat hard to see"
+              "label": "3 - Somewhat hard to see",
+              "coding": "3"
             },
             {
-              "label": "4 - Neutral (not easy, not hard)"
+              "label": "4 - Neutral (not easy, not hard)",
+              "coding": "4"
             },
             {
-              "label": "5 - Somewhat easy to see"
+              "label": "5 - Somewhat easy to see",
+              "coding": "5"
             },
             {
-              "label": "6 - Easy to see"
+              "label": "6 - Easy to see",
+              "coding": "6"
             },
             {
-              "label": "7 - Very easy to see"
+              "label": "7 - Very easy to see",
+              "coding": "7"
             }
           ],
           "label": "Rate the ease\u002Fdifficulty with which you were able to do this mental task.",
@@ -535,25 +552,32 @@ this.end()
           "type": "radio",
           "options": [
             {
-              "label": "1 - Very hard to see"
+              "label": "1 - Very hard to see",
+              "coding": "1"
             },
             {
-              "label": "2 - Hard to see"
+              "label": "2 - Hard to see",
+              "coding": "2"
             },
             {
-              "label": "3 - Somewhat hard to see"
+              "label": "3 - Somewhat hard to see",
+              "coding": "3"
             },
             {
-              "label": "4 - Neutral (not easy, not hard)"
+              "label": "4 - Neutral (not easy, not hard)",
+              "coding": "4"
             },
             {
-              "label": "5 - Somewhat easy to see"
+              "label": "5 - Somewhat easy to see",
+              "coding": "5"
             },
             {
-              "label": "6 - Easy to see"
+              "label": "6 - Easy to see",
+              "coding": "6"
             },
             {
-              "label": "7 - Very easy to see"
+              "label": "7 - Very easy to see",
+              "coding": "7"
             }
           ],
           "label": "Rate the ease\u002Fdifficulty with which you were able to do this mental task.",
@@ -602,25 +626,32 @@ this.end()
           "type": "radio",
           "options": [
             {
-              "label": "1 - Very hard to feel"
+              "label": "1 - Very hard to feel",
+              "coding": "1"
             },
             {
-              "label": "2 - Hard to feel"
+              "label": "2 - Hard to feel",
+              "coding": "2"
             },
             {
-              "label": "3 - Somewhat hard to feel"
+              "label": "3 - Somewhat hard to feel",
+              "coding": "3"
             },
             {
-              "label": "4 - Neutral (not easy, not hard)"
+              "label": "4 - Neutral (not easy, not hard)",
+              "coding": "4"
             },
             {
-              "label": "5 - Somewhat easy to feel"
+              "label": "5 - Somewhat easy to feel",
+              "coding": "5"
             },
             {
-              "label": "6 - Easy to feel"
+              "label": "6 - Easy to feel",
+              "coding": "6"
             },
             {
-              "label": "7 - Very easy to feel"
+              "label": "7 - Very easy to feel",
+              "coding": "7"
             }
           ],
           "label": "Rate the ease\u002Fdifficulty with which you were able to do this mental task.",
@@ -669,25 +700,32 @@ this.end()
           "type": "radio",
           "options": [
             {
-              "label": "1 - Very hard to see"
+              "label": "1 - Very hard to see",
+              "coding": "1"
             },
             {
-              "label": "2 - Hard to see"
+              "label": "2 - Hard to see",
+              "coding": "2"
             },
             {
-              "label": "3 - Somewhat hard to see"
+              "label": "3 - Somewhat hard to see",
+              "coding": "3"
             },
             {
-              "label": "4 - Neutral (not easy, not hard)"
+              "label": "4 - Neutral (not easy, not hard)",
+              "coding": "4"
             },
             {
-              "label": "5 - Somewhat easy to see"
+              "label": "5 - Somewhat easy to see",
+              "coding": "5"
             },
             {
-              "label": "6 - Easy to see"
+              "label": "6 - Easy to see",
+              "coding": "6"
             },
             {
-              "label": "7 - Very easy to see"
+              "label": "7 - Very easy to see",
+              "coding": "7"
             }
           ],
           "label": "Rate the ease\u002Fdifficulty with which you were able to do this mental task.",
@@ -736,25 +774,32 @@ this.end()
           "type": "radio",
           "options": [
             {
-              "label": "1 - Very hard to see"
+              "label": "1 - Very hard to see",
+              "coding": "1"
             },
             {
-              "label": "2 - Hard to see"
+              "label": "2 - Hard to see",
+              "coding": "2"
             },
             {
-              "label": "3 - Somewhat hard to see"
+              "label": "3 - Somewhat hard to see",
+              "coding": "3"
             },
             {
-              "label": "4 - Neutral (not easy, not hard)"
+              "label": "4 - Neutral (not easy, not hard)",
+              "coding": "4"
             },
             {
-              "label": "5 - Somewhat easy to see"
+              "label": "5 - Somewhat easy to see",
+              "coding": "5"
             },
             {
-              "label": "6 - Easy to see"
+              "label": "6 - Easy to see",
+              "coding": "6"
             },
             {
-              "label": "7 - Very easy to see"
+              "label": "7 - Very easy to see",
+              "coding": "7"
             }
           ],
           "label": "Rate the ease\u002Fdifficulty with which you were able to do this mental task.",
@@ -803,25 +848,32 @@ this.end()
           "type": "radio",
           "options": [
             {
-              "label": "1 - Very hard to feel"
+              "label": "1 - Very hard to feel",
+              "coding": "1"
             },
             {
-              "label": "2 - Hard to feel"
+              "label": "2 - Hard to feel",
+              "coding": "2"
             },
             {
-              "label": "3 - Somewhat hard to feel"
+              "label": "3 - Somewhat hard to feel",
+              "coding": "3"
             },
             {
-              "label": "4 - Neutral (not easy, not hard)"
+              "label": "4 - Neutral (not easy, not hard)",
+              "coding": "4"
             },
             {
-              "label": "5 - Somewhat easy to feel"
+              "label": "5 - Somewhat easy to feel",
+              "coding": "5"
             },
             {
-              "label": "6 - Easy to feel"
+              "label": "6 - Easy to feel",
+              "coding": "6"
             },
             {
-              "label": "7 - Very easy to feel"
+              "label": "7 - Very easy to feel",
+              "coding": "7"
             }
           ],
           "label": "Rate the ease\u002Fdifficulty with which you were able to do this mental task.",
@@ -870,25 +922,32 @@ this.end()
           "type": "radio",
           "options": [
             {
-              "label": "1 - Very hard to see"
+              "label": "1 - Very hard to see",
+              "coding": "1"
             },
             {
-              "label": "2 - Hard to see"
+              "label": "2 - Hard to see",
+              "coding": "2"
             },
             {
-              "label": "3 - Somewhat hard to see"
+              "label": "3 - Somewhat hard to see",
+              "coding": "3"
             },
             {
-              "label": "4 - Neutral (not easy, not hard)"
+              "label": "4 - Neutral (not easy, not hard)",
+              "coding": "4"
             },
             {
-              "label": "5 - Somewhat easy to see"
+              "label": "5 - Somewhat easy to see",
+              "coding": "5"
             },
             {
-              "label": "6 - Easy to see"
+              "label": "6 - Easy to see",
+              "coding": "6"
             },
             {
-              "label": "7 - Very easy to see"
+              "label": "7 - Very easy to see",
+              "coding": "7"
             }
           ],
           "label": "Rate the ease\u002Fdifficulty with which you were able to do this mental task.",
@@ -937,25 +996,32 @@ this.end()
           "type": "radio",
           "options": [
             {
-              "label": "1 - Very hard to see"
+              "label": "1 - Very hard to see",
+              "coding": "1"
             },
             {
-              "label": "2 - Hard to see"
+              "label": "2 - Hard to see",
+              "coding": "2"
             },
             {
-              "label": "3 - Somewhat hard to see"
+              "label": "3 - Somewhat hard to see",
+              "coding": "3"
             },
             {
-              "label": "4 - Neutral (not easy, not hard)"
+              "label": "4 - Neutral (not easy, not hard)",
+              "coding": "4"
             },
             {
-              "label": "5 - Somewhat easy to see"
+              "label": "5 - Somewhat easy to see",
+              "coding": "5"
             },
             {
-              "label": "6 - Easy to see"
+              "label": "6 - Easy to see",
+              "coding": "6"
             },
             {
-              "label": "7 - Very easy to see"
+              "label": "7 - Very easy to see",
+              "coding": "7"
             }
           ],
           "label": "Rate the ease\u002Fdifficulty with which you were able to do this mental task.",
@@ -1004,25 +1070,32 @@ this.end()
           "type": "radio",
           "options": [
             {
-              "label": "1 - Very hard to feel"
+              "label": "1 - Very hard to feel",
+              "coding": "1"
             },
             {
-              "label": "2 - Hard to feel"
+              "label": "2 - Hard to feel",
+              "coding": "2"
             },
             {
-              "label": "3 - Somewhat hard to feel"
+              "label": "3 - Somewhat hard to feel",
+              "coding": "3"
             },
             {
-              "label": "4 - Neutral (not easy, not hard)"
+              "label": "4 - Neutral (not easy, not hard)",
+              "coding": "4"
             },
             {
-              "label": "5 - Somewhat easy to feel"
+              "label": "5 - Somewhat easy to feel",
+              "coding": "5"
             },
             {
-              "label": "6 - Easy to feel"
+              "label": "6 - Easy to feel",
+              "coding": "6"
             },
             {
-              "label": "7 - Very easy to feel"
+              "label": "7 - Very easy to feel",
+              "coding": "7"
             }
           ],
           "label": "Rate the ease\u002Fdifficulty with which you were able to do this mental task.",
@@ -1071,25 +1144,32 @@ this.end()
           "type": "radio",
           "options": [
             {
-              "label": "1 - Very hard to see"
+              "label": "1 - Very hard to see",
+              "coding": "1"
             },
             {
-              "label": "2 - Hard to see"
+              "label": "2 - Hard to see",
+              "coding": "2"
             },
             {
-              "label": "3 - Somewhat hard to see"
+              "label": "3 - Somewhat hard to see",
+              "coding": "3"
             },
             {
-              "label": "4 - Neutral (not easy, not hard)"
+              "label": "4 - Neutral (not easy, not hard)",
+              "coding": "4"
             },
             {
-              "label": "5 - Somewhat easy to see"
+              "label": "5 - Somewhat easy to see",
+              "coding": "5"
             },
             {
-              "label": "6 - Easy to see"
+              "label": "6 - Easy to see",
+              "coding": "6"
             },
             {
-              "label": "7 - Very easy to see"
+              "label": "7 - Very easy to see",
+              "coding": "7"
             }
           ],
           "label": "Rate the ease\u002Fdifficulty with which you were able to do this mental task.",
@@ -1138,25 +1218,32 @@ this.end()
           "type": "radio",
           "options": [
             {
-              "label": "1 - Very hard to see"
+              "label": "1 - Very hard to see",
+              "coding": "1"
             },
             {
-              "label": "2 - Hard to see"
+              "label": "2 - Hard to see",
+              "coding": "2"
             },
             {
-              "label": "3 - Somewhat hard to see"
+              "label": "3 - Somewhat hard to see",
+              "coding": "3"
             },
             {
-              "label": "4 - Neutral (not easy, not hard)"
+              "label": "4 - Neutral (not easy, not hard)",
+              "coding": "4"
             },
             {
-              "label": "5 - Somewhat easy to see"
+              "label": "5 - Somewhat easy to see",
+              "coding": "5"
             },
             {
-              "label": "6 - Easy to see"
+              "label": "6 - Easy to see",
+              "coding": "6"
             },
             {
-              "label": "7 - Very easy to see"
+              "label": "7 - Very easy to see",
+              "coding": "7"
             }
           ],
           "label": "Rate the ease\u002Fdifficulty with which you were able to do this mental task.",
