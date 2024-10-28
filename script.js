@@ -368,8 +368,7 @@ this.end()
       },
       "parameters": {},
       "messageHandlers": {},
-      "title": "MIQ-3",
-      "skip": true
+      "title": "MIQ-3"
     },
     {
       "type": "lab.html.Page",
@@ -446,8 +445,7 @@ this.end()
       },
       "parameters": {},
       "messageHandlers": {},
-      "title": "MIQ-3 Q1",
-      "skip": true
+      "title": "MIQ-3 Q1"
     },
     {
       "type": "lab.html.Page",
@@ -521,8 +519,7 @@ this.end()
       },
       "parameters": {},
       "messageHandlers": {},
-      "title": "MIQ-3 Q2",
-      "skip": true
+      "title": "MIQ-3 Q2"
     },
     {
       "type": "lab.html.Page",
@@ -596,8 +593,7 @@ this.end()
       },
       "parameters": {},
       "messageHandlers": {},
-      "title": "MIQ-3 Q3",
-      "skip": true
+      "title": "MIQ-3 Q3"
     },
     {
       "type": "lab.html.Page",
@@ -671,8 +667,7 @@ this.end()
       },
       "parameters": {},
       "messageHandlers": {},
-      "title": "MIQ-3 Q4",
-      "skip": true
+      "title": "MIQ-3 Q4"
     },
     {
       "type": "lab.html.Page",
@@ -746,8 +741,7 @@ this.end()
       },
       "parameters": {},
       "messageHandlers": {},
-      "title": "MIQ-3 Q5",
-      "skip": true
+      "title": "MIQ-3 Q5"
     },
     {
       "type": "lab.html.Page",
@@ -821,8 +815,7 @@ this.end()
       },
       "parameters": {},
       "messageHandlers": {},
-      "title": "MIQ-3 Q6",
-      "skip": true
+      "title": "MIQ-3 Q6"
     },
     {
       "type": "lab.html.Page",
@@ -896,8 +889,7 @@ this.end()
       },
       "parameters": {},
       "messageHandlers": {},
-      "title": "MIQ-3 Q7",
-      "skip": true
+      "title": "MIQ-3 Q7"
     },
     {
       "type": "lab.html.Page",
@@ -971,8 +963,7 @@ this.end()
       },
       "parameters": {},
       "messageHandlers": {},
-      "title": "MIQ-3 Q8",
-      "skip": true
+      "title": "MIQ-3 Q8"
     },
     {
       "type": "lab.html.Page",
@@ -1046,8 +1037,7 @@ this.end()
       },
       "parameters": {},
       "messageHandlers": {},
-      "title": "MIQ-3 Q9",
-      "skip": true
+      "title": "MIQ-3 Q9"
     },
     {
       "type": "lab.html.Page",
@@ -1121,8 +1111,7 @@ this.end()
       },
       "parameters": {},
       "messageHandlers": {},
-      "title": "MIQ-3 Q10",
-      "skip": true
+      "title": "MIQ-3 Q10"
     },
     {
       "type": "lab.html.Page",
@@ -1196,8 +1185,7 @@ this.end()
       },
       "parameters": {},
       "messageHandlers": {},
-      "title": "MIQ-3 Q11",
-      "skip": true
+      "title": "MIQ-3 Q11"
     },
     {
       "type": "lab.html.Page",
@@ -1271,8 +1259,7 @@ this.end()
       },
       "parameters": {},
       "messageHandlers": {},
-      "title": "MIQ-3 Q12",
-      "skip": true
+      "title": "MIQ-3 Q12"
     },
     {
       "type": "lab.html.Page",
