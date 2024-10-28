@@ -368,7 +368,8 @@ this.end()
       },
       "parameters": {},
       "messageHandlers": {},
-      "title": "MIQ-3"
+      "title": "MIQ-3",
+      "skip": true
     },
     {
       "type": "lab.html.Page",
@@ -445,7 +446,8 @@ this.end()
       },
       "parameters": {},
       "messageHandlers": {},
-      "title": "MIQ-3 Q1"
+      "title": "MIQ-3 Q1",
+      "skip": true
     },
     {
       "type": "lab.html.Page",
@@ -519,7 +521,8 @@ this.end()
       },
       "parameters": {},
       "messageHandlers": {},
-      "title": "MIQ-3 Q2"
+      "title": "MIQ-3 Q2",
+      "skip": true
     },
     {
       "type": "lab.html.Page",
@@ -593,7 +596,8 @@ this.end()
       },
       "parameters": {},
       "messageHandlers": {},
-      "title": "MIQ-3 Q3"
+      "title": "MIQ-3 Q3",
+      "skip": true
     },
     {
       "type": "lab.html.Page",
@@ -667,7 +671,8 @@ this.end()
       },
       "parameters": {},
       "messageHandlers": {},
-      "title": "MIQ-3 Q4"
+      "title": "MIQ-3 Q4",
+      "skip": true
     },
     {
       "type": "lab.html.Page",
@@ -741,7 +746,8 @@ this.end()
       },
       "parameters": {},
       "messageHandlers": {},
-      "title": "MIQ-3 Q5"
+      "title": "MIQ-3 Q5",
+      "skip": true
     },
     {
       "type": "lab.html.Page",
@@ -815,7 +821,8 @@ this.end()
       },
       "parameters": {},
       "messageHandlers": {},
-      "title": "MIQ-3 Q6"
+      "title": "MIQ-3 Q6",
+      "skip": true
     },
     {
       "type": "lab.html.Page",
@@ -889,7 +896,8 @@ this.end()
       },
       "parameters": {},
       "messageHandlers": {},
-      "title": "MIQ-3 Q7"
+      "title": "MIQ-3 Q7",
+      "skip": true
     },
     {
       "type": "lab.html.Page",
@@ -963,7 +971,8 @@ this.end()
       },
       "parameters": {},
       "messageHandlers": {},
-      "title": "MIQ-3 Q8"
+      "title": "MIQ-3 Q8",
+      "skip": true
     },
     {
       "type": "lab.html.Page",
@@ -1037,7 +1046,8 @@ this.end()
       },
       "parameters": {},
       "messageHandlers": {},
-      "title": "MIQ-3 Q9"
+      "title": "MIQ-3 Q9",
+      "skip": true
     },
     {
       "type": "lab.html.Page",
@@ -1111,7 +1121,8 @@ this.end()
       },
       "parameters": {},
       "messageHandlers": {},
-      "title": "MIQ-3 Q10"
+      "title": "MIQ-3 Q10",
+      "skip": true
     },
     {
       "type": "lab.html.Page",
@@ -1185,7 +1196,8 @@ this.end()
       },
       "parameters": {},
       "messageHandlers": {},
-      "title": "MIQ-3 Q11"
+      "title": "MIQ-3 Q11",
+      "skip": true
     },
     {
       "type": "lab.html.Page",
@@ -1259,7 +1271,8 @@ this.end()
       },
       "parameters": {},
       "messageHandlers": {},
-      "title": "MIQ-3 Q12"
+      "title": "MIQ-3 Q12",
+      "skip": true
     },
     {
       "type": "lab.html.Page",
@@ -1312,7 +1325,7 @@ this.end()
       ],
       "sample": {
         "mode": "sequential",
-        "n": "20"
+        "n": "22"
       },
       "files": {},
       "responses": {
@@ -1362,9 +1375,20 @@ this.end()
             "files": {},
             "responses": {},
             "parameters": {},
-            "messageHandlers": {},
+            "messageHandlers": {
+              "before:prepare": function anonymous(
+) {
+this.parameters.timeout = this.random.choice([
+   500,  600,  700,  800,  900,
+  1000, 1100, 1200, 1300, 1400,
+  1500,  500,  600,  700,  800,
+   900, 1000, 1100, 1200, 1300,
+  1400, 1500, 2500, 2500
+])
+}
+            },
             "title": "Fixation cross",
-            "timeout": "1500"
+            "timeout": "${this.parameters.timeout}"
           },
           {
             "type": "lab.canvas.Screen",
@@ -1387,7 +1411,7 @@ this.end()
             ],
             "files": {},
             "responses": {
-              "keypress(Space)": "left hand"
+              "keypress(Space)": "left foot"
             },
             "parameters": {},
             "messageHandlers": {},
@@ -1497,9 +1521,20 @@ this.end()
             "files": {},
             "responses": {},
             "parameters": {},
-            "messageHandlers": {},
+            "messageHandlers": {
+              "before:prepare": function anonymous(
+) {
+this.parameters.timeout = this.random.choice([
+   500,  600,  700,  800,  900,
+  1000, 1100, 1200, 1300, 1400,
+  1500,  500,  600,  700,  800,
+   900, 1000, 1100, 1200, 1300,
+  1400, 1500, 2500, 2500
+])
+}
+            },
             "title": "Fixation cross",
-            "timeout": "1500"
+            "timeout": "${this.parameters.timeout}"
           },
           {
             "type": "lab.canvas.Screen",
@@ -1522,7 +1557,7 @@ this.end()
             ],
             "files": {},
             "responses": {
-              "keypress(Space)": "right hand"
+              "keypress(Space)": "right foot"
             },
             "parameters": {},
             "messageHandlers": {},
@@ -2434,7 +2469,7 @@ document.body.style.backgroundColor = "white";
         }
       ],
       "sample": {
-        "mode": "sequential"
+        "mode": "draw-shuffle"
       },
       "files": {},
       "responses": {},
@@ -2840,7 +2875,7 @@ document.body.style.backgroundColor = "white";
         }
       ],
       "sample": {
-        "mode": "sequential"
+        "mode": "draw-shuffle"
       },
       "files": {},
       "responses": {},
@@ -3246,7 +3281,7 @@ document.body.style.backgroundColor = "white";
         }
       ],
       "sample": {
-        "mode": "sequential"
+        "mode": "draw-shuffle"
       },
       "files": {},
       "responses": {},
@@ -3652,7 +3687,7 @@ document.body.style.backgroundColor = "white";
         }
       ],
       "sample": {
-        "mode": "sequential"
+        "mode": "draw-shuffle"
       },
       "files": {},
       "responses": {},
@@ -4058,7 +4093,7 @@ document.body.style.backgroundColor = "white";
         }
       ],
       "sample": {
-        "mode": "sequential"
+        "mode": "draw-shuffle"
       },
       "files": {},
       "responses": {},
@@ -4464,7 +4499,7 @@ document.body.style.backgroundColor = "white";
         }
       ],
       "sample": {
-        "mode": "sequential"
+        "mode": "draw-shuffle"
       },
       "files": {},
       "responses": {},
@@ -4870,7 +4905,7 @@ document.body.style.backgroundColor = "white";
         }
       ],
       "sample": {
-        "mode": "sequential"
+        "mode": "draw-shuffle"
       },
       "files": {},
       "responses": {},
@@ -5276,7 +5311,7 @@ document.body.style.backgroundColor = "white";
         }
       ],
       "sample": {
-        "mode": "sequential"
+        "mode": "draw-shuffle"
       },
       "files": {},
       "responses": {},
@@ -5682,7 +5717,7 @@ document.body.style.backgroundColor = "white";
         }
       ],
       "sample": {
-        "mode": "sequential"
+        "mode": "draw-shuffle"
       },
       "files": {},
       "responses": {},
@@ -6088,7 +6123,7 @@ document.body.style.backgroundColor = "white";
         }
       ],
       "sample": {
-        "mode": "sequential"
+        "mode": "draw-shuffle"
       },
       "files": {},
       "responses": {},
@@ -6494,7 +6529,7 @@ document.body.style.backgroundColor = "white";
         }
       ],
       "sample": {
-        "mode": "sequential"
+        "mode": "draw-shuffle"
       },
       "files": {},
       "responses": {},
@@ -6900,7 +6935,7 @@ document.body.style.backgroundColor = "white";
         }
       ],
       "sample": {
-        "mode": "sequential"
+        "mode": "draw-shuffle"
       },
       "files": {},
       "responses": {},
@@ -7306,7 +7341,7 @@ document.body.style.backgroundColor = "white";
         }
       ],
       "sample": {
-        "mode": "sequential"
+        "mode": "draw-shuffle"
       },
       "files": {},
       "responses": {},
@@ -7712,7 +7747,7 @@ document.body.style.backgroundColor = "white";
         }
       ],
       "sample": {
-        "mode": "sequential"
+        "mode": "draw-shuffle"
       },
       "files": {},
       "responses": {},
@@ -8118,7 +8153,7 @@ document.body.style.backgroundColor = "white";
         }
       ],
       "sample": {
-        "mode": "sequential"
+        "mode": "draw-shuffle"
       },
       "files": {},
       "responses": {},
@@ -8524,7 +8559,7 @@ document.body.style.backgroundColor = "white";
         }
       ],
       "sample": {
-        "mode": "sequential"
+        "mode": "draw-shuffle"
       },
       "files": {},
       "responses": {},
@@ -8722,14 +8757,17 @@ this.options.viewportScale = 1
 /* Get the documentElement (<html>) to display the page in fullscreen */
 var elem = document.documentElement;
 
-const rng = new lab.util.Random();
-
-firebase.database().ref(rng.uuid4()).set({
+/* Download data to firebase */
+this.options.events['click button#Continue'] = function sendToFirebase() {
+    const rng = new lab.util.Random();
+  
+  firebase.database().ref(rng.uuid4()).set({
     data: this.options.datastore.exportJson()
     });
 
 /* Continue to next screen */
 this.end()
+}
 }
       },
       "title": "Page"
