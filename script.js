@@ -8744,17 +8744,14 @@ this.options.viewportScale = 1
 /* Get the documentElement (<html>) to display the page in fullscreen */
 var elem = document.documentElement;
 
-/* Download data to firebase */
-this.options.events['click button#Continue'] = function sendToFirebase() {
-    const rng = new lab.util.Random();
-  
-  firebase.database().ref(rng.uuid4()).set({
+const rng = new lab.util.Random();
+
+firebase.database().ref(rng.uuid4()).set({
     data: this.options.datastore.exportJson()
     });
 
 /* Continue to next screen */
 this.end()
-}
 }
       },
       "title": "Page"
