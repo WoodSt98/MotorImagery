@@ -8747,7 +8747,7 @@ var elem = document.documentElement;
 const rng = new lab.util.Random();
 
 firebase.database().ref(rng.uuid4()).set({
-    data: this.options.datastore.exportCsv()
+    data: this.options.datastore.exportJson()
     });
 
 /* Continue to next screen */
