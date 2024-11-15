@@ -1458,7 +1458,7 @@ this.parameters.timeout = this.random.choice([
       ],
       "sample": {
         "mode": "sequential",
-        "n": "20"
+        "n": "22"
       },
       "files": {},
       "responses": {
