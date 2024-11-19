@@ -427,9 +427,6 @@ this.end()
             {
               "label": "7 - Very easy to feel",
               "coding": "7"
-            },
-            {
-              "coding": ""
             }
           ],
           "label": "Rate the ease\u002Fdifficulty with which you were able to do this mental task.",
@@ -1398,7 +1395,7 @@ this.parameters.timeout = this.random.choice([
             ],
             "files": {},
             "responses": {
-              "keypress(Space)": "left foot"
+              "keypress(Space)": "left hand"
             },
             "parameters": {},
             "messageHandlers": {},
@@ -1544,7 +1541,7 @@ this.parameters.timeout = this.random.choice([
             ],
             "files": {},
             "responses": {
-              "keypress(Space)": "right foot"
+              "keypress(Space)": "right hand"
             },
             "parameters": {},
             "messageHandlers": {},
@@ -1752,8 +1749,7 @@ document.body.style.backgroundColor = "black";
         "type": "lab.flow.Sequence",
         "files": {},
         "responses": {
-          "keypress(y)": "yes",
-          "keypress(n)": "no"
+          "": ""
         },
         "parameters": {},
         "messageHandlers": {},
@@ -1786,9 +1782,7 @@ document.body.style.backgroundColor = "black";
               600
             ],
             "files": {},
-            "responses": {
-              "undefined": ""
-            },
+            "responses": {},
             "parameters": {},
             "messageHandlers": {},
             "title": "Fixation cross",
@@ -2066,13 +2060,11 @@ document.body.style.backgroundColor = "black";
         "type": "lab.flow.Sequence",
         "files": {},
         "responses": {
-          "keypress(K, k)": "right",
-          "keypress(A, a)": "left"
+          "": ""
         },
         "parameters": {},
         "messageHandlers": {},
         "title": "Trail",
-        "correctResponse": "K, k, A, a",
         "content": [
           {
             "type": "lab.canvas.Screen",
@@ -2456,7 +2448,7 @@ document.body.style.backgroundColor = "white";
         }
       ],
       "sample": {
-        "mode": "draw-shuffle"
+        "mode": "sequential"
       },
       "files": {},
       "responses": {},
@@ -2473,8 +2465,7 @@ document.body.style.backgroundColor = "black";
         "type": "lab.flow.Sequence",
         "files": {},
         "responses": {
-          "keypress(k)": "right",
-          "keypress(a)": "left"
+          "undefined": ""
         },
         "parameters": {},
         "messageHandlers": {},
@@ -2862,7 +2853,7 @@ document.body.style.backgroundColor = "white";
         }
       ],
       "sample": {
-        "mode": "draw-shuffle"
+        "mode": "sequential"
       },
       "files": {},
       "responses": {},
@@ -2879,8 +2870,7 @@ document.body.style.backgroundColor = "black";
         "type": "lab.flow.Sequence",
         "files": {},
         "responses": {
-          "keypress(k)": "right",
-          "keypress(a)": "left"
+          "undefined": ""
         },
         "parameters": {},
         "messageHandlers": {},
@@ -3268,7 +3258,7 @@ document.body.style.backgroundColor = "white";
         }
       ],
       "sample": {
-        "mode": "draw-shuffle"
+        "mode": "sequential"
       },
       "files": {},
       "responses": {},
@@ -3285,8 +3275,7 @@ document.body.style.backgroundColor = "black";
         "type": "lab.flow.Sequence",
         "files": {},
         "responses": {
-          "keypress(k)": "right",
-          "keypress(a)": "left"
+          "undefined": ""
         },
         "parameters": {},
         "messageHandlers": {},
@@ -3674,7 +3663,7 @@ document.body.style.backgroundColor = "white";
         }
       ],
       "sample": {
-        "mode": "draw-shuffle"
+        "mode": "sequential"
       },
       "files": {},
       "responses": {},
@@ -3691,8 +3680,7 @@ document.body.style.backgroundColor = "black";
         "type": "lab.flow.Sequence",
         "files": {},
         "responses": {
-          "keypress(k)": "right",
-          "keypress(a)": "left"
+          "undefined": ""
         },
         "parameters": {},
         "messageHandlers": {},
@@ -4080,7 +4068,7 @@ document.body.style.backgroundColor = "white";
         }
       ],
       "sample": {
-        "mode": "draw-shuffle"
+        "mode": "sequential"
       },
       "files": {},
       "responses": {},
@@ -4097,8 +4085,7 @@ document.body.style.backgroundColor = "black";
         "type": "lab.flow.Sequence",
         "files": {},
         "responses": {
-          "keypress(k)": "right",
-          "keypress(a)": "left"
+          "undefined": ""
         },
         "parameters": {},
         "messageHandlers": {},
@@ -4486,7 +4473,7 @@ document.body.style.backgroundColor = "white";
         }
       ],
       "sample": {
-        "mode": "draw-shuffle"
+        "mode": "sequential"
       },
       "files": {},
       "responses": {},
@@ -4503,8 +4490,7 @@ document.body.style.backgroundColor = "black";
         "type": "lab.flow.Sequence",
         "files": {},
         "responses": {
-          "keypress(k)": "right",
-          "keypress(a)": "left"
+          "undefined": ""
         },
         "parameters": {},
         "messageHandlers": {},
@@ -4892,7 +4878,7 @@ document.body.style.backgroundColor = "white";
         }
       ],
       "sample": {
-        "mode": "draw-shuffle"
+        "mode": "sequential"
       },
       "files": {},
       "responses": {},
@@ -4909,8 +4895,7 @@ document.body.style.backgroundColor = "black";
         "type": "lab.flow.Sequence",
         "files": {},
         "responses": {
-          "keypress(k)": "right",
-          "keypress(a)": "left"
+          "undefined": ""
         },
         "parameters": {},
         "messageHandlers": {},
@@ -5298,7 +5283,7 @@ document.body.style.backgroundColor = "white";
         }
       ],
       "sample": {
-        "mode": "draw-shuffle"
+        "mode": "sequential"
       },
       "files": {},
       "responses": {},
@@ -5315,8 +5300,7 @@ document.body.style.backgroundColor = "black";
         "type": "lab.flow.Sequence",
         "files": {},
         "responses": {
-          "keypress(k)": "right",
-          "keypress(a)": "left"
+          "undefined": ""
         },
         "parameters": {},
         "messageHandlers": {},
@@ -5704,7 +5688,7 @@ document.body.style.backgroundColor = "white";
         }
       ],
       "sample": {
-        "mode": "draw-shuffle"
+        "mode": "sequential"
       },
       "files": {},
       "responses": {},
@@ -5721,8 +5705,7 @@ document.body.style.backgroundColor = "black";
         "type": "lab.flow.Sequence",
         "files": {},
         "responses": {
-          "keypress(k)": "right",
-          "keypress(a)": "left"
+          "undefined": ""
         },
         "parameters": {},
         "messageHandlers": {},
@@ -6110,7 +6093,7 @@ document.body.style.backgroundColor = "white";
         }
       ],
       "sample": {
-        "mode": "draw-shuffle"
+        "mode": "sequential"
       },
       "files": {},
       "responses": {},
@@ -6127,8 +6110,7 @@ document.body.style.backgroundColor = "black";
         "type": "lab.flow.Sequence",
         "files": {},
         "responses": {
-          "keypress(k)": "right",
-          "keypress(a)": "left"
+          "undefined": ""
         },
         "parameters": {},
         "messageHandlers": {},
@@ -6516,7 +6498,7 @@ document.body.style.backgroundColor = "white";
         }
       ],
       "sample": {
-        "mode": "draw-shuffle"
+        "mode": "sequential"
       },
       "files": {},
       "responses": {},
@@ -6533,8 +6515,7 @@ document.body.style.backgroundColor = "black";
         "type": "lab.flow.Sequence",
         "files": {},
         "responses": {
-          "keypress(k)": "right",
-          "keypress(a)": "left"
+          "undefined": ""
         },
         "parameters": {},
         "messageHandlers": {},
@@ -6922,7 +6903,7 @@ document.body.style.backgroundColor = "white";
         }
       ],
       "sample": {
-        "mode": "draw-shuffle"
+        "mode": "sequential"
       },
       "files": {},
       "responses": {},
@@ -6939,8 +6920,7 @@ document.body.style.backgroundColor = "black";
         "type": "lab.flow.Sequence",
         "files": {},
         "responses": {
-          "keypress(k)": "right",
-          "keypress(a)": "left"
+          "undefined": ""
         },
         "parameters": {},
         "messageHandlers": {},
@@ -7328,7 +7308,7 @@ document.body.style.backgroundColor = "white";
         }
       ],
       "sample": {
-        "mode": "draw-shuffle"
+        "mode": "sequential"
       },
       "files": {},
       "responses": {},
@@ -7345,8 +7325,7 @@ document.body.style.backgroundColor = "black";
         "type": "lab.flow.Sequence",
         "files": {},
         "responses": {
-          "keypress(k)": "right",
-          "keypress(a)": "left"
+          "undefined": ""
         },
         "parameters": {},
         "messageHandlers": {},
@@ -7734,7 +7713,7 @@ document.body.style.backgroundColor = "white";
         }
       ],
       "sample": {
-        "mode": "draw-shuffle"
+        "mode": "sequential"
       },
       "files": {},
       "responses": {},
@@ -7751,8 +7730,7 @@ document.body.style.backgroundColor = "black";
         "type": "lab.flow.Sequence",
         "files": {},
         "responses": {
-          "keypress(k)": "right",
-          "keypress(a)": "left"
+          "undefined": ""
         },
         "parameters": {},
         "messageHandlers": {},
@@ -8140,7 +8118,7 @@ document.body.style.backgroundColor = "white";
         }
       ],
       "sample": {
-        "mode": "draw-shuffle"
+        "mode": "sequential"
       },
       "files": {},
       "responses": {},
@@ -8157,8 +8135,7 @@ document.body.style.backgroundColor = "black";
         "type": "lab.flow.Sequence",
         "files": {},
         "responses": {
-          "keypress(k)": "right",
-          "keypress(a)": "left"
+          "undefined": ""
         },
         "parameters": {},
         "messageHandlers": {},
@@ -8546,7 +8523,7 @@ document.body.style.backgroundColor = "white";
         }
       ],
       "sample": {
-        "mode": "draw-shuffle"
+        "mode": "sequential"
       },
       "files": {},
       "responses": {},
@@ -8563,8 +8540,7 @@ document.body.style.backgroundColor = "black";
         "type": "lab.flow.Sequence",
         "files": {},
         "responses": {
-          "keypress(k)": "right",
-          "keypress(a)": "left"
+          "undefined": ""
         },
         "parameters": {},
         "messageHandlers": {},
@@ -8745,7 +8721,7 @@ this.options.viewportScale = 1
 var elem = document.documentElement;
 
 const rng = new lab.util.Random();
-
+  
 firebase.database().ref(rng.uuid4()).set({
     data: this.options.datastore.exportJson()
     });
