@@ -18,7 +18,7 @@ def extract_data_from_json(json_file):
 # Main function to read JSON, extract data, and save to CSV
 def main():
     json_file_path = f'./data/participant_{participant_num}.json'  # Path to your JSON file
-    output_csv_path = f'./data/participant_{participant_num}.csv'
+    output_csv_path = f'./transposed_data/participant_{participant_num}.csv'
 
     # Extract data
     extracted_data = extract_data_from_json(json_file_path)
