@@ -2448,7 +2448,7 @@ document.body.style.backgroundColor = "white";
         }
       ],
       "sample": {
-        "mode": "sequential"
+        "mode": "draw-shuffle"
       },
       "files": {},
       "responses": {},
@@ -2853,7 +2853,7 @@ document.body.style.backgroundColor = "white";
         }
       ],
       "sample": {
-        "mode": "sequential"
+        "mode": "draw-shuffle"
       },
       "files": {},
       "responses": {},
@@ -3258,7 +3258,7 @@ document.body.style.backgroundColor = "white";
         }
       ],
       "sample": {
-        "mode": "sequential"
+        "mode": "draw-shuffle"
       },
       "files": {},
       "responses": {},
@@ -3663,7 +3663,7 @@ document.body.style.backgroundColor = "white";
         }
       ],
       "sample": {
-        "mode": "sequential"
+        "mode": "draw-shuffle"
       },
       "files": {},
       "responses": {},
@@ -4068,7 +4068,7 @@ document.body.style.backgroundColor = "white";
         }
       ],
       "sample": {
-        "mode": "sequential"
+        "mode": "draw-shuffle"
       },
       "files": {},
       "responses": {},
@@ -4473,7 +4473,7 @@ document.body.style.backgroundColor = "white";
         }
       ],
       "sample": {
-        "mode": "sequential"
+        "mode": "draw-shuffle"
       },
       "files": {},
       "responses": {},
@@ -4878,7 +4878,7 @@ document.body.style.backgroundColor = "white";
         }
       ],
       "sample": {
-        "mode": "sequential"
+        "mode": "draw-shuffle"
       },
       "files": {},
       "responses": {},
@@ -5283,7 +5283,7 @@ document.body.style.backgroundColor = "white";
         }
       ],
       "sample": {
-        "mode": "sequential"
+        "mode": "draw-shuffle"
       },
       "files": {},
       "responses": {},
@@ -5688,7 +5688,7 @@ document.body.style.backgroundColor = "white";
         }
       ],
       "sample": {
-        "mode": "sequential"
+        "mode": "draw-shuffle"
       },
       "files": {},
       "responses": {},
@@ -6093,7 +6093,7 @@ document.body.style.backgroundColor = "white";
         }
       ],
       "sample": {
-        "mode": "sequential"
+        "mode": "draw-shuffle"
       },
       "files": {},
       "responses": {},
@@ -6498,7 +6498,7 @@ document.body.style.backgroundColor = "white";
         }
       ],
       "sample": {
-        "mode": "sequential"
+        "mode": "draw-shuffle"
       },
       "files": {},
       "responses": {},
@@ -6903,7 +6903,7 @@ document.body.style.backgroundColor = "white";
         }
       ],
       "sample": {
-        "mode": "sequential"
+        "mode": "draw-shuffle"
       },
       "files": {},
       "responses": {},
@@ -7308,7 +7308,7 @@ document.body.style.backgroundColor = "white";
         }
       ],
       "sample": {
-        "mode": "sequential"
+        "mode": "draw-shuffle"
       },
       "files": {},
       "responses": {},
@@ -7713,7 +7713,7 @@ document.body.style.backgroundColor = "white";
         }
       ],
       "sample": {
-        "mode": "sequential"
+        "mode": "draw-shuffle"
       },
       "files": {},
       "responses": {},
@@ -8118,7 +8118,7 @@ document.body.style.backgroundColor = "white";
         }
       ],
       "sample": {
-        "mode": "sequential"
+        "mode": "draw-shuffle"
       },
       "files": {},
       "responses": {},
@@ -8523,7 +8523,7 @@ document.body.style.backgroundColor = "white";
         }
       ],
       "sample": {
-        "mode": "sequential"
+        "mode": "draw-shuffle"
       },
       "files": {},
       "responses": {},
